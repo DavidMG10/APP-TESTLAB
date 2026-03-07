@@ -84,7 +84,21 @@ function nextQuestion() {
 function showResult() {
     document.getElementById("quizScreen").style.display = "none";
     document.getElementById("resultScreen").style.display = "block";
-    document.getElementById("score").innerText = score + " / " + examQuestions.length + " correctas";
+    
+    var notaFinal = (score / examQuestions.length) * 10;
+    var colorNota = notaFinal >= 5 ? "#2ecc71" : "#e74c3c"; // Verde si aprueba, rojo si suspende
+    
+    document.getElementById("score").innerHTML = `
+        <div class="result-container">
+            <div class="score-circle" style="border-color: ${colorNota}">
+                <span class="nota-numero" style="color: ${colorNota}">${notaFinal.toFixed(1)}</span>
+                <span class="nota-texto">Nota final</span>
+            </div>
+            <div class="details">
+                Has acertado <strong>${score}</strong> de <strong>${examQuestions.length}</strong> preguntas.
+            </div>
+        </div>
+    `;
 }
 
 function restart() {

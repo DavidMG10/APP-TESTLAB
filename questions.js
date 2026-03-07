@@ -2726,5 +2726,131 @@ var questionBank = [
     ],
     "correct": 3,
     "explanation": "El plazo establecido es de 6 meses; si transcurre sin que se corrijan los defectos graves, se emite el certificado de calificación negativa."
+  },
+  {
+    "question": "Según la ITC-LAT 09, ¿qué norma UNE se utiliza como guía para la elaboración de proyectos?",
+    "answers": ["UNE 157001", "UNE 20460", "UNE 21186", "UNE-EN 50341"],
+    "correct": 0,
+    "explanation": "La norma UNE 157001 es la referencia obligatoria para la estructura de proyectos según el PDF [pág. 12]."
+  },
+  {
+    "question": "¿Qué documento del proyecto debe contener el cronograma de la ejecución de las instalaciones?",
+    "answers": ["El Pliego de Condiciones", "El Presupuesto", "La Memoria", "El Plan de Seguridad"],
+    "correct": 2,
+    "explanation": "La Memoria debe incluir la justificación, descripción y el cronograma [pág. 12]."
+  },
+  {
+    "question": "Para una línea de 1ª Categoría, ¿cuál es el coeficiente de seguridad mínimo frente a la carga de rotura del conductor?",
+    "answers": ["2,5", "3", "1,5", "2"],
+    "correct": 1,
+    "explanation": "El reglamento general para conductores de AT establece habitualmente un coeficiente de 3 respecto a su carga de rotura [pág. 15]."
+  },
+  {
+    "question": "¿Cuál es la tensión nominal mínima para que una línea sea considerada de Categoría Especial en territorio peninsular?",
+    "answers": ["66 kV", "132 kV", "220 kV", "400 kV"],
+    "correct": 2,
+    "explanation": "La Categoría Especial empieza a partir de tensiones mayores o iguales a 220 kV [pág. 1]."
+  },
+  {
+    "question": "En la clasificación de defectos, 'el incumplimiento de las distancias de seguridad' se considera:",
+    "answers": ["Defecto Leve", "Defecto Grave", "Defecto Muy Grave", "Defecto Administrativo"],
+    "correct": 1,
+    "explanation": "Las distancias de seguridad inadecuadas son un defecto Grave [pág. 11]."
+  },
+
+  // --- BLOQUE: MATERIALES Y MECÁNICA ---
+  {
+    "question": "¿Qué temperatura máxima puede alcanzar un conductor de aleación de aluminio bajo un cortocircuito?",
+    "answers": ["150ºC", "200ºC", "300ºC", "400ºC"],
+    "correct": 1,
+    "explanation": "Tanto el aluminio como el cobre tienen un límite de 200ºC en cortocircuito [pág. 16]."
+  },
+  {
+    "question": "¿Cuál es la carga característica que debe soportar un elemento de acceso (peldaño) según el reglamento?",
+    "answers": ["1,0 kN", "1,5 kN", "2,0 kN", "2,5 kN"],
+    "correct": 0,
+    "explanation": "Los peldaños se calculan para una carga concentrada de 1,0 kN [pág. 15]."
+  },
+  {
+    "question": "¿Qué porcentaje de la carga de rotura debe soportar un manguito de empalme por compresión?",
+    "answers": ["85%", "90%", "95%", "100%"],
+    "correct": 2,
+    "explanation": "Los empalmes deben resistir al menos el 95% de la carga de rotura del conductor [pág. 17]."
+  },
+  {
+    "question": "¿A qué se refiere el término 'durabilidad' en el diseño de una línea de AT?",
+    "answers": ["A la resistencia ante rayos", "A la capacidad de funcionar 40 años sin reparaciones sustanciales", "A la elasticidad del cable", "Al tiempo entre inspecciones OCA"],
+    "correct": 1,
+    "explanation": "Se estima una vida útil de funcionamiento de 40 años según los criterios de durabilidad del manual [pág. 15]."
+  },
+  {
+    "question": "¿Cuál es la sección mínima para conductores de aleación de aluminio en líneas aéreas?",
+    "answers": ["16 mm²", "25 mm²", "35 mm²", "50 mm²"],
+    "correct": 1,
+    "explanation": "La sección mínima permitida para aluminio es de 25 mm² [pág. 16]."
+  },
+
+  // --- BLOQUE: AISLADORES Y AVIFAUNA ---
+  {
+    "question": "Los aisladores de vidrio templado presentan una ventaja sobre la porcelana denominada:",
+    "answers": ["Mayor porosidad", "Elasticidad térmica", "Transparencia para inspección visual", "Conductividad superficial"],
+    "correct": 2,
+    "explanation": "La transparencia permite detectar fallos internos visualmente [pág. 21]."
+  },
+  {
+    "question": "¿Qué tipo de aislador es el más propenso a sufrir 'perforación'?",
+    "answers": ["Aislador de vidrio", "Aislador de porcelana (tipo rígido)", "Aislador polimérico", "Aislador de madera"],
+    "correct": 1,
+    "explanation": "Los aisladores rígidos de porcelana pueden perforarse si el espesor no es suficiente frente a sobretensiones [pág. 22]."
+  },
+  {
+    "question": "El dispositivo 'salvapájaros' debe colocarse preferentemente en:",
+    "answers": ["La base del apoyo", "Las cadenas de aisladores", "El cable de tierra", "La cruceta"],
+    "correct": 2,
+    "explanation": "Se instalan en los cables (preferiblemente el de tierra) para evitar colisiones [pág. 28]."
+  },
+  {
+    "question": "¿En qué área es obligatorio aplicar la normativa de protección de avifauna?",
+    "answers": ["Solo en parques nacionales", "En ZEPAs y áreas prioritarias", "En todas las líneas de menos de 30 kV", "Solo en líneas de 1ª categoría"],
+    "correct": 1,
+    "explanation": "Se aplica en Zonas Especiales de Protección para las Aves y áreas de reproducción [pág. 27]."
+  },
+  {
+    "question": "¿Qué distancia mínima de seguridad suele exigirse entre conductores y el cuerpo del apoyo?",
+    "answers": ["D = U / 100", "D = 0,05 + 0,01·U", "Depende de la flecha", "Viene tabulada por la tensión nominal"],
+    "correct": 3,
+    "explanation": "Las distancias dependen directamente de la tensión nominal y el nivel de aislamiento [pág. 17]."
+  },
+
+  // --- BLOQUE: INSPECCIONES Y MANTENIMIENTO ---
+  {
+    "question": "Un defecto que supone un peligro inminente para las personas se clasifica como:",
+    "answers": ["Crítico", "Muy Grave", "Grave", "De urgencia"],
+    "correct": 1,
+    "explanation": "Cualquier riesgo directo e inmediato es un defecto Muy Grave [pág. 11]."
+  },
+  {
+    "question": "¿Qué plazo tiene el titular para corregir un defecto LEVE?",
+    "answers": ["6 meses", "1 año", "Hasta la próxima inspección", "3 meses"],
+    "correct": 2,
+    "explanation": "Los defectos leves no tienen un plazo urgente, suelen dejarse hasta el próximo mantenimiento o inspección [pág. 11]."
+  },
+  {
+    "question": "Para líneas de U > 30 kV, la inspección periódica cada 3 años debe ser realizada por:",
+    "answers": ["El dueño de la finca", "Un Organismo de Control Autorizado (OCA)", "El instalador eléctrico", "Protección Civil"],
+    "correct": 1,
+    "explanation": "Es obligatoria la intervención de una OCA para tensiones superiores a 30 kV [pág. 9]."
+  },
+  {
+    "question": "¿Qué ensayo es obligatorio en líneas subterráneas antes de la puesta en servicio?",
+    "answers": ["Ensayo de aislamiento de la cubierta", "Ensayo de tracción del cable", "Ensayo de colorometría", "No requiere ensayos"],
+    "correct": 0,
+    "explanation": "Se debe verificar la integridad del aislamiento principal y de la cubierta [pág. 10]."
+  },
+  {
+    "question": "El 'propietario' de la línea es responsable de:",
+    "answers": ["Solo pagar la factura", "Mantener la línea en perfecto estado de conservación", "Redactar el proyecto", "Subir a las torres"],
+    "correct": 1,
+    "explanation": "La responsabilidad legal del mantenimiento recae sobre el titular/propietario [pág. 4]."
   }
 ];
