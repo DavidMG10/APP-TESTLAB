@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Líneas Aéreas de Alta Tensión</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+<div id="startScreen" class="start-screen">
+<h1>Test Líneas Aéreas de Alta Tensión</h1>
+<p>Examen aleatorio de 20 preguntas</p>
+<button onclick="startTest()">Empezar Test</button>
+</div>
+
+<div id="quizScreen" style="display:none">
+<div class="progress" id="progress"></div>
+<div class="question" id="question"></div>
+<div class="answers" id="answers"></div>
+<div class="explanation" id="explanation" style="display:none"></div>
+<button class="next-btn" id="nextBtn" onclick="nextQuestion()" style="display:none">Siguiente</button>
+</div>
+
+<div id="resultScreen" class="result" style="display:none">
+<h1>Resultado</h1>
+<div class="score" id="score"></div>
+<button onclick="restart()">Hacer otro test</button>
+</div>
+
+</div>
+
+<script src="questions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
