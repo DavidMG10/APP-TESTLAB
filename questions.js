@@ -1,329 +1,409 @@
 var questionBank = [
-  // --- CATEGORÍAS Y ÁMBITO (PÁG 1) ---
   {
     "question": "¿A qué frecuencia nominal deben funcionar las líneas de alta tensión según el reglamento?",
-    "answers": ["60 Hz", "50 Hz", "25 Hz", "100 Hz"],
-    "correct": 1,
+    "answers": [
+      "100 Hz",
+      "60 Hz",
+      "50 Hz",
+      "25 Hz"
+    ],
+    "correct": 2,
     "explanation": "La frecuencia establecida es de 50 Hz[cite: 278]."
   },
   {
     "question": "Una línea con tensión nominal de 45 kV se clasifica como de:",
-    "answers": ["1ª Categoría", "2ª Categoría", "3ª Categoría", "Categoría Especial"],
-    "correct": 1,
+    "answers": [
+      "2ª Categoría",
+      "3ª Categoría",
+      "Categoría Especial",
+      "1ª Categoría"
+    ],
+    "correct": 0,
     "explanation": "La 2ª categoría comprende tensiones entre 30 kV y 66 kV[cite: 274]."
   },
   {
     "question": "¿Cuál es el límite superior de tensión para una línea de 3ª categoría?",
-    "answers": ["15 kV", "20 kV", "30 kV", "66 kV"],
-    "correct": 2,
+    "answers": [
+      "30 kV",
+      "66 kV",
+      "15 kV",
+      "20 kV"
+    ],
+    "correct": 0,
     "explanation": "La 3ª categoría abarca desde 1 kV hasta los 30 kV inclusive[cite: 274]."
   },
   {
     "question": "¿Qué condición adicional sitúa a una línea en la 'Categoría Especial' además de su tensión?",
-    "answers": ["Cruzar una autopista", "Estar situada en islas", "Tener más de 50 km", "Ser propiedad privada"],
-    "correct": 1,
+    "answers": [
+      "Ser propiedad privada",
+      "Cruzar una autopista",
+      "Estar situada en islas",
+      "Tener más de 50 km"
+    ],
+    "correct": 2,
     "explanation": "Las líneas en islas se consideran de Categoría Especial según el documento[cite: 274]."
   },
-
-  // --- EMPRESAS Y MANTENIMIENTO (PÁG 3-9) ---
   {
     "question": "¿Cada cuánto tiempo debe realizarse obligatoriamente la verificación periódica de una línea?",
-    "answers": ["Cada año", "Cada 2 años", "Al menos cada 3 años", "Cada 5 años"],
-    "correct": 2,
+    "answers": [
+      "Al menos cada 3 años",
+      "Cada 5 años",
+      "Cada año",
+      "Cada 2 años"
+    ],
+    "correct": 0,
     "explanation": "El reglamento exige verificaciones e inspecciones periódicas al menos cada 3 años[cite: 327, 344]."
   },
   {
     "question": "¿Qué categoría de empresa instaladora (LAT) no tiene límite de tensión para actuar?",
-    "answers": ["LAT1", "LAT2", "LAT3", "LAT Especial"],
+    "answers": [
+      "LAT1",
+      "LAT2",
+      "LAT3",
+      "LAT Especial"
+    ],
     "correct": 1,
     "explanation": "La categoría LAT2 es para líneas aéreas y subterráneas sin límite de tensión[cite: 370]."
   },
   {
     "question": "Para líneas de propiedad ajena a la empresa de transporte, ¿a partir de qué tensión es obligatoria la inspección inicial por OCA?",
-    "answers": ["U > 1 kV", "U > 20 kV", "U > 30 kV", "U > 66 kV"],
-    "correct": 2,
+    "answers": [
+      "U > 20 kV",
+      "U > 30 kV",
+      "U > 66 kV",
+      "U > 1 kV"
+    ],
+    "correct": 1,
     "explanation": "Si la tensión es superior a 30 kV, se requiere inspección inicial por un Organismo de Control Autorizado[cite: 336, 391]."
   },
   {
     "question": "¿Cuál es la cuantía mínima del seguro de responsabilidad civil para una empresa instaladora?",
-    "answers": ["500.000 €", "1.000.000 €", "2.000.000 €", "1.500.000 €"],
-    "correct": 1,
+    "answers": [
+      "2.000.000 €",
+      "1.500.000 €",
+      "500.000 €",
+      "1.000.000 €"
+    ],
+    "correct": 3,
     "explanation": "Deben tener suscrito un seguro por una cuantía mínima de un millón de euros[cite: 366]."
   },
-
-  // --- MATERIALES Y CONDUCTORES (PÁG 15-17) ---
   {
     "question": "¿Cuál es la sección mínima permitida para un conductor de cobre en líneas de AT?",
-    "answers": ["6 mm²", "10 mm²", "16 mm²", "25 mm²"],
+    "answers": [
+      "6 mm²",
+      "10 mm²",
+      "16 mm²",
+      "25 mm²"
+    ],
     "correct": 1,
     "explanation": "La sección mínima para el cobre es de 10 mm²[cite: 154]."
   },
   {
     "question": "¿Qué carga de rotura mínima deben tener los materiales conductores que no sean cobre o acero?",
-    "answers": ["> 200 daN", "> 350 daN", "> 500 daN", "> 100 daN"],
-    "correct": 1,
+    "answers": [
+      "> 350 daN",
+      "> 500 daN",
+      "> 100 daN",
+      "> 200 daN"
+    ],
+    "correct": 0,
     "explanation": "Para otros materiales, la carga de rotura debe ser superior a 350 daN[cite: 155]."
   },
   {
     "question": "¿Cuál es la temperatura máxima de servicio bajo carga normal para los conductores?",
-    "answers": ["50ºC", "85ºC", "100ºC", "200ºC"],
-    "correct": 1,
+    "answers": [
+      "85ºC",
+      "100ºC",
+      "200ºC",
+      "50ºC"
+    ],
+    "correct": 0,
     "explanation": "La temperatura máxima bajo carga normal debe ser inferior a 85ºC[cite: 160]."
   },
   {
     "question": "En caso de cortocircuito, ¿qué temperatura máxima puede alcanzar un conductor de acero?",
-    "answers": ["100ºC", "200ºC", "300ºC", "400ºC"],
-    "correct": 2,
+    "answers": [
+      "300ºC",
+      "400ºC",
+      "100ºC",
+      "200ºC"
+    ],
+    "correct": 0,
     "explanation": "El acero puede alcanzar hasta 300ºC bajo cortocircuito, frente a los 200ºC del aluminio o cobre[cite: 521]."
   },
   {
     "question": "¿Qué porcentaje de la carga de rotura (σr) debe soportar como mínimo un empalme?",
-    "answers": ["75%", "90%", "95%", "100%"],
-    "correct": 2,
+    "answers": [
+      "90%",
+      "95%",
+      "100%",
+      "75%"
+    ],
+    "correct": 1,
     "explanation": "El empalme debe soportar el 95% de la carga de rotura[cite: 532]."
   },
   {
     "question": "¿Qué técnica de unión está expresamente prohibida en los conductores de la línea?",
-    "answers": ["Grapas de presión", "Soldadura", "Manguitos de compresión", "Retorneado"],
-    "correct": 1,
+    "answers": [
+      "Manguitos de compresión",
+      "Retorneado",
+      "Grapas de presión",
+      "Soldadura"
+    ],
+    "correct": 3,
     "explanation": "Está prohibida la soldadura para empalmes y conexiones[cite: 172]."
   },
-
-  // --- SEGURIDAD Y HERRAJES (PÁG 15-20) ---
   {
     "question": "¿Qué carga concentrada deben ser capaces de resistir los peldaños de un apoyo?",
-    "answers": ["0,5 kN", "1,0 kN", "1,5 kN", "2,0 kN"],
+    "answers": [
+      "0,5 kN",
+      "1,0 kN",
+      "1,5 kN",
+      "2,0 kN"
+    ],
     "correct": 1,
     "explanation": "Los peldaños deben calcularse para una carga característica de 1,0 kN[cite: 150]."
   },
   {
     "question": "¿Cuál es la vida útil prevista (periodo de funcionamiento) de una línea aérea según el documento?",
-    "answers": ["25 años", "30 años", "40 años", "50 años"],
-    "correct": 2,
+    "answers": [
+      "40 años",
+      "50 años",
+      "25 años",
+      "30 años"
+    ],
+    "correct": 0,
     "explanation": "Se estima una vida útil de aproximadamente 40 años[cite: 509]."
   },
   {
     "question": "¿Para qué sirve un dispositivo 'descargador' en una cadena de aisladores?",
-    "answers": ["Para medir la tensión", "Para alejar el arco eléctrico de la cadena y protegerla", "Para sujetar el cable", "Para evitar que las aves se posen"],
-    "correct": 1,
+    "answers": [
+      "Para evitar que las aves se posen",
+      "Para medir la tensión",
+      "Para alejar el arco eléctrico de la cadena y protegerla",
+      "Para sujetar el cable"
+    ],
+    "correct": 2,
     "explanation": "Su función es que las raíces del arco se sitúen sobre él, alejándose de la cadena[cite: 188]."
   },
-
-  // --- AISLADORES (PÁG 21-25) ---
   {
     "question": "¿Cuál es una ventaja principal de los aisladores de vidrio frente a los de porcelana?",
-    "answers": ["Son más elásticos", "Permiten una inspección visual directa (transparencia)", "Soportan mejor los golpes", "Son más pesados"],
-    "correct": 1,
+    "answers": [
+      "Son más pesados",
+      "Son más elásticos",
+      "Permiten una inspección visual directa (transparencia)",
+      "Soportan mejor los golpes"
+    ],
+    "correct": 2,
     "explanation": "Al ser transparentes, permiten un mejor control visual[cite: 220]."
   },
   {
     "question": "¿Qué material aislante destaca por su excelente comportamiento en áreas de alta contaminación?",
-    "answers": ["Vidrio", "Porcelana", "Compuestos poliméricos (silicona)", "Madera"],
-    "correct": 2,
+    "answers": [
+      "Madera",
+      "Vidrio",
+      "Porcelana",
+      "Compuestos poliméricos (silicona)"
+    ],
+    "correct": 3,
     "explanation": "Los compuestos poliméricos son hidrofóbicos y rinden mejor en zonas contaminadas[cite: 222]."
   },
   {
     "question": "¿En cuánto reducen su línea de fuga los aisladores poliméricos frente a los de vidrio/cerámica?",
-    "answers": ["En un 10%", "En un 30%", "En un 50%", "No la reducen"],
-    "correct": 1,
+    "answers": [
+      "En un 50%",
+      "No la reducen",
+      "En un 10%",
+      "En un 30%"
+    ],
+    "correct": 3,
     "explanation": "Reducen su línea de fuga un 30% respecto a los tradicionales[cite: 239]."
   },
-
-  // --- AVIFAUNA (PÁG 27-28) ---
   {
     "question": "¿Qué define a un 'Área prioritaria' según la normativa de aves?",
-    "answers": ["Donde hay más de 100 nidos", "La presencia de un ave protegida durante 3 años consecutivos", "Cualquier parque natural", "Zonas donde ha habido un accidente"],
-    "correct": 1,
+    "answers": [
+      "Zonas donde ha habido un accidente",
+      "Donde hay más de 100 nidos",
+      "La presencia de un ave protegida durante 3 años consecutivos",
+      "Cualquier parque natural"
+    ],
+    "correct": 2,
     "explanation": "Se define por la presencia de algún ave del C.E.A. en un periodo de 3 años seguidos[cite: 251]."
   },
   {
-    "question": "¿Dónde se recomienda instalar preferentemente los dispositivos salvapájaros?",
-    "answers": ["En el cable de fase central", "En el cable de tierra", "En las crucetas", "En la base del apoyo"],
-    "correct": 1,
-    "explanation": "Se deben colocar a poder ser en el cable de tierra[cite: 254]."
-  },
-  {
     "question": "¿Cuándo está prohibido realizar trabajos de mantenimiento ordinario según la normativa ambiental?",
-    "answers": ["Solo de noche", "Durante la época de nidificación y crianza", "En días de lluvia", "Nunca está prohibido"],
+    "answers": [
+      "Solo de noche",
+      "Durante la época de nidificación y crianza",
+      "En días de lluvia",
+      "Nunca está prohibido"
+    ],
     "correct": 1,
     "explanation": "Está prohibido durante la época de nidificación y reproducción en tendidos con nidos[cite: 260]."
   },
   {
     "question": "¿Cuál es el objetivo principal del reglamento de líneas de AT?",
     "answers": [
-      "Incrementar la potencia instalada",
-      "Proteger a personas y bienes",
       "Reducir el consumo energético",
-      "Garantizar la competitividad de la red"
+      "Garantizar la competitividad de la red",
+      "Incrementar la potencia instalada",
+      "Proteger a personas y bienes"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "El reglamento establece como objetivo proteger a personas y bienes, regular suministros, normalizar material eléctrico y facilitar adaptación a futuros aumentos de carga."
   },
   {
     "question": "¿Cuál de las siguientes tensiones corresponde a la 3ª categoría de líneas?",
     "answers": [
+      "Un ≥ 220 kV",
       "1 kV < Un < 30 kV",
       "30 kV < Un < 66 kV",
-      "66 kV < Un < 220 kV",
-      "Un ≥ 220 kV"
-    ],
-    "correct": 1,
-    "explanation": "La 3ª categoría abarca líneas con tensión nominal entre 30 kV y 66 kV, según el reglamento."
-  },
-  {
-    "question": "¿Con qué frecuencia deben realizarse las verificaciones periódicas de las líneas?",
-    "answers": [
-      "Cada 1 año",
-      "Cada 2 años",
-      "Al menos cada 3 años",
-      "Cada 5 años"
+      "66 kV < Un < 220 kV"
     ],
     "correct": 2,
-    "explanation": "El reglamento indica que las verificaciones periódicas se realizan al menos cada 3 años, pudiendo sustituirse por planes concertados que garanticen el mantenimiento."
+    "explanation": "La 3ª categoría abarca líneas con tensión nominal entre 30 kV y 66 kV, según el reglamento."
   },
   {
     "question": "¿Qué requisito mecánico mínimo deben cumplir los conductores de acero en líneas aéreas?",
     "answers": [
-      "Carga de rotura σr > 250 daN",
-      "Carga de rotura σr > 300 daN",
       "Carga de rotura σr > 350 daN",
-      "Carga de rotura σr > 400 daN"
+      "Carga de rotura σr > 400 daN",
+      "Carga de rotura σr > 250 daN",
+      "Carga de rotura σr > 300 daN"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Para conductores de acero, la carga de rotura mínima σr debe ser superior a 350 daN según las especificaciones del reglamento."
   },
   {
     "question": "¿Qué tipo de aislador se utiliza más comúnmente en líneas aéreas de AT?",
     "answers": [
+      "Aislador compuesto tipo bastón",
       "Aislador rígido de vástago",
       "Aislador de bastón",
-      "Aislador de cadena (caperuza-vástago)",
-      "Aislador compuesto tipo bastón"
+      "Aislador de cadena (caperuza-vástago)"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "El aislador más utilizado es el de cadena (caperuza-vástago), equilibrando la tensión mecánica y facilitando el mantenimiento."
   },
   {
     "question": "Para conductores de aluminio, ¿cuál es la temperatura máxima de servicio bajo carga normal?",
     "answers": [
+      "120ºC",
       "60ºC",
       "85ºC",
-      "100ºC",
-      "120ºC"
+      "100ºC"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "El reglamento establece que la Tª máxima de servicio bajo carga normal para conductores de aluminio debe ser inferior a 85ºC."
   },
   {
     "question": "¿Qué documento es obligatorio antes de la puesta en servicio de líneas no propiedad de empresas de transporte?",
     "answers": [
-      "Certificado de instalación",
       "Plan de mantenimiento preventivo",
       "Informe de impacto ambiental",
-      "Memoria de seguridad"
+      "Memoria de seguridad",
+      "Certificado de instalación"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "La puesta en servicio requiere presentar el certificado de instalación, junto con proyecto y certificado de dirección facultativa."
   },
   {
     "question": "¿Cuál es la sección mínima del cable de tierra si Un > 60 kV?",
     "answers": [
+      "70 mm²",
       "22 mm²",
       "35 mm²",
-      "50 mm²",
-      "70 mm²"
+      "50 mm²"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Para tensiones superiores a 60 kV, la sección mínima del cable de tierra debe ser de 50 mm²."
   },
   {
     "question": "¿Qué inspección se exige para líneas con U > 30 kV antes de su puesta en servicio?",
     "answers": [
-      "Inspección visual por el técnico competente",
-      "Verificación inicial por la O.C.A.",
       "Medición de resistencia de puesta a tierra",
-      "Ensayo de capacidad de cortocircuito"
+      "Ensayo de capacidad de cortocircuito",
+      "Inspección visual por el técnico competente",
+      "Verificación inicial por la O.C.A."
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Las líneas con tensión superior a 30 kV requieren inspección inicial por la O.C.A. antes de la puesta en servicio."
   },
   {
-    "question": "¿Qué característica debe tener un peldaño de un apoyo diseñado para seguridad de personas?",
-    "answers": [
-      "Carga característica de 0,5 kN",
-      "Carga característica de 1,0 kN",
-      "Carga característica de 1,5 kN",
-      "Carga característica de 2,0 kN"
-    ],
-    "correct": 1,
-    "explanation": "Los peldaños de los apoyos deben calcularse para una carga concentrada característica de 1,0 kN según el reglamento de seguridad de personas."
-  },
-  {
-    "question": "¿Qué frecuencia de operación se aplica a todas las líneas de AT según el reglamento?",
-    "answers": ["45 Hz", "50 Hz", "60 Hz", "55 Hz"],
-    "correct": 1,
-    "explanation": "Todas las líneas de alta tensión reguladas operan a 50 Hz, como se indica en la sección de frecuencia."
-  },
-  {
     "question": "¿Qué entidad puede aceptar soluciones alternativas a las del reglamento si mantienen un nivel de seguridad equivalente?",
-    "answers": ["Ministerio de Industria", "CCAA", "Empresa Instaladora", "O.C.A."],
-    "correct": 1,
+    "answers": [
+      "O.C.A.",
+      "Ministerio de Industria",
+      "CCAA",
+      "Empresa Instaladora"
+    ],
+    "correct": 2,
     "explanation": "La Comunidad Autónoma puede aceptar soluciones alternativas, siempre que impliquen un nivel de seguridad equivalente."
   },
   {
     "question": "¿Qué norma UNE es de obligado cumplimiento para el material eléctrico de las líneas de AT?",
-    "answers": ["UNE-EN 50160", "UNE-EN 60664", "UNE-ITC-LAT 02", "UNE-EN 60099"],
+    "answers": [
+      "UNE-EN 50160",
+      "UNE-EN 60664",
+      "UNE-ITC-LAT 02",
+      "UNE-EN 60099"
+    ],
     "correct": 2,
     "explanation": "La ITC-LAT 02 establece las normas UNE obligatorias para equipos y materiales en líneas de AT."
   },
   {
     "question": "En caso de accidente con víctimas o daños, ¿en qué plazo debe remitirse el informe a la Administración?",
-    "answers": ["1 mes", "2 meses", "3 meses", "6 meses"],
-    "correct": 2,
+    "answers": [
+      "6 meses",
+      "1 mes",
+      "2 meses",
+      "3 meses"
+    ],
+    "correct": 3,
     "explanation": "El propietario debe redactar un informe y enviarlo al órgano competente en un máximo de 3 meses."
   },
   {
     "question": "¿Qué información debe incluir la documentación de los equipos y materiales de una línea?",
     "answers": [
-      "Solo la marca y modelo",
       "Marca, modelo, tensión e intensidad",
       "Tensión y corriente nominal",
-      "Fabricante y tipo de conductor"
+      "Fabricante y tipo de conductor",
+      "Solo la marca y modelo"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Se deben incluir fabricante, marca, modelo, tensión e intensidad para garantizar trazabilidad y cumplimiento de la ITC-LAT 02."
   },
   {
     "question": "¿Quién suscribe el proyecto de ejecución de las líneas de AT?",
     "answers": [
-      "El director de obra",
-      "El técnico titulado competente (T.C.)",
       "La empresa instaladora",
-      "La O.C.A."
+      "La O.C.A.",
+      "El director de obra",
+      "El técnico titulado competente (T.C.)"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "El proyecto de las líneas debe ser suscrito por un técnico titulado competente, asegurando cumplimiento del reglamento."
   },
   {
     "question": "¿Qué se entiende por proyecto tipo en instalaciones de AT?",
     "answers": [
-      "Proyecto genérico sin datos específicos",
       "Proyecto aprobado por CCAA o Ministerio con condiciones técnicas generales",
       "Proyecto individualizado para cada línea",
-      "Proyecto experimental"
+      "Proyecto experimental",
+      "Proyecto genérico sin datos específicos"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Los proyectos tipo son aprobados por CCAA o Ministerio y contienen condiciones técnicas generales para homogeneidad y seguridad."
   },
   {
     "question": "¿Qué documento permite la puesta en servicio de una línea con U > 30 kV?",
     "answers": [
-      "Certificado de instalación",
-      "Certificado de inspección inicial por O.C.A.",
       "Proyecto de ejecución",
-      "Memoria de seguridad"
+      "Memoria de seguridad",
+      "Certificado de instalación",
+      "Certificado de inspección inicial por O.C.A."
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Para tensiones mayores a 30 kV, la inspección inicial por O.C.A. es obligatoria antes de la puesta en servicio."
   },
   {
@@ -339,41 +419,56 @@ var questionBank = [
   },
   {
     "question": "Para líneas LAT1, ¿cuál es el límite de tensión máxima?",
-    "answers": ["Un < 30 kV", "30 kV < Un < 66 kV", "Un < 220 kV", "Sin límite de tensión"],
-    "correct": 0,
+    "answers": [
+      "30 kV < Un < 66 kV",
+      "Un < 220 kV",
+      "Sin límite de tensión",
+      "Un < 30 kV"
+    ],
+    "correct": 3,
     "explanation": "LAT1 se aplica a líneas aéreas y subterráneas de Un < 30 kV."
   },
   {
     "question": "Para líneas LAT2, ¿qué restricción de tensión existe?",
     "answers": [
-      "Un < 30 kV",
       "30 kV < Un < 66 kV",
       "Un < 220 kV",
-      "Sin límite de tensión"
+      "Sin límite de tensión",
+      "Un < 30 kV"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "LAT2 se aplica a líneas aéreas y subterráneas sin límite de tensión."
   },
   {
     "question": "¿Cuál es la periodicidad mínima de inspección para líneas propiedad de empresas de transporte?",
-    "answers": ["Anual", "Cada 2 años", "Cada 3 años", "Cada 5 años"],
-    "correct": 2,
+    "answers": [
+      "Cada 5 años",
+      "Anual",
+      "Cada 2 años",
+      "Cada 3 años"
+    ],
+    "correct": 3,
     "explanation": "La inspección periódica debe realizarse al menos cada 3 años, por O.C.A."
   },
   {
     "question": "¿Qué pruebas se realizan en líneas subterráneas antes de la puesta en servicio?",
     "answers": [
-      "Medición de resistencia de puesta a tierra",
-      "Ensayo de aislamiento principal y de cubierta",
       "Verificación visual de soportes",
-      "Medición de tensión de contacto"
+      "Medición de tensión de contacto",
+      "Medición de resistencia de puesta a tierra",
+      "Ensayo de aislamiento principal y de cubierta"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Se realizan ensayos de aislamiento principal y de cubierta en líneas subterráneas."
   },
   {
     "question": "¿Qué clasificación se asigna a una línea si presenta al menos un defecto muy grave?",
-    "answers": ["Favorable", "Condicionada", "Negativa", "Leve"],
+    "answers": [
+      "Favorable",
+      "Condicionada",
+      "Negativa",
+      "Leve"
+    ],
     "correct": 2,
     "explanation": "Una línea con al menos un defecto muy grave recibe calificación negativa y no puede ponerse en marcha si es nueva."
   },
@@ -391,74 +486,87 @@ var questionBank = [
   {
     "question": "¿Qué tipo de conductor bimetálico combina aluminio con acero galvanizado?",
     "answers": [
-      "AL1/SAyz", "ALx/SAyz", "AL1/STyz", "ALx/STyz"
+      "ALx/SAyz",
+      "AL1/STyz",
+      "ALx/STyz",
+      "AL1/SAyz"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Los conductores bimetálicos reforzados con acero galvanizado se designan AL1/STyz según normativa."
   },
   {
     "question": "La temperatura máxima admisible de un conductor de cobre bajo cortocircuito es:",
-    "answers": ["150ºC", "200ºC", "250ºC", "300ºC"],
-    "correct": 1,
+    "answers": [
+      "300ºC",
+      "150ºC",
+      "200ºC",
+      "250ºC"
+    ],
+    "correct": 2,
     "explanation": "La Tª máxima bajo cortocircuito para conductores de cobre, aluminio o aleación de aluminio es 200ºC."
   },
   {
-    "question": "En un empalme, la soldadura está:",
-    "answers": ["Permitida siempre", "Prohibida", "Opcional según proyecto", "Solo para conductores de cobre"],
-    "correct": 1,
-    "explanation": "El reglamento prohíbe la soldadura en empalmes para evitar aumento de resistencia y problemas electrolíticos."
-  },
-  {
     "question": "¿Cuál es la carga característica que deben resistir los herrajes que soporten el peso de una persona?",
-    "answers": ["1,0 kN", "1,5 kN", "2,0 kN", "2,5 kN"],
-    "correct": 1,
+    "answers": [
+      "2,5 kN",
+      "1,0 kN",
+      "1,5 kN",
+      "2,0 kN"
+    ],
+    "correct": 2,
     "explanation": "Los herrajes sometidos al peso de una persona deben resistir una carga característica concentrada de 1,5 kN."
   },
   {
     "question": "¿Qué función tiene un descargador en una línea aérea de AT?",
     "answers": [
-      "Evitar el efecto corona",
       "Aumentar la tensión mecánica del conductor",
       "Disminuir la resistencia eléctrica",
-      "Sujetar los conductores al aislador"
+      "Sujetar los conductores al aislador",
+      "Evitar el efecto corona"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Los descargadores reducen la intensidad de campo eléctrico y mejoran el comportamiento frente al efecto corona."
   },
   {
     "question": "¿Qué tipo de aislador se utiliza en instalaciones poliméricas compuestas?",
-    "answers": ["Cadenas de suspensión", "Rígidos de vástago", "Aisladores tipo bastón", "Todos los anteriores"],
+    "answers": [
+      "Cadenas de suspensión",
+      "Rígidos de vástago",
+      "Aisladores tipo bastón",
+      "Todos los anteriores"
+    ],
     "correct": 2,
     "explanation": "Los aisladores poliméricos compuestos suelen ser tipo bastón, con barra de fibra de vidrio y envolvente de silicona."
   },
   {
     "question": "En mantenimiento de líneas, ¿cuándo está prohibido trabajar en tendidos con nidos?",
     "answers": [
-      "Durante todo el año", "Durante época de nidificación", "Solo en invierno", "Durante inspección inicial"
+      "Durante inspección inicial",
+      "Durante todo el año",
+      "Durante época de nidificación",
+      "Solo en invierno"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Se prohíbe trabajar durante la época de nidificación, reproducción y crianza en tendidos que soporten nidos."
-  },
-  {
-    "question": "¿Cuál es la ventaja principal de los aisladores de vidrio respecto a los de porcelana?",
-    "answers": [
-      "Mayor resistencia mecánica", "Inspección visual fácil", "Menor fragilidad", "Mayor peso"
-    ],
-    "correct": 1,
-    "explanation": "El vidrio permite inspección visual de la línea de fuga y defectos, ventaja sobre porcelana."
   },
   {
     "question": "¿Qué fenómeno afecta menos a los aisladores poliméricos compuestos que a los de porcelana o vidrio?",
     "answers": [
-      "Efecto corona", "Contaminación ambiental", "Carga mecánica", "Temperatura"
+      "Temperatura",
+      "Efecto corona",
+      "Contaminación ambiental",
+      "Carga mecánica"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Los aisladores compuestos reducen la línea de fuga un 30% y no se afectan por la humedad y contaminación como los de vidrio o porcelana."
   },
   {
     "question": "En protección de avifauna, ¿qué dispositivo se coloca para evitar que las aves se posen en las crucetas?",
     "answers": [
-      "Salvapájaros", "Disuasor de posada", "Electrodo de tierra", "Aislador tipo bastón"
+      "Salvapájaros",
+      "Disuasor de posada",
+      "Electrodo de tierra",
+      "Aislador tipo bastón"
     ],
     "correct": 1,
     "explanation": "El disuasor de posada es un dispositivo externo colocado sobre las crucetas para evitar que las aves se posen."
@@ -466,20 +574,33 @@ var questionBank = [
   {
     "question": "¿Qué tipo de líneas están obligadas a medidas contra electrocución de aves?",
     "answers": [
-      "Líneas nuevas, ampliaciones o modificaciones", "Solo líneas nuevas", "Solo líneas existentes", "Líneas subterráneas"],
-    "correct": 0,
+      "Líneas subterráneas",
+      "Líneas nuevas, ampliaciones o modificaciones",
+      "Solo líneas nuevas",
+      "Solo líneas existentes"
+    ],
+    "correct": 1,
     "explanation": "Todas las líneas nuevas, ampliaciones, modificaciones y existentes deben implementar medidas contra electrocución."
   },
   {
     "question": "La zona ZEPA se refiere a:",
     "answers": [
-      "Zona de alta tensión prioritaria", "Zona Especial de Protección de Aves", "Zona de inspección periódica", "Zona industrial"],
-    "correct": 1,
+      "Zona Especial de Protección de Aves",
+      "Zona de inspección periódica",
+      "Zona industrial",
+      "Zona de alta tensión prioritaria"
+    ],
+    "correct": 0,
     "explanation": "ZEPA significa Zonas Especiales de Protección de Aves, relevantes para la normativa de avifauna."
   },
   {
     "question": "¿Qué documento se utiliza como guía para la elaboración de anteproyectos?",
-    "answers": ["UNE 157001", "ITC-LAT 02", "O.C.A. Manual", "Reglamento de avifauna"],
+    "answers": [
+      "UNE 157001",
+      "ITC-LAT 02",
+      "O.C.A. Manual",
+      "Reglamento de avifauna"
+    ],
     "correct": 0,
     "explanation": "La norma UNE 157001 se emplea como guía para la elaboración de proyectos y anteproyectos de líneas de AT."
   },
@@ -497,62 +618,67 @@ var questionBank = [
   {
     "question": "En un proyecto de ejecución, ¿qué información sobre el trazado debe incluirse?",
     "answers": [
-      "Solo la longitud total",
-      "Trazado, provincias, municipios y afecciones",
       "Solo el origen y final de la línea",
-      "Coordenadas de subestaciones"
+      "Coordenadas de subestaciones",
+      "Solo la longitud total",
+      "Trazado, provincias, municipios y afecciones"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "El proyecto de ejecución debe detallar el trazado, provincias, municipios, elementos y afecciones para garantizar cumplimiento y seguridad."
   },
   {
     "question": "¿Qué elementos se incluyen en el pliego de condiciones técnicas?",
     "answers": [
+      "Memoria técnica",
       "Materiales, aparatos y equipos",
       "Certificados de instalación",
-      "Presupuesto general",
-      "Memoria técnica"
+      "Presupuesto general"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "El pliego de condiciones técnicas incluye materiales, aparatos, equipos y especificaciones para el montaje."
   },
   {
     "question": "¿Qué se entiende por durabilidad de una línea aérea?",
     "answers": [
+      "Período sin mantenimiento preventivo",
       "Resistencia al vandalismo",
       "Capacidad de funcionamiento dentro de la vida útil prevista",
-      "Número de inspecciones posibles",
-      "Período sin mantenimiento preventivo"
+      "Número de inspecciones posibles"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "La durabilidad se refiere a que la línea permanezca apta para su uso dentro de la vida útil prevista (~40 años) sin reparaciones sustanciales."
   },
   {
     "question": "¿Qué carga característica debe soportar un elemento diseñado para escalar con ángulo < 30º?",
-    "answers": ["0,5 kN", "1,0 kN", "1,5 kN", "2,0 kN"],
-    "correct": 2,
+    "answers": [
+      "1,0 kN",
+      "1,5 kN",
+      "2,0 kN",
+      "0,5 kN"
+    ],
+    "correct": 1,
     "explanation": "Los elementos accesibles con ángulo menor de 30º deben soportar una carga característica de 1,5 kN."
   },
   {
     "question": "En líneas con conductores desnudos, ¿qué se busca al reducir ángulos pronunciados en el trazado?",
     "answers": [
-      "Facilitar el mantenimiento",
-      "Mejorar la seguridad de personas y durabilidad",
       "Disminuir la resistencia eléctrica",
-      "Aumentar la tensión mecánica"
+      "Aumentar la tensión mecánica",
+      "Facilitar el mantenimiento",
+      "Mejorar la seguridad de personas y durabilidad"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Reducir ángulos pronunciados evita situaciones que afecten a la seguridad y facilita durabilidad y robustez de la línea."
   },
   {
     "question": "¿Qué material se utiliza en aisladores poliméricos compuestos?",
     "answers": [
+      "Aluminio y cobre",
       "Vidrio y arcilla",
       "Fibra de vidrio y silicona",
-      "Porcelana y feldespato",
-      "Aluminio y cobre"
+      "Porcelana y feldespato"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Los aisladores compuestos usan barra de fibra de vidrio y envolvente de silicona, reduciendo peso y efectos de contaminación."
   },
   {
@@ -569,73 +695,87 @@ var questionBank = [
   {
     "question": "¿Qué se considera un defecto grave en inspecciones de líneas?",
     "answers": [
-      "Defecto leve en conexión de conductores",
       "Distancias inadecuadas en cruzamientos y paralelismos",
       "Pequeña deformación de herrajes",
-      "Acumulación de defectos leves"
+      "Acumulación de defectos leves",
+      "Defecto leve en conexión de conductores"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Defectos graves incluyen incumplimiento de distancias, continuidad a tierra o tensiones de contacto superiores."
   },
   {
     "question": "¿Qué se considera un defecto muy grave?",
     "answers": [
+      "Acumulación de defectos leves",
       "Puntos de ejecución incorrectos",
       "Que constituye peligro inminente para personas, bienes o medio ambiente",
-      "Defectos en secciones de cable",
-      "Acumulación de defectos leves"
+      "Defectos en secciones de cable"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Un defecto muy grave representa un peligro inminente para personas, bienes o medio ambiente y puede impedir la puesta en marcha."
   },
   {
     "question": "¿Qué norma regula la resistencia eléctrica de conductores en CC a 20ºC?",
     "answers": [
-      "UNE-EN", "ITC-LAT 02", "UNE 157001", "Reglamento de avifauna"
+      "UNE-EN",
+      "ITC-LAT 02",
+      "UNE 157001",
+      "Reglamento de avifauna"
     ],
     "correct": 0,
     "explanation": "La resistencia eléctrica en corriente continua a 20ºC debe verificarse según la normativa UNE-EN."
   },
   {
     "question": "¿Cuál es la sección mínima de cobre para conductores de líneas aéreas?",
-    "answers": ["6 mm²", "8 mm²", "10 mm²", "12 mm²"],
-    "correct": 2,
+    "answers": [
+      "8 mm²",
+      "10 mm²",
+      "12 mm²",
+      "6 mm²"
+    ],
+    "correct": 1,
     "explanation": "La sección mínima de cobre para conductores de líneas aéreas es de 10 mm²."
   },
   {
     "question": "¿Qué requisito de instalación tienen los cables de tierra respecto al ángulo?",
     "answers": [
-      "Ángulo inferior a 20º",
-      "Ángulo inferior a 25º",
       "Ángulo inferior a 35º",
-      "Ángulo inferior a 45º"
+      "Ángulo inferior a 45º",
+      "Ángulo inferior a 20º",
+      "Ángulo inferior a 25º"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Los cables de tierra deben instalarse con un ángulo inferior a 35º según normativa."
   },
   {
     "question": "¿Qué elementos componen la sujeción de conductores a la cadena de aisladores?",
     "answers": [
-      "Grapa de suspensión y grapa de amarre",
       "Pernos y cemento",
       "Yugo y bastón aislante",
-      "Varilla de tierra"
+      "Varilla de tierra",
+      "Grapa de suspensión y grapa de amarre"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Los conductores se unen mediante grapa de suspensión o grapa de amarre, que aseguran resistencia mecánica y correcta compresión."
   },
   {
     "question": "¿Cuál es la tensión mecánica que debe soportar la grapa de amarre?",
     "answers": [
-      "50% σr", "70% σr", "90% σr", "100% σr"
+      "100% σr",
+      "50% σr",
+      "70% σr",
+      "90% σr"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "La grapa de amarre debe soportar una tensión mecánica del 90% de la carga de rotura σr."
   },
   {
     "question": "En herrajes sometidos a carga humana, la resistencia mínima es de:",
     "answers": [
-      "1,0 kN", "1,5 kN", "2,0 kN", "2,5 kN"
+      "1,0 kN",
+      "1,5 kN",
+      "2,0 kN",
+      "2,5 kN"
     ],
     "correct": 1,
     "explanation": "Los herrajes que puedan soportar el peso de una persona deben resistir 1,5 kN concentrados."
@@ -643,27 +783,24 @@ var questionBank = [
   {
     "question": "¿Qué dispositivo se utiliza para mejorar el comportamiento frente al efecto corona?",
     "answers": [
-      "Aislador tipo bastón", "Descargador", "Grapa de suspensión", "Varilla de protección"
+      "Aislador tipo bastón",
+      "Descargador",
+      "Grapa de suspensión",
+      "Varilla de protección"
     ],
     "correct": 1,
     "explanation": "Los descargadores forman superficie equipotencial de gran radio de curvatura y reducen la intensidad de campo eléctrico."
   },
   {
     "question": "Para conductores de aluminio, ¿cuál es la Tª máxima bajo cortocircuito?",
-    "answers": ["150ºC", "180ºC", "200ºC", "250ºC"],
-    "correct": 2,
-    "explanation": "La temperatura máxima bajo cortocircuito para conductores de aluminio es 200ºC según el reglamento."
-  },
-  {
-    "question": "¿Qué pruebas realiza la O.C.A. en la inspección inicial de U > 30 kV?",
     "answers": [
-      "Ensayos previos a la puesta en servicio y calibración de equipos",
-      "Sólo medición de tensión de contacto",
-      "Verificación visual de apoyos",
-      "Medición de la resistencia eléctrica de conductores"
+      "250ºC",
+      "150ºC",
+      "180ºC",
+      "200ºC"
     ],
-    "correct": 0,
-    "explanation": "La inspección inicial incluye ensayos previos a la puesta en servicio y calibración de equipos, asegurando coincidencia con condiciones de cálculo."
+    "correct": 3,
+    "explanation": "La temperatura máxima bajo cortocircuito para conductores de aluminio es 200ºC según el reglamento."
   },
   {
     "question": "¿Qué es un salvapájaros?",
@@ -678,74 +815,87 @@ var questionBank = [
   },
   {
     "question": "El área prioritaria de reproducción de aves requiere presencia de especie durante:",
-    "answers": ["1 año consecutivo", "2 años consecutivos", "3 años consecutivos", "5 años consecutivos"],
-    "correct": 2,
+    "answers": [
+      "5 años consecutivos",
+      "1 año consecutivo",
+      "2 años consecutivos",
+      "3 años consecutivos"
+    ],
+    "correct": 3,
     "explanation": "Se define como presencia de alguna especie incluida en C.E.A. durante 3 años consecutivos."
   },
   {
     "question": "¿Qué acción debe tomarse antes de colocar un conductor en la grapa?",
     "answers": [
+      "Medir la resistencia eléctrica",
       "Aplicar grasa anticorrosiva",
       "Enrollar varillas de protección",
-      "Calibrar la tensión mecánica",
-      "Medir la resistencia eléctrica"
+      "Calibrar la tensión mecánica"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Se colocan varillas de protección preformadas en hélice alrededor del conductor para evitar deterioro en suspensión."
   },
   {
     "question": "La verificación periódica por T.C. puede sustituir inspección por O.C.A. si:",
     "answers": [
-      "La tensión U < 30 kV", "La línea es propiedad de empresa de transporte", "La línea es nueva", "El conductor es de cobre"
+      "La línea es propiedad de empresa de transporte",
+      "La línea es nueva",
+      "El conductor es de cobre",
+      "La tensión U < 30 kV"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Si la línea tiene U < 30 kV, la verificación periódica por un T.C. puede sustituir la inspección por O.C.A."
   },
   {
     "question": "¿Cuál es la vida útil prevista de una línea aérea de AT sin reparaciones sustanciales?",
-    "answers": ["20 años", "30 años", "40 años", "50 años"],
-    "correct": 2,
+    "answers": [
+      "50 años",
+      "20 años",
+      "30 años",
+      "40 años"
+    ],
+    "correct": 3,
     "explanation": "El reglamento establece una vida útil aproximada de 40 años para líneas aéreas sin necesidad de reparaciones sustanciales."
   },
   {
     "question": "¿Qué componente de aislador aumenta el nivel de aislamiento cuando se incrementa su número?",
     "answers": [
-      "Caperuza-vástago", "Bastón rígido", "Columna de porcelana", "Aislador polimérico"
+      "Caperuza-vástago",
+      "Bastón rígido",
+      "Columna de porcelana",
+      "Aislador polimérico"
     ],
     "correct": 0,
     "explanation": "Cuanto mayor número de elementos en cadena de caperuza-vástago, mayor nivel de aislamiento se obtiene."
   },
   {
-    "question": "¿Qué se requiere para que una empresa instaladora europea pueda operar en España?",
-    "answers": [
-      "Solo acreditar personal técnico",
-      "Declaración responsable con categoría, documentación y compromiso",
-      "Presentar proyecto tipo aprobado",
-      "Certificado de inspección inicial"
-    ],
-    "correct": 1,
-    "explanation": "Se requiere declaración responsable indicando categoría, requisitos, documentación y acreditación del personal, habilitando operación indefinida."
-  },
-  {
     "question": "¿Qué inspección realiza la Administración por muestreo estadístico?",
     "answers": [
-      "Verificación periódica", "Inspección inicial", "Inspección sistemática", "Certificación de materiales"
+      "Certificación de materiales",
+      "Verificación periódica",
+      "Inspección inicial",
+      "Inspección sistemática"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "La Administración puede realizar inspecciones sistemáticas mediante control por muestreo estadístico."
   },
   {
     "question": "¿Qué clasificación recibe una línea existente con un defecto grave no corregido tras 6 meses?",
-    "answers": ["Favorable", "Condicionada", "Negativa", "Leve"],
+    "answers": [
+      "Favorable",
+      "Condicionada",
+      "Negativa",
+      "Leve"
+    ],
     "correct": 2,
     "explanation": "Si el defecto grave no se corrige en el plazo de 6 meses, la línea existente recibe calificación negativa."
   },
   {
     "question": "¿Qué tipo de conductor se designa AL1/SAyz?",
     "answers": [
-      "Aluminio reforzado con acero recubierto de aluminio", 
-      "Aluminio puro homogeneo", 
-      "Acero galvanizado simple", 
+      "Aluminio reforzado con acero recubierto de aluminio",
+      "Aluminio puro homogeneo",
+      "Acero galvanizado simple",
       "Aluminio con aleación compuesta"
     ],
     "correct": 0,
@@ -754,137 +904,133 @@ var questionBank = [
   {
     "question": "¿Qué tipo de aislador se usa comúnmente en instalaciones poliméricas?",
     "answers": [
-      "Rígido de vástago", "Tipo bastón", "Cadena caperuza-vástago", "Columna de porcelana"
+      "Tipo bastón",
+      "Cadena caperuza-vástago",
+      "Columna de porcelana",
+      "Rígido de vástago"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "En instalaciones poliméricas compuestas, el tipo bastón es el más utilizado."
   },
   {
     "question": "En caso de modificación de apoyos o conductores por deterioro, ¿se requiere autorización administrativa?",
-    "answers": ["Sí, siempre", "No, si es de mutuo acuerdo o por sustitución por rotura", "Solo si la tensión supera 66 kV", "Solo si la línea es nueva"],
-    "correct": 1,
+    "answers": [
+      "No, si es de mutuo acuerdo o por sustitución por rotura",
+      "Solo si la tensión supera 66 kV",
+      "Solo si la línea es nueva",
+      "Sí, siempre"
+    ],
+    "correct": 0,
     "explanation": "No se requiere autorización administrativa si la modificación implica sustitución por deterioro o rotura o acuerdo mutuo con afectados, pero debe informarse anualmente."
   },
   {
     "question": "¿Qué tipo de contaminación afecta a los aisladores en zonas desérticas?",
-    "answers": ["Salina", "Industrial", "Polvo de arena", "Húmeda"],
-    "correct": 2,
-    "explanation": "El polvo de arena afecta a los aisladores en zonas desérticas y requiere limpieza o protección especial."
-  },
-  {
-    "question": "¿Qué ventaja tiene el vidrio frente a la porcelana en aisladores?",
-    "answers": ["Mayor resistencia a temperatura", "Inspección visual fácil", "Menor fragilidad", "Menor peso"],
+    "answers": [
+      "Industrial",
+      "Polvo de arena",
+      "Húmeda",
+      "Salina"
+    ],
     "correct": 1,
-    "explanation": "El vidrio permite inspección visual de la línea de fuga, ventaja sobre la porcelana."
+    "explanation": "El polvo de arena afecta a los aisladores en zonas desérticas y requiere limpieza o protección especial."
   },
   {
     "question": "¿Qué debe hacer un técnico competente en caso de interrupción de servicio por emergencia?",
     "answers": [
-      "Interrumpir servicio solo con autorización del propietario", 
-      "Modificar la línea sin autorización", 
-      "Contactar con la O.C.A.", 
-      "Esperar inspección anual"
-    ],
-    "correct": 0,
-    "explanation": "Un técnico puede adoptar medidas provisionales en situación de emergencia solo con autorización del propietario de la línea."
-  },
-{
-    "question": "¿Cuál es la tensión nominal mínima para que una línea sea considerada de categoría especial en territorio peninsular?",
-    "answers": [
-      "≥ 66 kV",
-      "≥ 132 kV",
-      "≥ 220 kV",
-      "≥ 400 kV"
+      "Contactar con la O.C.A.",
+      "Esperar inspección anual",
+      "Interrumpir servicio solo con autorización del propietario",
+      "Modificar la línea sin autorización"
     ],
     "correct": 2,
+    "explanation": "Un técnico puede adoptar medidas provisionales en situación de emergencia solo con autorización del propietario de la línea."
+  },
+  {
+    "question": "¿Cuál es la tensión nominal mínima para que una línea sea considerada de categoría especial en territorio peninsular?",
+    "answers": [
+      "≥ 132 kV",
+      "≥ 220 kV",
+      "≥ 400 kV",
+      "≥ 66 kV"
+    ],
+    "correct": 1,
     "explanation": "La categoría especial corresponde a Un ≥ 220 kV (y también a islas con tensiones menores)."
   },
   {
     "question": "¿En qué plazo máximo debe remitirse el informe de accidente o anomalía al órgano competente de la CA?",
     "answers": [
-      "1 mes",
       "2 meses",
       "3 meses",
-      "6 meses"
+      "6 meses",
+      "1 mes"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "El propietario de la línea deberá remitir el informe de accidente en un tiempo máximo de 3 meses al órgano competente de la CA."
   },
   {
     "question": "¿Cuál es el plazo máximo para la aprobación de las especificaciones particulares de las empresas de transporte una vez presentadas?",
     "answers": [
-      "1 mes",
       "2 meses",
       "3 meses",
-      "6 meses"
+      "6 meses",
+      "1 mes"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Una vez presentadas, el plazo para la aprobación de las especificaciones particulares será de 3 meses."
-  },
-  {
-    "question": "¿Con qué periodicidad mínima deben realizarse las verificaciones periódicas en líneas propiedad de empresas de transporte y distribución?",
-    "answers": [
-      "Cada año",
-      "Cada 2 años",
-      "Cada 3 años",
-      "Cada 5 años"
-    ],
-    "correct": 2,
-    "explanation": "Las verificaciones periódicas deben realizarse al menos una vez cada 3 años."
   },
   {
     "question": "¿Qué inspección es obligatoria antes de poner en servicio una línea NO propiedad de empresa de transporte/distribución con Un > 30 kV?",
     "answers": [
-      "Verificación por T.C.",
       "Inspección inicial por O.C.A.",
       "Verificación por la empresa instaladora",
-      "Inspección por la Administración"
+      "Inspección por la Administración",
+      "Verificación por T.C."
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Si U > 30 kV, la instalación se someterá a una inspección inicial por la O.C.A. antes de la puesta en servicio."
   },
   {
     "question": "¿Qué categoría de instaladora habilita para trabajar en líneas aéreas y subterráneas de AT sin límite de tensión?",
     "answers": [
-      "LAT1",
       "LAT2",
       "LAT3",
-      "LATES"
+      "LATES",
+      "LAT1"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "La categoría LAT2 habilita para líneas aéreas y subterráneas sin límite de tensión."
   },
   {
     "question": "¿Cuál es la cuantía mínima del seguro de responsabilidad civil que debe tener suscrita una empresa instaladora de AT?",
     "answers": [
-      "500.000 €",
       "750.000 €",
       "1.000.000 €",
-      "2.000.000 €"
+      "2.000.000 €",
+      "500.000 €"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "La empresa instaladora debe tener suscrito seguro de responsabilidad civil por una cuantía mínima de un millón de euros."
   },
   {
     "question": "¿Cuántos instaladores como mínimo debe tener una empresa instaladora por cada categoría?",
     "answers": [
-      "Uno",
       "Dos",
       "Tres",
-      "Depende del volumen de obra"
+      "Depende del volumen de obra",
+      "Uno"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Los medios humanos exigen un mínimo de un instalador por cada una de las categorías de la empresa instaladora."
   },
   {
     "question": "¿Qué tensión de prueba debe tener el medidor de aislamiento exigido como medio técnico a las empresas instaladoras?",
     "answers": [
-      "1 kV",
-      "5 kV",
       "10 kV",
-      "20 kV"
+      "20 kV",
+      "1 kV",
+      "5 kV"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Entre los medios técnicos obligatorios figura el medidor de aislamiento de 10 kV."
   },
   {
@@ -912,12 +1058,12 @@ var questionBank = [
   {
     "question": "¿Cuál de los siguientes defectos se clasifica como 'Muy grave'?",
     "answers": [
-      "Degradación del aislamiento",
       "Sección de cables inadecuada",
       "Distancias de cruzamientos y paralelismos incumplidas",
-      "Conexiones equipotenciales defectuosas"
+      "Conexiones equipotenciales defectuosas",
+      "Degradación del aislamiento"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "El incumplimiento de distancias de cruzamientos y paralelismos constituye un defecto muy grave por representar peligro inminente para la seguridad."
   },
   {
@@ -967,12 +1113,12 @@ var questionBank = [
   {
     "question": "¿Cuál es el ángulo máximo que debe formar el cable de tierra con la vertical en su instalación?",
     "answers": [
+      "45°",
       "25°",
       "30°",
-      "35°",
-      "45°"
+      "35°"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "El cable de tierra debe instalarse con un ángulo inferior a 35° respecto a la vertical."
   },
   {
@@ -989,23 +1135,23 @@ var questionBank = [
   {
     "question": "¿Cuál es la sección mínima para conductores de acero galvanizado?",
     "answers": [
-      "10 mm²",
-      "12,5 mm²",
       "16 mm²",
-      "25 mm²"
+      "25 mm²",
+      "10 mm²",
+      "12,5 mm²"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Para conductores de acero galvanizado la sección mínima es de 12,5 mm²."
   },
   {
     "question": "¿Qué temperatura máxima de servicio bajo carga normal se establece para los conductores de aluminio?",
     "answers": [
-      "70°C",
       "75°C",
       "85°C",
-      "100°C"
+      "100°C",
+      "70°C"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "La temperatura máxima de servicio bajo carga normal es inferior a 85°C para conductores de aluminio."
   },
   {
@@ -1022,111 +1168,100 @@ var questionBank = [
   {
     "question": "¿Cuál es la temperatura máxima bajo cortocircuito para el acero?",
     "answers": [
-      "200°C",
-      "250°C",
       "300°C",
-      "350°C"
+      "350°C",
+      "200°C",
+      "250°C"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "La temperatura máxima bajo cortocircuito para el acero es de 300°C."
   },
   {
     "question": "¿Qué porcentaje de la carga de rotura del conductor (σr) debe soportar un empalme?",
     "answers": [
-      "80%",
       "85%",
       "90%",
-      "95%"
+      "95%",
+      "80%"
     ],
-    "correct": 3,
+    "correct": 2,
     "explanation": "El empalme debe soportar el 95% de la carga de rotura del conductor (95%σr)."
   },
   {
     "question": "¿Qué porcentaje de la carga de rotura se exige como resistencia al deslizamiento en una conexión?",
     "answers": [
-      "10%",
       "15%",
       "20%",
-      "25%"
+      "25%",
+      "10%"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "La resistencia al deslizamiento de una conexión debe ser del 20%σr."
   },
   {
     "question": "¿Cuántos empalmes como máximo se permiten por vano y conductor?",
     "answers": [
+      "3",
       "0",
       "1",
-      "2",
-      "3"
+      "2"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Se permite no más de 1 empalme por vano y conductor."
   },
   {
     "question": "¿Está permitida la soldadura en los empalmes de conductores aéreos de AT?",
     "answers": [
-      "Sí, siempre",
-      "Sí, solo en conductores de cobre",
       "Sí, en caso de emergencia",
-      "No, está prohibida"
+      "No, está prohibida",
+      "Sí, siempre",
+      "Sí, solo en conductores de cobre"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "La soldadura está expresamente prohibida en los empalmes de conductores aéreos de AT."
   },
   {
     "question": "¿Qué carga característica deben soportar los herrajes que puedan estar sometidos al peso de una persona?",
     "answers": [
-      "0,5 kN",
-      "1,0 kN",
       "1,5 kN",
-      "2,0 kN"
+      "2,0 kN",
+      "0,5 kN",
+      "1,0 kN"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Los herrajes que puedan estar sometidos al peso de una persona deben resistir una carga característica concentrada de 1,5 kN."
-  },
-  {
-    "question": "¿Qué carga concentrada característica deben calcularse para los peldaños de los apoyos?",
-    "answers": [
-      "0,5 kN",
-      "1,0 kN",
-      "1,5 kN",
-      "2,0 kN"
-    ],
-    "correct": 1,
-    "explanation": "Los peldaños deben calcularse para una carga concentrada característica de 1,0 kN."
   },
   {
     "question": "¿A partir de qué ángulo con la vertical los elementos escalables del apoyo requieren una carga característica de 1,5 kN?",
     "answers": [
+      "Menos de 45°",
       "Menos de 20°",
       "Menos de 25°",
-      "Menos de 30°",
-      "Menos de 45°"
+      "Menos de 30°"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Los elementos que puedan usarse para escalar y estén dispuestos con un ángulo menor de 30° con la vertical deben tener una carga característica de 1,5 kN."
   },
   {
     "question": "¿Cuál es la vida útil prevista de una línea aérea de AT según el reglamento?",
     "answers": [
-      "20 años",
       "30 años",
       "40 años",
-      "50 años"
+      "50 años",
+      "20 años"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "La vida útil es el periodo de funcionamiento previsto de la línea ≈ 40 años sin que sean necesarias reparaciones sustanciales."
   },
   {
     "question": "¿Qué porcentaje de la carga de rotura debe soportar una grapa de amarre?",
     "answers": [
-      "80%",
       "85%",
       "90%",
-      "95%"
+      "95%",
+      "80%"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "La grapa de amarre debe soportar una tensión mecánica del 90%σr."
   },
   {
@@ -1154,156 +1289,134 @@ var questionBank = [
   {
     "question": "¿Cuál es la función principal de los descargadores en las cadenas de aisladores?",
     "answers": [
-      "Aumentar la resistencia mecánica de la cadena",
       "Proteger eléctricamente la cadena desviando el arco y mejorando el efecto corona",
       "Medir la tensión en los aisladores",
-      "Conectar a tierra los conductores"
+      "Conectar a tierra los conductores",
+      "Aumentar la resistencia mecánica de la cadena"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Los descargadores aseguran la protección eléctrica de la cadena: si se ceba un arco, sus raíces se sitúan sobre el descargador y mejoran el comportamiento al efecto corona formando una superficie equipotencial."
   },
   {
     "question": "¿Dónde se sitúan los electrodos del descargador en las cadenas de suspensión?",
     "answers": [
+      "En el apoyo",
       "En la parte interior de la cadena",
       "En la parte exterior de la cadena",
-      "En la parte superior",
-      "En el apoyo"
+      "En la parte superior"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Los electrodos del descargador se sitúan en la parte exterior de la cadena de suspensión. En las cadenas de amarre se sitúan en la parte superior."
   },
   {
     "question": "¿Cuál es el material compuesto base de un aislador polimérico tipo bastón?",
     "answers": [
-      "Arcilla + cuarzo + feldespato",
-      "Sílice + carbonatos de calcio y sodio",
       "Barra de fibra de vidrio + envolvente de silicona",
-      "Epoxi + fibra de carbono"
+      "Epoxi + fibra de carbono",
+      "Arcilla + cuarzo + feldespato",
+      "Sílice + carbonatos de calcio y sodio"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Los aisladores compuestos (poliméricos) están formados por una barra de fibra de vidrio más una envolvente de silicona."
   },
   {
     "question": "¿En qué porcentaje reducen la línea de fuga los aisladores poliméricos compuestos frente a los de vidrio y porcelana?",
     "answers": [
-      "10%",
       "20%",
       "30%",
-      "40%"
+      "40%",
+      "10%"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Los aisladores poliméricos compuestos reducen su línea de fuga un 30% frente a los aisladores de vidrio y porcelana."
   },
   {
     "question": "¿Qué efecto degrada las propiedades hidrofóbicas de los aisladores compuestos?",
     "answers": [
-      "La lluvia ácida",
-      "La contaminación salina",
       "El efecto corona",
-      "Las variaciones bruscas de temperatura"
+      "Las variaciones bruscas de temperatura",
+      "La lluvia ácida",
+      "La contaminación salina"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "El efecto corona degrada las propiedades hidrofóbicas de los aisladores poliméricos compuestos."
   },
   {
     "question": "¿Qué componente de la porcelana incrementa su rigidez dieléctrica (hasta 300 kV/cm)?",
     "answers": [
-      "Arcilla",
       "Cuarzo",
       "Feldespato",
-      "Sílice"
+      "Sílice",
+      "Arcilla"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "A mayor proporción de feldespato en la porcelana, mayor rigidez dieléctrica (300 kV/cm)."
   },
   {
     "question": "¿Qué componente de la porcelana incrementa su resistencia mecánica?",
     "answers": [
-      "Arcilla",
       "Cuarzo",
       "Feldespato",
-      "Carbonato de calcio"
+      "Carbonato de calcio",
+      "Arcilla"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "A mayor proporción de cuarzo en la porcelana, mayor resistencia mecánica."
   },
   {
     "question": "¿Qué componente de la porcelana incrementa su resistencia a cambios de temperatura?",
     "answers": [
-      "Arcilla",
       "Cuarzo",
       "Feldespato",
-      "Óxido de aluminio"
+      "Óxido de aluminio",
+      "Arcilla"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "A mayor proporción de arcilla en la porcelana, mayor resistencia a variaciones de temperatura (dTª)."
-  },
-  {
-    "question": "¿Cuál es la principal ventaja de los aisladores de vidrio sobre los de porcelana?",
-    "answers": [
-      "Mayor resistencia mecánica",
-      "Inspección visual facilitada por su transparencia",
-      "Mayor resistencia a contaminación",
-      "Menor peso"
-    ],
-    "correct": 1,
-    "explanation": "Los aisladores de vidrio son transparentes, lo que aumenta el control visual e inspección."
   },
   {
     "question": "¿Cuál es la desventaja de los aisladores compuestos respecto a los de vidrio y porcelana?",
     "answers": [
-      "Mayor peso",
       "Menor esperanza de vida y menor resistencia mecánica",
       "Mayor coste",
-      "Fragilidad al choque"
+      "Fragilidad al choque",
+      "Mayor peso"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Los aisladores compuestos tienen menor esperanza de vida y menor resistencia mecánica que los de vidrio y porcelana."
   },
   {
     "question": "¿Qué tipo de aislador de cadena soporta una rotura de la parte aislante sin perder la resistencia mecánica?",
     "answers": [
+      "Aislador de columna",
       "Aislador rígido de vástago",
       "Aislador de caperuza y vástago",
-      "Aislador tipo bastón",
-      "Aislador de columna"
+      "Aislador tipo bastón"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "En el aislador de caperuza y vástago, la rotura de la parte aislante no hace perder la resistencia mecánica del aislador."
   },
   {
     "question": "¿Para qué zonas de protección de avifauna es OBLIGATORIO adoptar medidas contra electrocución?",
     "answers": [
-      "Solo ZEPA",
       "Solo áreas prioritarias de reproducción",
       "Todas las zonas de protección definidas en el Art.3",
-      "Solo zonas con planes de recuperación y conservación"
+      "Solo zonas con planes de recuperación y conservación",
+      "Solo ZEPA"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "Para líneas nuevas, ampliaciones, modificaciones y existentes son obligatorias las medidas contra electrocución en todas las zonas de protección del Art.3."
   },
   {
     "question": "¿Qué medida anticolisión es OPCIONAL según la normativa de protección de avifauna para líneas existentes?",
     "answers": [
+      "Señalización de apoyos",
       "Medidas contra electrocución",
       "Colocación de disuasores de posada",
-      "Medidas anticolisión",
-      "Señalización de apoyos"
+      "Medidas anticolisión"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Para líneas existentes las medidas contra electrocución son obligatorias pero las de colisión son opcionales."
-  },
-  {
-    "question": "¿Qué es un 'salvapájaros' según la normativa de protección de avifauna?",
-    "answers": [
-      "Dispositivo colocado en crucetas para evitar que se posen las aves",
-      "Dispositivo fijado a los cables para su visualización a distancia y anticolisión",
-      "Red protectora alrededor de los apoyos",
-      "Señal luminosa en los apoyos"
-    ],
-    "correct": 1,
-    "explanation": "El salvapájaros o señalizador es un dispositivo externo que se fija a los cables para su visualización a distancia con función anticolisión."
   },
   {
     "question": "¿Cuántos años consecutivos de presencia de un ave incluida en el C.E.A. definen un 'área prioritaria de reproducción, alimentación y dispersión'?",
@@ -1319,23 +1432,23 @@ var questionBank = [
   {
     "question": "¿En qué plazo máximo debe informarse de una intervención de urgencia en líneas que soporten nidos, realizada sin previo aviso?",
     "answers": [
+      "1 semana",
       "24 horas",
       "48 horas",
-      "72 horas",
-      "1 semana"
+      "72 horas"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Cuando se realicen intervenciones por urgencia y sin avisar, se informará en menos de 72 horas."
   },
   {
     "question": "¿Cuándo está prohibido el trabajo de mantenimiento en tendidos que soporten nidos?",
     "answers": [
+      "Solo durante la nidificación",
       "Durante el invierno",
       "Durante la época de nidificación, reproducción y crianza",
-      "En cualquier época del año sin autorización",
-      "Solo durante la nidificación"
+      "En cualquier época del año sin autorización"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Está prohibido el trabajo de mantenimiento durante la época de nidificación, reproducción y crianza en los tendidos que soporten nidos."
   },
   {
@@ -1352,23 +1465,23 @@ var questionBank = [
   {
     "question": "¿Cuál es la finalidad principal de un anteproyecto según la ITC-09?",
     "answers": [
-      "Ejecutar las obras",
       "Tramitar la correspondiente autorización por parte de la Administración",
       "Realizar el mantenimiento de la línea",
-      "Certificar la calidad de los materiales"
+      "Certificar la calidad de los materiales",
+      "Ejecutar las obras"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "La finalidad del anteproyecto será utilizarse para la tramitación de la correspondiente autorización por parte de la Administración."
   },
   {
     "question": "¿Qué escala vertical se utiliza en el perfil longitudinal de una línea aérea en el proyecto de ejecución?",
     "answers": [
+      "1:100",
       "1:1000",
       "1:500",
-      "1:200",
-      "1:100"
+      "1:200"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "En el perfil longitudinal de líneas aéreas se usa una escala vertical de 1:200 para carreteras, ferrocarriles y altitud."
   },
   {
@@ -1396,12 +1509,12 @@ var questionBank = [
   {
     "question": "¿Qué contenido deben incluir los proyectos tipo de instalaciones?",
     "answers": [
-      "Solo memoria y presupuesto",
       "Memoria, programa informático, pliego, presupuesto, planos y normas de prevención",
       "Solo cálculos eléctricos y mecánicos",
-      "Solo especificaciones de materiales"
+      "Solo especificaciones de materiales",
+      "Solo memoria y presupuesto"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Los proyectos tipo deben contener: memoria, programa informático para tablas de cálculo, pliego de condiciones, presupuesto, relación de planos y normas de prevención de riesgos laborales y protección del medio ambiente."
   },
   {
@@ -1418,12 +1531,12 @@ var questionBank = [
   {
     "question": "¿Quién costea los sobredimensionamientos impuestos a otras instalaciones debido a modificaciones en la red de AT?",
     "answers": [
-      "La Administración Pública",
-      "El propietario de la red de AT que realiza la modificación",
       "El propietario de las instalaciones afectadas",
-      "Se reparte entre ambos propietarios"
+      "Se reparte entre ambos propietarios",
+      "La Administración Pública",
+      "El propietario de la red de AT que realiza la modificación"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Los sobredimensionamientos y modificaciones impuestos a otras instalaciones, debido a modificaciones en la red de AT, serán costeados por el propietario de la red de AT."
   },
   {
@@ -1451,166 +1564,166 @@ var questionBank = [
   {
     "question": "¿Cuál es el rango de tensión nominal para líneas de 2ª categoría?",
     "answers": [
-      "1 kV < Un < 30 kV",
       "30 kV < Un < 66 kV",
       "66 kV < Un < 220 kV",
-      "Un ≥ 220 kV"
+      "Un ≥ 220 kV",
+      "1 kV < Un < 30 kV"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "La 2ª categoría corresponde a tensiones nominales entre 30 kV y 66 kV."
   },
   {
     "question": "¿Cuál es el rango de tensión nominal para líneas de 3ª categoría?",
     "answers": [
+      "66 kV < Un < 220 kV",
       "1 kV < Un < 30 kV",
       "30 kV < Un < 66 kV",
-      "66 kV < Un < 132 kV",
-      "66 kV < Un < 220 kV"
+      "66 kV < Un < 132 kV"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "La 3ª categoría corresponde a tensiones nominales entre 1 kV y 30 kV."
   },
   {
     "question": "Según la ITC-LAT-07, ¿cuál es el sistema de instalación definido para líneas aéreas con conductores desnudos?",
     "answers": [
+      "Red de cables autosoportados",
       "Red colgante sobre postes de madera",
       "Red tensada sobre apoyo",
-      "Red en galería visitable",
-      "Red de cables autosoportados"
+      "Red en galería visitable"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "El sistema de instalación definido para líneas aéreas con conductores desnudos es la red tensada sobre apoyo."
   },
   {
     "question": "¿Para qué tipo de conductores NO aplica el apartado de materiales de la ITC-LAT-07 (conductores desnudos)?",
     "answers": [
+      "Conductores de cobre",
       "Conductores de aluminio AL1",
       "Cables ADSS o CADFO",
-      "Conductores ACSR (Al/Acero)",
-      "Conductores de cobre"
+      "Conductores ACSR (Al/Acero)"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "El apartado de materiales no aplica a los cables dieléctricos autosoportados (ADSS) o CADFO, aunque sí se tienen en cuenta en el diseño de apoyos."
   },
   {
     "question": "¿Para qué sirve una cadena de aisladores de 'suspensión' frente a una de 'amarre'?",
     "answers": [
+      "La de suspensión solo se usa en apoyos de ángulo",
       "La de suspensión soporta mayores esfuerzos longitudinales",
       "La de suspensión equilibra la tensión mecánica entre vanos ajustando su inclinación",
-      "La de amarre permite mayor oscilación lateral",
-      "La de suspensión solo se usa en apoyos de ángulo"
+      "La de amarre permite mayor oscilación lateral"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "El aislador de suspensión equilibra la tensión mecánica en todos los vanos con la inclinación de la cadena."
   },
   {
     "question": "¿Cuántas cadenas de aisladores pueden colgar de un yugo?",
     "answers": [
-      "Solo una",
       "Exactamente dos",
       "Múltiples cadenas",
-      "Máximo cuatro"
+      "Máximo cuatro",
+      "Solo una"
     ],
-    "correct": 2,
+    "correct": 1,
     "explanation": "El yugo se usa para cadenas múltiples, colgando directamente de la cruceta o por medio de una pieza triangular."
   },
   {
     "question": "¿Cuál es el principal problema de las curvas de equilibrio muy pronunciadas a ambos lados de la cadena de suspensión?",
     "answers": [
+      "Reduce la vida útil del aislador",
       "Aumenta el efecto corona",
       "Puede provocar el deslizamiento del conductor fuera de la grapa",
-      "Incrementa las pérdidas por efecto Joule",
-      "Reduce la vida útil del aislador"
+      "Incrementa las pérdidas por efecto Joule"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "El problema es que las curvas de equilibrio pronunciadas pueden dificultar la correcta sujeción del conductor; las soluciones son grapas de grandes dimensiones o cadenas con yugo del que salen dos grapas de amarre."
   },
   {
     "question": "¿Con qué carga de rotura mínima para 'otros materiales' distintos de cobre o acero se acepta su uso en conductores de AT?",
     "answers": [
-      "σr > 250 daN",
-      "σr > 300 daN",
       "σr > 350 daN",
-      "σr > 400 daN"
+      "σr > 400 daN",
+      "σr > 250 daN",
+      "σr > 300 daN"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Para otros materiales distintos de cobre o acero galvanizado, la carga de rotura debe ser σr > 350 daN."
   },
   {
     "question": "¿Cuál es la temperatura máxima de corta duración para conductores de aluminio?",
     "answers": [
+      "120°C",
       "85°C",
       "90°C",
-      "100°C",
-      "120°C"
+      "100°C"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "La temperatura máxima de corta duración para conductores de aluminio es inferior a 100°C."
   },
   {
     "question": "¿Qué ocurre si un defecto 'leve' de una inspección anterior no ha sido corregido en la siguiente?",
     "answers": [
-      "Se mantiene como leve",
-      "Pasa automáticamente a defecto grave",
       "Se emite una calificación negativa",
-      "Se convierte en condicionada"
+      "Se convierte en condicionada",
+      "Se mantiene como leve",
+      "Pasa automáticamente a defecto grave"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "La acumulación o reincidencia de defectos leves se clasifica como defecto grave."
   },
   {
     "question": "¿Qué O.C. realiza la inspección inicial obligatoria para líneas no propiedad de empresas de transporte con Un > 30 kV?",
     "answers": [
-      "O.C.A. (Organismo de Control Autorizado)",
-      "El Ministerio de Industria",
       "La Comunidad Autónoma",
-      "La empresa instaladora LAT2"
+      "La empresa instaladora LAT2",
+      "O.C.A. (Organismo de Control Autorizado)",
+      "El Ministerio de Industria"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "La inspección inicial para líneas con Un > 30 kV debe ser realizada por la O.C.A. (Organismo de Control Autorizado)."
   },
   {
     "question": "¿Qué documento acredita la inspección inicial favorable para poder poner en servicio una línea no propiedad de empresa de transporte con Un > 30 kV?",
     "answers": [
-      "Acta de verificación del T.C.",
       "Certificado de calificación favorable de inspección inicial por O.C.A.",
       "Autorización de explotación del Ministerio",
-      "Certificado de la empresa instaladora"
+      "Certificado de la empresa instaladora",
+      "Acta de verificación del T.C."
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Se requiere el certificado con calificación favorable de inspección inicial por la O.C.A. antes de la puesta en servicio."
   },
   {
     "question": "¿Para qué tensión o superior se requiere, en el proceso de puesta en servicio de líneas NO propiedad de empresas de transporte, la inspección inicial por OCA?",
     "answers": [
+      "Un > 66 kV",
       "Un > 1 kV",
       "Un > 10 kV",
-      "Un > 30 kV",
-      "Un > 66 kV"
+      "Un > 30 kV"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "La inspección inicial por O.C.A. es obligatoria cuando U > 30 kV para líneas no propiedad de empresas de transporte y distribución."
   },
   {
     "question": "¿Qué tipo de ensayo de verificación se realiza SOLO en apoyos frecuentados en líneas aéreas de empresas de transporte?",
     "answers": [
+      "Ensayo de aislamiento de cubierta",
       "Ensayo de aislamiento principal",
       "Medida de resistencia de puesta a tierra",
-      "Medida de tensión de contacto",
-      "Ensayo de aislamiento de cubierta"
+      "Medida de tensión de contacto"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Las medidas de tensión de contacto se realizan solo si el apoyo es frecuentado, en líneas aéreas y galerías visitables."
   },
   {
     "question": "¿Qué contiene el acta de verificación según la ITC-05?",
     "answers": [
+      "Datos de identificación, ensayos, plan de mantenimiento y presupuesto",
       "Solo los datos de la línea y los defectos encontrados",
       "Datos de identificación, relación de defectos, planes de corrección y observaciones",
-      "Solo los ensayos realizados y sus resultados",
-      "Datos de identificación, ensayos, plan de mantenimiento y presupuesto"
+      "Solo los ensayos realizados y sus resultados"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "El acta de verificación debe contener: datos de identificación de la línea, relación de defectos encontrados, planes de corrección y observaciones."
   },
   {
@@ -1625,36 +1738,25 @@ var questionBank = [
     "explanation": "Para tensiones < 30 kV, la inspección periódica por OCA puede sustituirse por verificación periódica realizada por un T.C. que no haya participado en la redacción del proyecto ni en la dirección."
   },
   {
-    "question": "¿Qué clasificación recibe una línea nueva cuya inspección resulta 'condicionada'?",
-    "answers": [
-      "Se pone en marcha con seguimiento durante 6 meses",
-      "No se pone en marcha hasta la corrección de los defectos",
-      "Se le da un plazo de 3 meses para corregir",
-      "Se emite un certificado de calificación negativa inmediatamente"
-    ],
-    "correct": 1,
-    "explanation": "Si la línea es nueva y obtiene calificación condicionada, no se pone en marcha hasta la corrección de los defectos graves."
-  },
-  {
     "question": "¿Cuál es la clasificación mínima del defecto que implica una calificación 'Negativa' de una línea?",
     "answers": [
-      "Leve",
-      "Grave",
       "Muy grave",
-      "Cualquier combinación de leve y grave"
+      "Cualquier combinación de leve y grave",
+      "Leve",
+      "Grave"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "La calificación negativa se produce cuando existe al menos un defecto muy grave."
   },
   {
     "question": "¿Cuándo se puede sustituir la verificación periódica de líneas de empresas de transporte por planes concertados?",
     "answers": [
-      "Nunca, siempre se requiere verificación formal",
       "Cuando los planes concertados garanticen el mantenimiento de la línea",
       "Solo en líneas de categoría especial",
-      "Cuando la línea tiene menos de 10 años"
+      "Cuando la línea tiene menos de 10 años",
+      "Nunca, siempre se requiere verificación formal"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "Las verificaciones periódicas se podrán sustituir por planes concertados que garanticen el mantenimiento de la línea."
   },
   {
@@ -1671,232 +1773,232 @@ var questionBank = [
   {
     "question": "¿Cuál es la habilitación temporal que otorga la declaración responsable de una empresa instaladora de AT?",
     "answers": [
-      "5 años renovables",
-      "10 años renovables",
       "Tiempo indefinido",
-      "1 año con renovación anual"
+      "1 año con renovación anual",
+      "5 años renovables",
+      "10 años renovables"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "La declaración responsable habilita por tiempo indefinido a la empresa instaladora."
   },
   {
     "question": "¿Quién asigna el número de identificación a la empresa instaladora de AT?",
     "answers": [
+      "La propia empresa al presentar la declaración responsable",
       "El Ministerio de Industria",
       "La Comunidad Autónoma",
-      "El Registro Central de Empresas Instaladoras",
-      "La propia empresa al presentar la declaración responsable"
+      "El Registro Central de Empresas Instaladoras"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "La comunidad autónoma asignará a la empresa un número de identificación de oficio."
   },
   {
     "question": "¿Puede una empresa instaladora de AT facilitar o ceder certificados de instalaciones no realizadas por ella?",
     "answers": [
+      "Sí, si lo autoriza la Comunidad Autónoma",
       "Sí, si cuenta con autorización de la OCA",
       "Sí, en casos de emergencia",
-      "No, está expresamente prohibido",
-      "Sí, si lo autoriza la Comunidad Autónoma"
+      "No, está expresamente prohibido"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "La empresa instaladora no podrá facilitar, ceder o enajenar certificados de instalaciones no realizados por ella misma."
   },
   {
     "question": "¿Qué dispositivo topográfico forma parte del equipamiento específico exigido a las empresas instaladoras LAT?",
     "answers": [
+      "Dispositivos topográficos",
       "Telurómetro",
       "Medidor de aislamiento",
-      "Cámara termográfica",
-      "Dispositivos topográficos"
+      "Cámara termográfica"
     ],
-    "correct": 3,
+    "correct": 0,
     "explanation": "Los equipos específicos exigidos incluyen dispositivos mecánicos para tendido, dispositivos topográficos y tren de tendido."
   },
   {
     "question": "¿En qué caso una línea nueva con calificación 'Negativa' puede ponerse en marcha?",
     "answers": [
-      "Nunca, debe corregirse antes",
-      "Tras 6 meses de plazo",
       "Con autorización especial de la Administración",
-      "Cuando el titular asume la responsabilidad"
+      "Cuando el titular asume la responsabilidad",
+      "Nunca, debe corregirse antes",
+      "Tras 6 meses de plazo"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Si la línea es nueva y obtiene calificación negativa, no se pone en marcha hasta la corrección del defecto muy grave."
   },
   {
     "question": "¿Qué contenido extra tiene el certificado de inspección respecto al acta de verificación?",
     "answers": [
-      "El certificado incluye además la clasificación de defectos, clasificación de la línea y registro de operaciones de mantenimiento",
-      "No hay diferencia entre ambos documentos",
       "El certificado incluye además el presupuesto de reparaciones",
-      "El acta incluye más datos que el certificado"
+      "El acta incluye más datos que el certificado",
+      "El certificado incluye además la clasificación de defectos, clasificación de la línea y registro de operaciones de mantenimiento",
+      "No hay diferencia entre ambos documentos"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "El certificado de inspección incluye, además de los datos del acta de verificación: clasificación de defectos, clasificación de la línea y registro de operaciones de mantenimiento."
   },
   {
     "question": "¿Qué ensayo se verifica en la inspección inicial para líneas > 30 kV según la ITC-05?",
     "answers": [
-      "Ensayos previos a puesta en servicio, calibración de equipos, coincidencia entre condiciones reales y de cálculo",
-      "Solo ensayo de aislamiento",
       "Solo medida de resistencia de puesta a tierra",
-      "Solo medida de tensión de paso y contacto"
+      "Solo medida de tensión de paso y contacto",
+      "Ensayos previos a puesta en servicio, calibración de equipos, coincidencia entre condiciones reales y de cálculo",
+      "Solo ensayo de aislamiento"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "La inspección inicial para > 30 kV incluye: ensayos previos a puesta en servicio, calibración de los equipos, resultado satisfactorio y coincidencia entre condiciones reales y calculadas."
   },
   {
     "question": "¿Qué tipo de acoplamiento de cadena de aisladores realiza 'la misma función en una sola pieza'?",
     "answers": [
+      "Pasador en W",
       "Grilletes - anillas bola",
       "Horquilla bola",
-      "Yugo",
-      "Pasador en W"
+      "Yugo"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "La horquilla bola realiza la misma función que los grilletes y anillas bola, pero en una sola pieza."
   },
   {
     "question": "¿Cuál de los siguientes NO es un requisito básico de diseño de una línea aérea con conductores desnudos según la ITC-LAT-07?",
     "answers": [
+      "Que sea duradera, robusta y respete el medio ambiente",
       "Niveles aceptables de fiabilidad",
       "No se produzca un colapso en cascada",
-      "Maximizar la capacidad de transporte de energía",
-      "Que sea duradera, robusta y respete el medio ambiente"
+      "Maximizar la capacidad de transporte de energía"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Entre los requisitos básicos de diseño no se menciona maximizar la capacidad de transporte; los requisitos son: fiabilidad, evitar colapso en cascada, no daños humanos y durabilidad."
   },
   {
     "question": "¿Cuál es el mecanismo para prevenir los fallos en cascada en las líneas aéreas?",
     "answers": [
+      "Uso de cables de tierra de gran sección",
       "Uso de conductores de alta resistencia",
       "Instalación de apoyos de anclaje",
-      "Mayor número de cadenas de aisladores",
-      "Uso de cables de tierra de gran sección"
+      "Mayor número de cadenas de aisladores"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Para prevenir los fallos en cascada se instalan apoyos de anclaje. El fallo debe quedar limitado al lugar donde se produjo la sobrecarga."
   },
   {
     "question": "¿Cuál es el campo de aplicación de la ITC-LAT-07 sobre líneas aéreas con conductores desnudos?",
     "answers": [
+      "CA trifásica a 50 Hz y Un > 66 kV",
       "CA trifásica a 50 Hz y Un > 1 kV",
       "CA trifásica a 50 Hz y Un > 30 kV",
-      "CA monofásica o trifásica y Un > 1 kV",
-      "CA trifásica a 50 Hz y Un > 66 kV"
+      "CA monofásica o trifásica y Un > 1 kV"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "El campo de aplicación de la ITC-LAT-07 es líneas aéreas con conductores desnudos, CA trifásica a 50 Hz y Un > 1 kV."
   },
   {
     "question": "¿Cuál es la norma de referencia para la resistencia eléctrica en corriente continua a 20°C de los conductores de aluminio?",
     "answers": [
+      "Norma CENELEC 50341",
       "IEC 60826",
       "UNE 157001",
-      "UNE-EN (correspondiente)",
-      "Norma CENELEC 50341"
+      "UNE-EN (correspondiente)"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "La resistencia eléctrica en cc a 20°C se determina según UNE-EN (la norma europea específica correspondiente)."
   },
   {
     "question": "¿Qué debe considerarse (no solo verificarse) en el diseño eléctrico de conductores de aluminio?",
     "answers": [
+      "Solo la temperatura máxima de servicio",
       "Solo la intensidad admisible",
       "Solo la capacidad de cortocircuito",
-      "El nivel de perturbación radioeléctrica y el nivel de ruido",
-      "Solo la temperatura máxima de servicio"
+      "El nivel de perturbación radioeléctrica y el nivel de ruido"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "Además de verificarse Iadm y capacidad de cortocircuito, debe considerarse el nivel de perturbación radioeléctrica y el nivel de ruido."
   },
   {
     "question": "¿Qué información mínima debe incluirse sobre equipos y materiales en el proyecto según el Art. 1.12?",
     "answers": [
+      "Fabricante, marca, modelo y precio unitario",
       "Solo el fabricante y la marca",
       "Fabricante, marca, modelo, tensión e intensidad",
-      "Solo tensión e intensidad nominales",
-      "Fabricante, marca, modelo y precio unitario"
+      "Solo tensión e intensidad nominales"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Se incluirán: fabricante, marca y modelo, y tensión e intensidad de los equipos y materiales."
   },
   {
     "question": "¿Cuándo pueden las CCAA introducir requisitos adicionales a las prescripciones del reglamento LAT?",
     "answers": [
-      "Nunca, el reglamento es de mínimos obligatorios invariables",
-      "Siempre que cuenten con aprobación del Ministerio",
       "En cualquier momento, ya que las prescripciones son mínimos obligatorios",
-      "Solo para líneas de categoría especial"
+      "Solo para líneas de categoría especial",
+      "Nunca, el reglamento es de mínimos obligatorios invariables",
+      "Siempre que cuenten con aprobación del Ministerio"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "Las prescripciones establecidas tienen la condición de mínimos obligatorios, pudiendo las CCAA introducir requisitos adicionales."
   },
   {
     "question": "¿Qué pasa si la inspección inicial de una línea no propiedad de empresa de transporte resulta desfavorable?",
     "answers": [
-      "Se puede poner en servicio provisionalmente",
       "No puede ponerse en servicio hasta la corrección",
       "Se emite certificado condicionado con plazo de 6 meses",
-      "Se comunica a la Administración y se espera instrucciones"
+      "Se comunica a la Administración y se espera instrucciones",
+      "Se puede poner en servicio provisionalmente"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "La calificación condicionada o negativa en una línea nueva impide su puesta en marcha hasta la corrección de los defectos."
   },
   {
     "question": "¿Cuántos parámetros de diseño se establecen para las grapas de sujeción de conductores al apoyo?",
     "answers": [
-      "3",
-      "4",
       "5",
-      "6"
+      "6",
+      "3",
+      "4"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "Se establecen 6 parámetros de diseño para las grapas: eje horizontal, peso reducido, compresión uniforme, compresión específica no elevada, frecuencia propia diferente a la del conductor, e imposibilidad de mordedura."
   },
   {
     "question": "¿Cuáles son las formas de mantenimiento de aisladores en zonas contaminadas?",
     "answers": [
-      "Solo lavado a presión con tensión",
-      "Fregado manual, recubrimiento con compuestos grasos y lavado periódico con o sin tensión",
       "Solo aplicación de grasa de silicona",
-      "Sustitución obligatoria cada 5 años"
+      "Sustitución obligatoria cada 5 años",
+      "Solo lavado a presión con tensión",
+      "Fregado manual, recubrimiento con compuestos grasos y lavado periódico con o sin tensión"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Las formas de mantenimiento son: fregado manual sin tensión o limpieza en seco con o sin tensión, recubrimiento con compuestos grasos, y lavado periódico con o sin tensión (pulverizadores fijos o chorro portátil manual)."
   },
   {
     "question": "¿En qué tipo de instalaciones se usan comúnmente los aisladores de vidrio o cerámica recubiertos con grasa de silicona?",
     "answers": [
-      "En líneas marítimas expuestas a contaminación salina",
       "En túneles donde es difícil el lavado de los aisladores",
       "En líneas de muy alta tensión (≥ 400 kV)",
-      "En zonas desérticas con polvo de arena"
+      "En zonas desérticas con polvo de arena",
+      "En líneas marítimas expuestas a contaminación salina"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "El recubrimiento con grasa de silicona es común en túneles donde es difícil el lavado de los aisladores, aunque supone mayor mantenimiento."
   },
   {
     "question": "¿Cuál de los siguientes tipos de contaminación afecta a los aisladores en zonas marítimas?",
     "answers": [
+      "Biológico",
       "Industrial-metalúrgico",
       "Polvo de arena",
-      "Salino",
-      "Biológico"
+      "Salino"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "La contaminación salina afecta principalmente a aisladores en zonas marítimas."
   },
   {
     "question": "¿Qué fenómeno causa que una capa de contaminación sobre los aisladores sea conductora?",
     "answers": [
+      "La acción del viento sobre la superficie del aislador",
       "La radiación solar directa",
       "La disolución de las partículas contaminantes por niebla o humedad",
-      "El calentamiento por el paso de corriente",
-      "La acción del viento sobre la superficie del aislador"
+      "El calentamiento por el paso de corriente"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Una capa de contaminación puede ser conductora si las partículas son disueltas por la niebla o la humedad."
   },
   {
@@ -1913,12 +2015,12 @@ var questionBank = [
   {
     "question": "¿Cuál es la desventaja principal de los aisladores de vidrio respecto a los de porcelana?",
     "answers": [
+      "Menor resistencia a la contaminación",
       "Mayor coste",
       "Mayor fragilidad y mayor peso",
-      "Menor rigidez dieléctrica",
-      "Menor resistencia a la contaminación"
+      "Menor rigidez dieléctrica"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Los aisladores de vidrio presentan como desventajas su fragilidad y mayor peso respecto a otras opciones."
   },
   {
@@ -1935,12 +2037,12 @@ var questionBank = [
   {
     "question": "¿Cuáles son las características que debe evaluarse en una cadena de aisladores pero NO en un aislador individual?",
     "answers": [
+      "Tensiones de perforación",
       "Tensión soportada a impulsos tipo rayo",
       "Carga de rotura mecánica y electromecánica",
-      "Tensión soportada de maniobra bajo lluvia",
-      "Tensiones de perforación"
+      "Tensión soportada de maniobra bajo lluvia"
     ],
-    "correct": 2,
+    "correct": 3,
     "explanation": "La tensión soportada de maniobra bajo lluvia es una característica específica de la cadena de aisladores, no del aislador individual."
   },
   {
@@ -1979,23 +2081,23 @@ var questionBank = [
   {
     "question": "¿Qué instrumento de medida de la lista de medios técnicos permite verificar la continuidad de conductores?",
     "answers": [
-      "Telurómetro",
-      "Medidor de aislamiento",
       "Cámara termográfica",
-      "Equipo verificador de la continuidad de conductores"
+      "Equipo verificador de la continuidad de conductores",
+      "Telurómetro",
+      "Medidor de aislamiento"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "El equipo verificador de la continuidad de conductores es uno de los medios técnicos obligatorios para la empresa instaladora."
   },
   {
     "question": "¿Cuándo se realiza la 'Inspección de Mercado' según el artículo 1.12?",
     "answers": [
-      "Antes del inicio de las obras",
-      "Al finalizar la instalación",
       "La Administración compra y ensaya equipos y materiales para verificar su conformidad",
-      "Cuando se detectan defectos en la inspección periódica"
+      "Cuando se detectan defectos en la inspección periódica",
+      "Antes del inicio de las obras",
+      "Al finalizar la instalación"
     ],
-    "correct": 2,
+    "correct": 0,
     "explanation": "La 'Inspección de Mercado' consiste en que la Administración realiza la compra y ensayo de equipos y materiales para comprobar su conformidad."
   },
   {
@@ -2012,23 +2114,23 @@ var questionBank = [
   {
     "question": "¿Cuál es el objetivo del sistema de conductores OPGW (hilo de guarda óptico)?",
     "answers": [
-      "Solo proteger contra sobretensiones de rayo",
-      "Combinar las funciones de hilo de guarda y cable de fibra óptica para telecomunicaciones",
       "Mejorar el aislamiento de la línea",
-      "Reducir las pérdidas por efecto corona"
+      "Reducir las pérdidas por efecto corona",
+      "Solo proteger contra sobretensiones de rayo",
+      "Combinar las funciones de hilo de guarda y cable de fibra óptica para telecomunicaciones"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "El OPGW (Optical Ground Wire) combina las funciones de hilo de guarda eléctrico con cable de fibra óptica para telecomunicaciones."
   },
   {
     "question": "Según la normativa, ¿qué debe hacer el propietario de la línea en caso de daño a especies protegidas por accidente?",
     "answers": [
-      "Solo incluirlo en el informe de accidente remitido a la CA",
-      "Dar traslado a los órganos de medio ambiente además de remitir el informe",
       "Notificarlo en el plazo de 24 horas a la Administración",
-      "No tiene obligaciones adicionales más allá del informe de accidente"
+      "No tiene obligaciones adicionales más allá del informe de accidente",
+      "Solo incluirlo en el informe de accidente remitido a la CA",
+      "Dar traslado a los órganos de medio ambiente además de remitir el informe"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "En caso de daño a especies protegidas, además del informe de accidente, deberá dar traslado a los órganos de medio ambiente."
   },
   {
@@ -2045,340 +2147,584 @@ var questionBank = [
   {
     "question": "¿Qué diferencia existe entre la escala horizontal usada para el eje de la línea y para carreteras/ferrocarriles en el perfil longitudinal de una línea aérea?",
     "answers": [
-      "Ambas usan escala 1:500",
       "El eje de la línea usa 50 m y carreteras/ferrocarriles 1:200",
       "No se indica escala para el eje de la línea",
-      "Ambas usan escala 1:200"
+      "Ambas usan escala 1:200",
+      "Ambas usan escala 1:500"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "En el perfil longitudinal, el eje de la línea usa una escala de 50 m (bandas de 50 m arriba y abajo), mientras que carreteras, ferrocarriles y altitud usan escala 1:200."
   },
   {
     "question": "¿Qué información adicional aportan los datos de parcelas, límites de provincia y términos municipales en el plano de perfil longitudinal de una línea aérea?",
     "answers": [
+      "Datos para dimensionar los apoyos",
       "Solo datos catastrales sin relevancia técnica",
       "Información necesaria para la gestión de servidumbres y tramitación administrativa",
-      "Información para el cálculo de cruzamientos",
-      "Datos para dimensionar los apoyos"
+      "Información para el cálculo de cruzamientos"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Los datos de parcelas, límites de provincia y términos municipales son necesarios para la gestión de servidumbres y la tramitación administrativa del proyecto."
   },
   {
     "question": "¿Qué tipo de línea eléctrica NO requiere presentar la declaración responsable para su ejecución?",
     "answers": [
+      "Líneas de conexión de parques eólicos",
       "Líneas que no son propiedad de empresas de transporte y distribución",
       "Líneas propiedad de las empresas de transporte y distribución",
-      "Líneas industriales de terceros categoría LAT1",
-      "Líneas de conexión de parques eólicos"
+      "Líneas industriales de terceros categoría LAT1"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Para las líneas propiedad de empresas de transporte y distribución no se precisa presentar la declaración responsable."
   },
   {
     "question": "¿Cuántos defectos graves como mínimo son necesarios para que una línea obtenga calificación 'Condicionada'?",
-    "answers": ["Ninguno, basta con defectos leves acumulados", "Al menos uno", "Al menos dos", "Al menos tres"],
+    "answers": [
+      "Ninguno, basta con defectos leves acumulados",
+      "Al menos uno",
+      "Al menos dos",
+      "Al menos tres"
+    ],
     "correct": 1,
     "explanation": "La calificación condicionada se produce cuando existe al menos un defecto grave en la inspección."
   },
   {
     "question": "¿Cuántos defectos muy graves son necesarios para que una línea obtenga calificación 'Negativa'?",
-    "answers": ["Al menos uno", "Al menos dos", "Al menos tres", "Depende del tipo de línea"],
-    "correct": 0,
+    "answers": [
+      "Al menos dos",
+      "Al menos tres",
+      "Depende del tipo de línea",
+      "Al menos uno"
+    ],
+    "correct": 3,
     "explanation": "La calificación negativa se produce cuando existe al menos un defecto muy grave."
   },
   {
     "question": "¿Qué ocurre con una línea NUEVA que obtiene calificación 'Condicionada'?",
-    "answers": ["Se pone en marcha con un plan de corrección de 6 meses", "No se pone en marcha hasta la corrección de los defectos graves", "Se le otorga un plazo de 3 meses para corregir", "Se emite inmediatamente certificado de calificación negativa"],
-    "correct": 1,
+    "answers": [
+      "No se pone en marcha hasta la corrección de los defectos graves",
+      "Se le otorga un plazo de 3 meses para corregir",
+      "Se emite inmediatamente certificado de calificación negativa",
+      "Se pone en marcha con un plan de corrección de 6 meses"
+    ],
+    "correct": 0,
     "explanation": "Si la línea es nueva y obtiene calificación condicionada, no se pone en marcha hasta que se corrijan los defectos graves."
   },
   {
-    "question": "¿Qué ocurre con una línea EXISTENTE que obtiene calificación 'Condicionada'?",
-    "answers": ["Se interrumpe el servicio inmediatamente", "Tiene un plazo de 6 meses para corregir los defectos; si no, se emite calificación negativa", "Tiene un plazo de 3 meses para corregir los defectos", "Sigue operando sin restricciones mientras se corrigen los defectos"],
-    "correct": 1,
-    "explanation": "Una línea existente con calificación condicionada tiene un plazo de 6 meses para corregir los defectos; si pasa ese tiempo sin corrección, se emite certificado de calificación negativa."
-  },
-  {
     "question": "¿Qué ocurre con una línea NUEVA que obtiene calificación 'Negativa'?",
-    "answers": ["Se pone en marcha provisionalmente bajo supervisión", "No se pone en marcha hasta la corrección del defecto muy grave", "Tiene 6 meses para corregir los defectos muy graves", "Se comunica a la Administración y se espera resolución"],
-    "correct": 1,
+    "answers": [
+      "No se pone en marcha hasta la corrección del defecto muy grave",
+      "Tiene 6 meses para corregir los defectos muy graves",
+      "Se comunica a la Administración y se espera resolución",
+      "Se pone en marcha provisionalmente bajo supervisión"
+    ],
+    "correct": 0,
     "explanation": "Si la línea es nueva y obtiene calificación negativa, no se pone en marcha hasta la corrección del defecto muy grave."
   },
   {
     "question": "¿Qué ocurre con una línea EXISTENTE que obtiene calificación 'Negativa'?",
-    "answers": ["Tiene 6 meses para corregir los defectos muy graves", "Tiene 3 meses para corregir los defectos muy graves", "Se emite directamente certificado de calificación negativa", "Sigue en servicio mientras se tramita la corrección"],
-    "correct": 2,
+    "answers": [
+      "Sigue en servicio mientras se tramita la corrección",
+      "Tiene 6 meses para corregir los defectos muy graves",
+      "Tiene 3 meses para corregir los defectos muy graves",
+      "Se emite directamente certificado de calificación negativa"
+    ],
+    "correct": 3,
     "explanation": "Para una línea existente con calificación negativa, se emite directamente el certificado de calificación negativa, sin plazo de corrección previo."
   },
   {
     "question": "¿Qué condición define una calificación 'Favorable'?",
-    "answers": ["Ningún defecto de ningún tipo", "Ningún defecto grave o muy grave; los leves se anotan para constancia del titular", "Solo defectos leves sin reincidencia", "Ningún defecto muy grave, independientemente de los graves"],
-    "correct": 1,
+    "answers": [
+      "Ningún defecto grave o muy grave; los leves se anotan para constancia del titular",
+      "Solo defectos leves sin reincidencia",
+      "Ningún defecto muy grave, independientemente de los graves",
+      "Ningún defecto de ningún tipo"
+    ],
+    "correct": 0,
     "explanation": "La calificación favorable requiere que no exista ningún defecto grave o muy grave. Los defectos leves se anotan para constancia del titular."
   },
   {
     "question": "¿Qué sucede con los defectos leves detectados en una inspección con calificación 'Favorable'?",
-    "answers": ["Se ignoran por no tener importancia", "Se anotan para constancia del titular pero no afectan a la calificación", "Deben corregirse en el plazo de 1 mes", "Generan automáticamente calificación condicionada"],
-    "correct": 1,
+    "answers": [
+      "Se anotan para constancia del titular pero no afectan a la calificación",
+      "Deben corregirse en el plazo de 1 mes",
+      "Generan automáticamente calificación condicionada",
+      "Se ignoran por no tener importancia"
+    ],
+    "correct": 0,
     "explanation": "En una calificación favorable, los defectos leves se anotan para constancia del titular pero no impiden la calificación favorable."
   },
   {
     "question": "¿Cuál de las siguientes situaciones puede producir directamente una calificación 'Condicionada' sin que existan defectos graves nuevos?",
-    "answers": ["La presencia de un único defecto leve nuevo", "Un defecto leve de la inspección anterior no corregido", "La falta de documentación actualizada", "La presencia de 5 o más defectos leves distintos"],
-    "correct": 1,
+    "answers": [
+      "La presencia de 5 o más defectos leves distintos",
+      "La presencia de un único defecto leve nuevo",
+      "Un defecto leve de la inspección anterior no corregido",
+      "La falta de documentación actualizada"
+    ],
+    "correct": 2,
     "explanation": "Un defecto leve de la inspección anterior no corregido puede ser causa de calificación condicionada en la siguiente inspección."
   },
   {
     "question": "¿Cómo se clasifica el incumplimiento de las distancias de seguridad?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "No está catalogado como defecto"],
+    "answers": [
+      "Defecto leve",
+      "Defecto grave",
+      "Defecto muy grave",
+      "No está catalogado como defecto"
+    ],
     "correct": 2,
     "explanation": "El incumplimiento de distancias de seguridad constituye un defecto muy grave por representar un peligro inminente para la seguridad de las personas, bienes o medio ambiente."
   },
   {
     "question": "¿Cómo se clasifica el incumplimiento de distancias de cruzamientos y paralelismos?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del tipo de cruzamiento"],
-    "correct": 2,
+    "answers": [
+      "Defecto muy grave",
+      "Depende del tipo de cruzamiento",
+      "Defecto leve",
+      "Defecto grave"
+    ],
+    "correct": 0,
     "explanation": "El incumplimiento de las distancias de cruzamientos y paralelismos se clasifica como defecto muy grave."
   },
   {
     "question": "¿Cómo se clasifica la falta de continuidad del circuito a tierra?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de si la línea está en servicio"],
-    "correct": 2,
+    "answers": [
+      "Depende de si la línea está en servicio",
+      "Defecto leve",
+      "Defecto grave",
+      "Defecto muy grave"
+    ],
+    "correct": 3,
     "explanation": "La falta de continuidad del circuito a tierra es un defecto muy grave, ya que constituye un peligro inminente para la seguridad."
   },
   {
     "question": "¿Cómo se clasifican las tensiones de contacto superiores a los valores reglamentarios?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del valor de la sobretensión"],
+    "answers": [
+      "Defecto leve",
+      "Defecto grave",
+      "Defecto muy grave",
+      "Depende del valor de la sobretensión"
+    ],
     "correct": 2,
     "explanation": "Las tensiones de contacto superiores a los valores admisibles constituyen un defecto muy grave por el peligro inminente que representan para las personas."
   },
   {
     "question": "¿Cómo se clasifica el tendido de la línea en zonas de protección sin las medidas adecuadas?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "No está catalogado como defecto independiente"],
-    "correct": 2,
+    "answers": [
+      "Defecto grave",
+      "Defecto muy grave",
+      "No está catalogado como defecto independiente",
+      "Defecto leve"
+    ],
+    "correct": 1,
     "explanation": "El tendido en zonas de protección (sin cumplir las prescripciones correspondientes) y el tendido peligroso se clasifican como defectos muy graves."
   },
   {
     "question": "¿Cuál es la característica definitoria de un defecto 'Muy grave'?",
-    "answers": ["Que cause pérdidas económicas significativas", "Que constituya un peligro inminente para la seguridad de las personas, bienes o medio ambiente", "Que afecte a más del 50% de la longitud de la línea", "Que implique el incumplimiento de más de 3 prescripciones técnicas"],
-    "correct": 1,
+    "answers": [
+      "Que constituya un peligro inminente para la seguridad de las personas, bienes o medio ambiente",
+      "Que afecte a más del 50% de la longitud de la línea",
+      "Que implique el incumplimiento de más de 3 prescripciones técnicas",
+      "Que cause pérdidas económicas significativas"
+    ],
+    "correct": 0,
     "explanation": "Un defecto muy grave es aquel que constituye un peligro inminente para la seguridad de las personas, bienes o medio ambiente."
   },
   {
     "question": "¿Cuál es la característica definitoria de un defecto 'Grave'?",
-    "answers": ["Que suponga un peligro inminente para las personas", "Que no constituya peligro inminente pero pueda originarse por un fallo, o que reduzca la capacidad de utilización", "Que no perturbe el funcionamiento de la línea", "Que sea fácilmente corregible en menos de 1 mes"],
-    "correct": 1,
+    "answers": [
+      "Que no perturbe el funcionamiento de la línea",
+      "Que sea fácilmente corregible en menos de 1 mes",
+      "Que suponga un peligro inminente para las personas",
+      "Que no constituya peligro inminente pero pueda originarse por un fallo, o que reduzca la capacidad de utilización"
+    ],
+    "correct": 3,
     "explanation": "Un defecto grave no constituye un peligro inminente, pero puede ser originado por un fallo. Además, incluye defectos que puedan reducir la capacidad de utilización de la línea."
   },
   {
     "question": "¿Cuál es la característica definitoria de un defecto 'Leve'?",
-    "answers": ["Que pueda ser corregido sin interrumpir el servicio", "Que no suponga peligro para personas, bienes o medio ambiente, no perturbe el funcionamiento y la desviación reglamentaria no tenga valor significativo", "Que afecte solo a elementos secundarios de la instalación", "Que pueda convertirse en grave si no se corrige en 6 meses"],
+    "answers": [
+      "Que pueda ser corregido sin interrumpir el servicio",
+      "Que no suponga peligro para personas, bienes o medio ambiente, no perturbe el funcionamiento y la desviación reglamentaria no tenga valor significativo",
+      "Que afecte solo a elementos secundarios de la instalación",
+      "Que pueda convertirse en grave si no se corrige en 6 meses"
+    ],
     "correct": 1,
     "explanation": "Un defecto leve no supone un peligro para las personas, bienes o medio ambiente, no perturba el funcionamiento de la línea y la desviación con el reglamento no tiene valor significativo para el uso o funcionamiento."
   },
   {
     "question": "¿Cómo se clasifican los defectos en las conexiones equipotenciales?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de la tensión de la línea"],
+    "answers": [
+      "Defecto leve",
+      "Defecto grave",
+      "Defecto muy grave",
+      "Depende de la tensión de la línea"
+    ],
     "correct": 1,
     "explanation": "Los defectos en las conexiones equipotenciales se clasifican como defectos graves."
   },
   {
     "question": "¿Cómo se clasifica la degradación del aislamiento?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del nivel de degradación"],
-    "correct": 1,
+    "answers": [
+      "Defecto grave",
+      "Defecto muy grave",
+      "Depende del nivel de degradación",
+      "Defecto leve"
+    ],
+    "correct": 0,
     "explanation": "La degradación del aislamiento se clasifica como defecto grave, ya que no constituye peligro inminente pero puede originar un fallo."
   },
   {
     "question": "¿Cómo se clasifica la falta de protección contra cortocircuitos y sobrecargas?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "No está catalogado como defecto"],
-    "correct": 1,
+    "answers": [
+      "Defecto muy grave",
+      "No está catalogado como defecto",
+      "Defecto leve",
+      "Defecto grave"
+    ],
+    "correct": 3,
     "explanation": "La falta de protección contra cortocircuitos y sobrecargas se clasifica como defecto grave."
   },
   {
     "question": "¿Cómo se clasifican los defectos en la conexión de los conductores a las masas?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de si hay riesgo de contacto directo"],
-    "correct": 1,
+    "answers": [
+      "Defecto grave",
+      "Defecto muy grave",
+      "Depende de si hay riesgo de contacto directo",
+      "Defecto leve"
+    ],
+    "correct": 0,
     "explanation": "Los defectos en la conexión de los conductores a las masas se clasifican como defectos graves."
   },
   {
     "question": "¿Cómo se clasifica una sección de cable inadecuada?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del porcentaje de reducción de sección"],
+    "answers": [
+      "Defecto leve",
+      "Defecto grave",
+      "Defecto muy grave",
+      "Depende del porcentaje de reducción de sección"
+    ],
     "correct": 1,
     "explanation": "La sección de cables inadecuada se clasifica como defecto grave, al poder reducir la capacidad de utilización de la línea."
   },
   {
     "question": "¿Cómo se clasifican los puntos de defectuosa ejecución cuyo mantenimiento pueda originar peligro?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del tipo de mantenimiento necesario"],
-    "correct": 1,
+    "answers": [
+      "Depende del tipo de mantenimiento necesario",
+      "Defecto leve",
+      "Defecto grave",
+      "Defecto muy grave"
+    ],
+    "correct": 2,
     "explanation": "Los puntos de defectuosa ejecución o cuyo mantenimiento pueda originar peligro se clasifican como defectos graves."
   },
   {
     "question": "¿Cómo se clasifican las características inadecuadas de los conductores?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de si la línea sigue funcionando"],
-    "correct": 1,
+    "answers": [
+      "Defecto muy grave",
+      "Depende de si la línea sigue funcionando",
+      "Defecto leve",
+      "Defecto grave"
+    ],
+    "correct": 3,
     "explanation": "Las características inadecuadas de los conductores se clasifican como defectos graves."
   },
   {
     "question": "¿Cómo se clasifican el uso de equipos y materiales no conformes con las especificaciones reglamentarias?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del tipo de material"],
-    "correct": 1,
+    "answers": [
+      "Defecto grave",
+      "Defecto muy grave",
+      "Depende del tipo de material",
+      "Defecto leve"
+    ],
+    "correct": 0,
     "explanation": "El uso de equipos y materiales no conformes con las especificaciones se clasifica como defecto grave."
   },
   {
     "question": "¿Cómo se clasifican las ampliaciones o modificaciones de la línea no tramitadas ante la Administración?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "No está catalogado como defecto técnico"],
+    "answers": [
+      "Defecto leve",
+      "Defecto grave",
+      "Defecto muy grave",
+      "No está catalogado como defecto técnico"
+    ],
     "correct": 1,
     "explanation": "Las ampliaciones o verificaciones no tramitadas ante la Administración se clasifican como defectos graves."
   },
   {
     "question": "¿Cómo se clasifica la no coincidencia entre las condiciones reales de la línea y las condiciones de cálculo del proyecto?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del grado de discrepancia"],
-    "correct": 1,
+    "answers": [
+      "Defecto grave",
+      "Defecto muy grave",
+      "Depende del grado de discrepancia",
+      "Defecto leve"
+    ],
+    "correct": 0,
     "explanation": "La no coincidencia entre condiciones reales y calculadas se clasifica como defecto grave."
   },
   {
     "question": "¿Qué sucede cuando se produce una 'acumulación o reincidencia de defectos leves'?",
-    "answers": ["Se mantiene la calificación como defectos leves", "Pasa a clasificarse como defecto grave", "Genera directamente calificación negativa", "Se notifica al titular sin cambiar la clasificación"],
-    "correct": 1,
+    "answers": [
+      "Genera directamente calificación negativa",
+      "Se notifica al titular sin cambiar la clasificación",
+      "Se mantiene la calificación como defectos leves",
+      "Pasa a clasificarse como defecto grave"
+    ],
+    "correct": 3,
     "explanation": "La acumulación o reincidencia de defectos leves se clasifica como defecto grave."
   },
   {
     "question": "¿Cuál de los siguientes es un ejemplo de defecto 'Muy grave' relacionado con el estado de los elementos?",
-    "answers": ["Degradación del aislamiento", "Sección de cable inadecuada", "Incumplimiento de prescripciones técnicas con elementos en mal estado", "Características inadecuadas de los conductores"],
-    "correct": 2,
+    "answers": [
+      "Sección de cable inadecuada",
+      "Incumplimiento de prescripciones técnicas con elementos en mal estado",
+      "Características inadecuadas de los conductores",
+      "Degradación del aislamiento"
+    ],
+    "correct": 1,
     "explanation": "El incumplimiento de las prescripciones técnicas con elementos en mal estado se clasifica como defecto muy grave, constituyendo un peligro inminente."
   },
   {
     "question": "¿Puede una línea existente seguir en servicio tras obtener una calificación 'Condicionada'?",
-    "answers": ["No, debe detenerse inmediatamente", "Sí, durante un plazo máximo de 6 meses para corregir los defectos", "Sí, indefinidamente mientras se planifica la corrección", "Sí, durante un plazo máximo de 3 meses"],
-    "correct": 1,
+    "answers": [
+      "Sí, indefinidamente mientras se planifica la corrección",
+      "Sí, durante un plazo máximo de 3 meses",
+      "No, debe detenerse inmediatamente",
+      "Sí, durante un plazo máximo de 6 meses para corregir los defectos"
+    ],
+    "correct": 3,
     "explanation": "Una línea existente con calificación condicionada puede seguir en servicio durante un plazo máximo de 6 meses para corregir los defectos graves."
   },
   {
     "question": "Si una línea existente con calificación 'Condicionada' no corrige sus defectos en el plazo establecido, ¿qué calificación recibe?",
-    "answers": ["Se mantiene como condicionada con nuevo plazo", "Pasa automáticamente a calificación negativa", "Se emite una sanción económica pero mantiene la calificación condicionada", "La Administración decide caso a caso"],
+    "answers": [
+      "Se mantiene como condicionada con nuevo plazo",
+      "Pasa automáticamente a calificación negativa",
+      "Se emite una sanción económica pero mantiene la calificación condicionada",
+      "La Administración decide caso a caso"
+    ],
     "correct": 1,
     "explanation": "Si transcurren los 6 meses sin corregir los defectos graves, la línea pasa a tener certificado de calificación negativa."
   },
   {
     "question": "¿Cuántas calificaciones posibles tiene una línea tras una inspección según la ITC-05?",
-    "answers": ["2: favorable o desfavorable", "3: favorable, condicionada o negativa", "4: excelente, favorable, condicionada o negativa", "5: muy favorable, favorable, aceptable, condicionada o negativa"],
-    "correct": 1,
+    "answers": [
+      "3: favorable, condicionada o negativa",
+      "4: excelente, favorable, condicionada o negativa",
+      "5: muy favorable, favorable, aceptable, condicionada o negativa",
+      "2: favorable o desfavorable"
+    ],
+    "correct": 0,
     "explanation": "La ITC-05 establece tres calificaciones posibles: Favorable, Condicionada y Negativa."
   },
   {
     "question": "¿Qué tipo de defecto es el tendido peligroso de la línea?",
-    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de las circunstancias del entorno"],
-    "correct": 2,
+    "answers": [
+      "Defecto muy grave",
+      "Depende de las circunstancias del entorno",
+      "Defecto leve",
+      "Defecto grave"
+    ],
+    "correct": 0,
     "explanation": "El tendido peligroso se clasifica expresamente como defecto muy grave, al constituir un peligro inminente para la seguridad de las personas o bienes."
   },
   {
     "question": "¿Cuál es la diferencia fundamental entre un defecto 'grave' y uno 'muy grave' según la normativa?",
-    "answers": ["El muy grave afecta a conductores activos; el grave solo a elementos de protección", "El muy grave constituye peligro INMINENTE; el grave no constituye peligro inminente pero puede originarlo por un fallo", "El muy grave requiere parada inmediata en todos los casos; el grave solo en líneas nuevas", "El muy grave implica incumplimiento total; el grave incumplimiento parcial"],
+    "answers": [
+      "El muy grave afecta a conductores activos; el grave solo a elementos de protección",
+      "El muy grave constituye peligro INMINENTE; el grave no constituye peligro inminente pero puede originarlo por un fallo",
+      "El muy grave requiere parada inmediata en todos los casos; el grave solo en líneas nuevas",
+      "El muy grave implica incumplimiento total; el grave incumplimiento parcial"
+    ],
     "correct": 1,
     "explanation": "La distinción clave es la inmediatez del peligro: el defecto muy grave constituye un peligro inminente, mientras que el grave no es inminente pero puede originar un peligro si se produce un fallo."
   },
   {
     "question": "¿Qué documento se emite como resultado de una inspección periódica o inicial con indicación de la calificación obtenida?",
-    "answers": ["Acta de verificación", "Certificado de inspección", "Informe de mantenimiento", "Acta de puesta en servicio"],
-    "correct": 1,
+    "answers": [
+      "Acta de puesta en servicio",
+      "Acta de verificación",
+      "Certificado de inspección",
+      "Informe de mantenimiento"
+    ],
+    "correct": 2,
     "explanation": "Tanto para la inspección inicial como para la periódica, se concede un certificado de inspección que incluye, entre otros, la clasificación de la línea."
   },
   {
     "question": "¿Qué información incluye el certificado de inspección sobre los defectos detectados?",
-    "answers": ["Solo la relación de defectos sin clasificar", "Relación de defectos y su clasificación (leve, grave, muy grave)", "Solo el número total de defectos por categoría", "Solo los defectos graves y muy graves, omitiendo los leves"],
-    "correct": 1,
+    "answers": [
+      "Solo los defectos graves y muy graves, omitiendo los leves",
+      "Solo la relación de defectos sin clasificar",
+      "Relación de defectos y su clasificación (leve, grave, muy grave)",
+      "Solo el número total de defectos por categoría"
+    ],
+    "correct": 2,
     "explanation": "El certificado de inspección incluye la relación de defectos y su clasificación (leve, grave, muy grave), además de la clasificación final de la línea."
   },
   {
     "question": "Además de la relación y clasificación de defectos, ¿qué otro contenido específico tiene el certificado de inspección?",
-    "answers": ["Presupuesto de corrección de defectos", "Registro de operaciones de mantenimiento realizadas", "Plano actualizado de la instalación", "Lista de materiales no conformes"],
-    "correct": 1,
+    "answers": [
+      "Lista de materiales no conformes",
+      "Presupuesto de corrección de defectos",
+      "Registro de operaciones de mantenimiento realizadas",
+      "Plano actualizado de la instalación"
+    ],
+    "correct": 2,
     "explanation": "El certificado de inspección incluye también el registro de operaciones de mantenimiento realizadas en la línea."
   },
   {
     "question": "¿Cuál de los siguientes defectos se clasifica como 'Muy grave' por afectar directamente a la seguridad eléctrica activa de la instalación?",
-    "answers": ["Sección de cables inadecuada", "Degradación del aislamiento", "Continuidad del circuito a tierra interrumpida", "Conexiones equipotenciales defectuosas"],
-    "correct": 2,
+    "answers": [
+      "Continuidad del circuito a tierra interrumpida",
+      "Conexiones equipotenciales defectuosas",
+      "Sección de cables inadecuada",
+      "Degradación del aislamiento"
+    ],
+    "correct": 0,
     "explanation": "La falta de continuidad del circuito a tierra se clasifica como defecto muy grave al representar un peligro inminente para las personas."
   },
   {
     "question": "¿Cuál de los siguientes defectos NO se incluye expresamente en la categoría de defectos 'Muy graves' según la ITC-05?",
-    "answers": ["Distancias de seguridad incumplidas", "Degradación del aislamiento", "Continuidad del circuito a tierra interrumpida", "Tendido peligroso"],
-    "correct": 1,
+    "answers": [
+      "Continuidad del circuito a tierra interrumpida",
+      "Tendido peligroso",
+      "Distancias de seguridad incumplidas",
+      "Degradación del aislamiento"
+    ],
+    "correct": 3,
     "explanation": "La degradación del aislamiento se clasifica como defecto grave, no muy grave. Los defectos muy graves son: distancias de seguridad, cruzamientos y paralelismos, continuidad del circuito a tierra, tensiones de contacto superiores, incumplimiento de prescripciones con elementos en mal estado, tendido en zonas de protección y tendido peligroso."
   },
   {
     "question": "¿Cuál de los siguientes defectos NO se incluye expresamente en la categoría de defectos 'Graves' según la ITC-05?",
-    "answers": ["Conexiones equipotenciales defectuosas", "Distancias de cruzamientos y paralelismos incumplidas", "Sección de cables inadecuada", "Características inadecuadas de los conductores"],
-    "correct": 1,
+    "answers": [
+      "Sección de cables inadecuada",
+      "Características inadecuadas de los conductores",
+      "Conexiones equipotenciales defectuosas",
+      "Distancias de cruzamientos y paralelismos incumplidas"
+    ],
+    "correct": 3,
     "explanation": "El incumplimiento de distancias de cruzamientos y paralelismos es un defecto MUY GRAVE, no grave. Los defectos graves incluyen los otros tres ejemplos citados."
   },
   {
     "question": "¿Puede una línea nueva con calificación 'Negativa' ponerse en marcha bajo supervisión especial de la OCA?",
-    "answers": ["Sí, si la OCA lo autoriza expresamente", "Sí, de forma provisional por un plazo máximo de 30 días", "No, no se pone en marcha hasta la corrección del defecto muy grave", "Sí, si el titular asume por escrito la responsabilidad"],
-    "correct": 2,
+    "answers": [
+      "Sí, de forma provisional por un plazo máximo de 30 días",
+      "No, no se pone en marcha hasta la corrección del defecto muy grave",
+      "Sí, si el titular asume por escrito la responsabilidad",
+      "Sí, si la OCA lo autoriza expresamente"
+    ],
+    "correct": 1,
     "explanation": "Una línea nueva con calificación negativa no puede ponerse en marcha bajo ninguna circunstancia hasta que se corrija el defecto muy grave."
   },
   {
     "question": "El defecto consistente en que un punto de la instalación presente 'defectuosa ejecución cuyo mantenimiento pueda originar peligro', ¿cómo se clasifica?",
-    "answers": ["Muy grave, porque el peligro es inminente durante el mantenimiento", "Grave, porque no constituye peligro inminente pero puede originarse durante el mantenimiento", "Leve, si la línea sigue funcionando correctamente", "Depende de si el mantenimiento es inmediato o diferido"],
+    "answers": [
+      "Muy grave, porque el peligro es inminente durante el mantenimiento",
+      "Grave, porque no constituye peligro inminente pero puede originarse durante el mantenimiento",
+      "Leve, si la línea sigue funcionando correctamente",
+      "Depende de si el mantenimiento es inmediato o diferido"
+    ],
     "correct": 1,
     "explanation": "Los puntos de defectuosa ejecución cuyo mantenimiento pueda originar peligro se clasifican como graves: no hay peligro inminente en operación normal, pero puede originarse durante el mantenimiento."
   },
   {
     "question": "Según la ITC-05, ¿quién puede efectuar inspecciones sistemáticas mediante control por muestreo estadístico en líneas de empresas de transporte?",
-    "answers": ["Solo la OCA designada", "La Administración", "El titular de la línea", "El técnico competente redactor del proyecto"],
+    "answers": [
+      "Solo la OCA designada",
+      "La Administración",
+      "El titular de la línea",
+      "El técnico competente redactor del proyecto"
+    ],
     "correct": 1,
     "explanation": "La Administración podrá efectuar inspecciones sistemáticas mediante control por muestreo estadístico en líneas de empresas de transporte."
   },
   {
     "question": "¿Qué calificación recibe una línea en la que se detectan únicamente defectos leves, sin ningún defecto grave ni muy grave?",
-    "answers": ["Condicionada", "Negativa", "Favorable", "Aceptable"],
-    "correct": 2,
+    "answers": [
+      "Negativa",
+      "Favorable",
+      "Aceptable",
+      "Condicionada"
+    ],
+    "correct": 1,
     "explanation": "Una línea sin defectos graves ni muy graves obtiene calificación favorable; los defectos leves se anotan para constancia del titular."
   },
   {
     "question": "Si en una inspección se detecta UN defecto grave y TRES defectos leves, ¿cuál es la calificación resultante?",
-    "answers": ["Favorable, porque los leves no cuentan", "Condicionada, por el defecto grave", "Negativa, por la acumulación de defectos", "Condicionada, pero solo si los leves son reincidentes"],
+    "answers": [
+      "Favorable, porque los leves no cuentan",
+      "Condicionada, por el defecto grave",
+      "Negativa, por la acumulación de defectos",
+      "Condicionada, pero solo si los leves son reincidentes"
+    ],
     "correct": 1,
     "explanation": "La presencia de al menos un defecto grave determina la calificación condicionada, independientemente del número de defectos leves."
   },
   {
     "question": "Si en una inspección periódica se detecta un defecto leve que ya estaba presente en la inspección anterior sin haberse corregido, ¿cómo se clasifica ahora?",
-    "answers": ["Sigue siendo leve, ya que no ha empeorado", "Pasa a clasificarse como grave por reincidencia", "Se clasifica como muy grave por persistencia", "No cambia de clasificación, pero se notifica a la Administración"],
-    "correct": 1,
+    "answers": [
+      "No cambia de clasificación, pero se notifica a la Administración",
+      "Sigue siendo leve, ya que no ha empeorado",
+      "Pasa a clasificarse como grave por reincidencia",
+      "Se clasifica como muy grave por persistencia"
+    ],
+    "correct": 2,
     "explanation": "La reincidencia de un defecto leve (no corregido desde la inspección anterior) eleva su clasificación a defecto grave."
   },
   {
     "question": "¿Cuál de los siguientes escenarios genera directamente calificación 'Condicionada' aunque no haya defectos graves nuevos?",
-    "answers": ["Presencia de 10 defectos leves distintos sin reincidencia", "Un defecto leve de la inspección anterior que no fue corregido", "La falta del registro de operaciones de mantenimiento", "La presencia de un defecto en un elemento no principal de la línea"],
-    "correct": 1,
+    "answers": [
+      "La falta del registro de operaciones de mantenimiento",
+      "La presencia de un defecto en un elemento no principal de la línea",
+      "Presencia de 10 defectos leves distintos sin reincidencia",
+      "Un defecto leve de la inspección anterior que no fue corregido"
+    ],
+    "correct": 3,
     "explanation": "Un defecto leve de la inspección anterior no corregido es causa expresa de calificación condicionada en la siguiente inspección."
   },
   {
     "question": "¿Qué elemento debe contener el certificado de inspección que NO forma parte del acta de verificación del titular?",
-    "answers": ["Datos identificativos de la línea", "Relación de defectos encontrados", "Clasificación de la línea (calificación)", "Planes de corrección"],
-    "correct": 2,
+    "answers": [
+      "Clasificación de la línea (calificación)",
+      "Planes de corrección",
+      "Datos identificativos de la línea",
+      "Relación de defectos encontrados"
+    ],
+    "correct": 0,
     "explanation": "El certificado de inspección incluye la clasificación de la línea (calificación favorable, condicionada o negativa), elemento que no aparece en el acta de verificación realizada por el titular."
   },
   {
     "question": "¿Cuál es la consecuencia inmediata de la emisión de un 'certificado de calificación negativa' para una línea existente?",
-    "answers": ["La línea tiene 6 meses para corregir los defectos", "La Administración puede ordenar la interrupción del servicio", "El titular debe corregir los defectos muy graves con carácter urgente", "La OCA debe realizar una nueva inspección en 30 días"],
-    "correct": 2,
+    "answers": [
+      "El titular debe corregir los defectos muy graves con carácter urgente",
+      "La OCA debe realizar una nueva inspección en 30 días",
+      "La línea tiene 6 meses para corregir los defectos",
+      "La Administración puede ordenar la interrupción del servicio"
+    ],
+    "correct": 0,
     "explanation": "La emisión del certificado de calificación negativa para una línea existente implica que el titular debe corregir los defectos muy graves que motivaron dicha calificación."
   },
   {
     "question": "¿Pueden coexistir en la misma inspección defectos 'muy graves' y 'graves' sin que ello cambie la calificación final?",
-    "answers": ["Sí, ambos generan calificación condicionada", "No, la presencia de al menos un defecto muy grave determina siempre calificación negativa", "Sí, si el número de defectos graves es superior al de muy graves", "No, cualquier defecto genera calificación negativa"],
+    "answers": [
+      "Sí, ambos generan calificación condicionada",
+      "No, la presencia de al menos un defecto muy grave determina siempre calificación negativa",
+      "Sí, si el número de defectos graves es superior al de muy graves",
+      "No, cualquier defecto genera calificación negativa"
+    ],
     "correct": 1,
     "explanation": "La presencia de al menos un defecto muy grave determina siempre calificación negativa, independientemente de los defectos graves o leves presentes."
   },
   {
     "question": "¿Cuál es el plazo establecido para que una línea existente con calificación 'Condicionada' corrija sus defectos antes de recibir calificación negativa?",
-    "answers": ["1 mes", "3 meses", "6 meses", "12 meses"],
-    "correct": 2,
+    "answers": [
+      "12 meses",
+      "1 mes",
+      "3 meses",
+      "6 meses"
+    ],
+    "correct": 3,
     "explanation": "El plazo establecido es de 6 meses; si transcurre sin que se corrijan los defectos graves, se emite el certificado de calificación negativa."
   }
 ];
