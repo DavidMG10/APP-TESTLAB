@@ -2074,5 +2074,311 @@ var questionBank = [
     ],
     "correct": 1,
     "explanation": "Para las líneas propiedad de empresas de transporte y distribución no se precisa presentar la declaración responsable."
+  },
+  {
+    "question": "¿Cuántos defectos graves como mínimo son necesarios para que una línea obtenga calificación 'Condicionada'?",
+    "answers": ["Ninguno, basta con defectos leves acumulados", "Al menos uno", "Al menos dos", "Al menos tres"],
+    "correct": 1,
+    "explanation": "La calificación condicionada se produce cuando existe al menos un defecto grave en la inspección."
+  },
+  {
+    "question": "¿Cuántos defectos muy graves son necesarios para que una línea obtenga calificación 'Negativa'?",
+    "answers": ["Al menos uno", "Al menos dos", "Al menos tres", "Depende del tipo de línea"],
+    "correct": 0,
+    "explanation": "La calificación negativa se produce cuando existe al menos un defecto muy grave."
+  },
+  {
+    "question": "¿Qué ocurre con una línea NUEVA que obtiene calificación 'Condicionada'?",
+    "answers": ["Se pone en marcha con un plan de corrección de 6 meses", "No se pone en marcha hasta la corrección de los defectos graves", "Se le otorga un plazo de 3 meses para corregir", "Se emite inmediatamente certificado de calificación negativa"],
+    "correct": 1,
+    "explanation": "Si la línea es nueva y obtiene calificación condicionada, no se pone en marcha hasta que se corrijan los defectos graves."
+  },
+  {
+    "question": "¿Qué ocurre con una línea EXISTENTE que obtiene calificación 'Condicionada'?",
+    "answers": ["Se interrumpe el servicio inmediatamente", "Tiene un plazo de 6 meses para corregir los defectos; si no, se emite calificación negativa", "Tiene un plazo de 3 meses para corregir los defectos", "Sigue operando sin restricciones mientras se corrigen los defectos"],
+    "correct": 1,
+    "explanation": "Una línea existente con calificación condicionada tiene un plazo de 6 meses para corregir los defectos; si pasa ese tiempo sin corrección, se emite certificado de calificación negativa."
+  },
+  {
+    "question": "¿Qué ocurre con una línea NUEVA que obtiene calificación 'Negativa'?",
+    "answers": ["Se pone en marcha provisionalmente bajo supervisión", "No se pone en marcha hasta la corrección del defecto muy grave", "Tiene 6 meses para corregir los defectos muy graves", "Se comunica a la Administración y se espera resolución"],
+    "correct": 1,
+    "explanation": "Si la línea es nueva y obtiene calificación negativa, no se pone en marcha hasta la corrección del defecto muy grave."
+  },
+  {
+    "question": "¿Qué ocurre con una línea EXISTENTE que obtiene calificación 'Negativa'?",
+    "answers": ["Tiene 6 meses para corregir los defectos muy graves", "Tiene 3 meses para corregir los defectos muy graves", "Se emite directamente certificado de calificación negativa", "Sigue en servicio mientras se tramita la corrección"],
+    "correct": 2,
+    "explanation": "Para una línea existente con calificación negativa, se emite directamente el certificado de calificación negativa, sin plazo de corrección previo."
+  },
+  {
+    "question": "¿Qué condición define una calificación 'Favorable'?",
+    "answers": ["Ningún defecto de ningún tipo", "Ningún defecto grave o muy grave; los leves se anotan para constancia del titular", "Solo defectos leves sin reincidencia", "Ningún defecto muy grave, independientemente de los graves"],
+    "correct": 1,
+    "explanation": "La calificación favorable requiere que no exista ningún defecto grave o muy grave. Los defectos leves se anotan para constancia del titular."
+  },
+  {
+    "question": "¿Qué sucede con los defectos leves detectados en una inspección con calificación 'Favorable'?",
+    "answers": ["Se ignoran por no tener importancia", "Se anotan para constancia del titular pero no afectan a la calificación", "Deben corregirse en el plazo de 1 mes", "Generan automáticamente calificación condicionada"],
+    "correct": 1,
+    "explanation": "En una calificación favorable, los defectos leves se anotan para constancia del titular pero no impiden la calificación favorable."
+  },
+  {
+    "question": "¿Cuál de las siguientes situaciones puede producir directamente una calificación 'Condicionada' sin que existan defectos graves nuevos?",
+    "answers": ["La presencia de un único defecto leve nuevo", "Un defecto leve de la inspección anterior no corregido", "La falta de documentación actualizada", "La presencia de 5 o más defectos leves distintos"],
+    "correct": 1,
+    "explanation": "Un defecto leve de la inspección anterior no corregido puede ser causa de calificación condicionada en la siguiente inspección."
+  },
+  {
+    "question": "¿Cómo se clasifica el incumplimiento de las distancias de seguridad?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "No está catalogado como defecto"],
+    "correct": 2,
+    "explanation": "El incumplimiento de distancias de seguridad constituye un defecto muy grave por representar un peligro inminente para la seguridad de las personas, bienes o medio ambiente."
+  },
+  {
+    "question": "¿Cómo se clasifica el incumplimiento de distancias de cruzamientos y paralelismos?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del tipo de cruzamiento"],
+    "correct": 2,
+    "explanation": "El incumplimiento de las distancias de cruzamientos y paralelismos se clasifica como defecto muy grave."
+  },
+  {
+    "question": "¿Cómo se clasifica la falta de continuidad del circuito a tierra?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de si la línea está en servicio"],
+    "correct": 2,
+    "explanation": "La falta de continuidad del circuito a tierra es un defecto muy grave, ya que constituye un peligro inminente para la seguridad."
+  },
+  {
+    "question": "¿Cómo se clasifican las tensiones de contacto superiores a los valores reglamentarios?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del valor de la sobretensión"],
+    "correct": 2,
+    "explanation": "Las tensiones de contacto superiores a los valores admisibles constituyen un defecto muy grave por el peligro inminente que representan para las personas."
+  },
+  {
+    "question": "¿Cómo se clasifica el tendido de la línea en zonas de protección sin las medidas adecuadas?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "No está catalogado como defecto independiente"],
+    "correct": 2,
+    "explanation": "El tendido en zonas de protección (sin cumplir las prescripciones correspondientes) y el tendido peligroso se clasifican como defectos muy graves."
+  },
+  {
+    "question": "¿Cuál es la característica definitoria de un defecto 'Muy grave'?",
+    "answers": ["Que cause pérdidas económicas significativas", "Que constituya un peligro inminente para la seguridad de las personas, bienes o medio ambiente", "Que afecte a más del 50% de la longitud de la línea", "Que implique el incumplimiento de más de 3 prescripciones técnicas"],
+    "correct": 1,
+    "explanation": "Un defecto muy grave es aquel que constituye un peligro inminente para la seguridad de las personas, bienes o medio ambiente."
+  },
+  {
+    "question": "¿Cuál es la característica definitoria de un defecto 'Grave'?",
+    "answers": ["Que suponga un peligro inminente para las personas", "Que no constituya peligro inminente pero pueda originarse por un fallo, o que reduzca la capacidad de utilización", "Que no perturbe el funcionamiento de la línea", "Que sea fácilmente corregible en menos de 1 mes"],
+    "correct": 1,
+    "explanation": "Un defecto grave no constituye un peligro inminente, pero puede ser originado por un fallo. Además, incluye defectos que puedan reducir la capacidad de utilización de la línea."
+  },
+  {
+    "question": "¿Cuál es la característica definitoria de un defecto 'Leve'?",
+    "answers": ["Que pueda ser corregido sin interrumpir el servicio", "Que no suponga peligro para personas, bienes o medio ambiente, no perturbe el funcionamiento y la desviación reglamentaria no tenga valor significativo", "Que afecte solo a elementos secundarios de la instalación", "Que pueda convertirse en grave si no se corrige en 6 meses"],
+    "correct": 1,
+    "explanation": "Un defecto leve no supone un peligro para las personas, bienes o medio ambiente, no perturba el funcionamiento de la línea y la desviación con el reglamento no tiene valor significativo para el uso o funcionamiento."
+  },
+  {
+    "question": "¿Cómo se clasifican los defectos en las conexiones equipotenciales?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de la tensión de la línea"],
+    "correct": 1,
+    "explanation": "Los defectos en las conexiones equipotenciales se clasifican como defectos graves."
+  },
+  {
+    "question": "¿Cómo se clasifica la degradación del aislamiento?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del nivel de degradación"],
+    "correct": 1,
+    "explanation": "La degradación del aislamiento se clasifica como defecto grave, ya que no constituye peligro inminente pero puede originar un fallo."
+  },
+  {
+    "question": "¿Cómo se clasifica la falta de protección contra cortocircuitos y sobrecargas?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "No está catalogado como defecto"],
+    "correct": 1,
+    "explanation": "La falta de protección contra cortocircuitos y sobrecargas se clasifica como defecto grave."
+  },
+  {
+    "question": "¿Cómo se clasifican los defectos en la conexión de los conductores a las masas?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de si hay riesgo de contacto directo"],
+    "correct": 1,
+    "explanation": "Los defectos en la conexión de los conductores a las masas se clasifican como defectos graves."
+  },
+  {
+    "question": "¿Cómo se clasifica una sección de cable inadecuada?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del porcentaje de reducción de sección"],
+    "correct": 1,
+    "explanation": "La sección de cables inadecuada se clasifica como defecto grave, al poder reducir la capacidad de utilización de la línea."
+  },
+  {
+    "question": "¿Cómo se clasifican los puntos de defectuosa ejecución cuyo mantenimiento pueda originar peligro?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del tipo de mantenimiento necesario"],
+    "correct": 1,
+    "explanation": "Los puntos de defectuosa ejecución o cuyo mantenimiento pueda originar peligro se clasifican como defectos graves."
+  },
+  {
+    "question": "¿Cómo se clasifican las características inadecuadas de los conductores?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de si la línea sigue funcionando"],
+    "correct": 1,
+    "explanation": "Las características inadecuadas de los conductores se clasifican como defectos graves."
+  },
+  {
+    "question": "¿Cómo se clasifican el uso de equipos y materiales no conformes con las especificaciones reglamentarias?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del tipo de material"],
+    "correct": 1,
+    "explanation": "El uso de equipos y materiales no conformes con las especificaciones se clasifica como defecto grave."
+  },
+  {
+    "question": "¿Cómo se clasifican las ampliaciones o modificaciones de la línea no tramitadas ante la Administración?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "No está catalogado como defecto técnico"],
+    "correct": 1,
+    "explanation": "Las ampliaciones o verificaciones no tramitadas ante la Administración se clasifican como defectos graves."
+  },
+  {
+    "question": "¿Cómo se clasifica la no coincidencia entre las condiciones reales de la línea y las condiciones de cálculo del proyecto?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende del grado de discrepancia"],
+    "correct": 1,
+    "explanation": "La no coincidencia entre condiciones reales y calculadas se clasifica como defecto grave."
+  },
+  {
+    "question": "¿Qué sucede cuando se produce una 'acumulación o reincidencia de defectos leves'?",
+    "answers": ["Se mantiene la calificación como defectos leves", "Pasa a clasificarse como defecto grave", "Genera directamente calificación negativa", "Se notifica al titular sin cambiar la clasificación"],
+    "correct": 1,
+    "explanation": "La acumulación o reincidencia de defectos leves se clasifica como defecto grave."
+  },
+  {
+    "question": "¿Cuál de los siguientes es un ejemplo de defecto 'Muy grave' relacionado con el estado de los elementos?",
+    "answers": ["Degradación del aislamiento", "Sección de cable inadecuada", "Incumplimiento de prescripciones técnicas con elementos en mal estado", "Características inadecuadas de los conductores"],
+    "correct": 2,
+    "explanation": "El incumplimiento de las prescripciones técnicas con elementos en mal estado se clasifica como defecto muy grave, constituyendo un peligro inminente."
+  },
+  {
+    "question": "¿Puede una línea existente seguir en servicio tras obtener una calificación 'Condicionada'?",
+    "answers": ["No, debe detenerse inmediatamente", "Sí, durante un plazo máximo de 6 meses para corregir los defectos", "Sí, indefinidamente mientras se planifica la corrección", "Sí, durante un plazo máximo de 3 meses"],
+    "correct": 1,
+    "explanation": "Una línea existente con calificación condicionada puede seguir en servicio durante un plazo máximo de 6 meses para corregir los defectos graves."
+  },
+  {
+    "question": "Si una línea existente con calificación 'Condicionada' no corrige sus defectos en el plazo establecido, ¿qué calificación recibe?",
+    "answers": ["Se mantiene como condicionada con nuevo plazo", "Pasa automáticamente a calificación negativa", "Se emite una sanción económica pero mantiene la calificación condicionada", "La Administración decide caso a caso"],
+    "correct": 1,
+    "explanation": "Si transcurren los 6 meses sin corregir los defectos graves, la línea pasa a tener certificado de calificación negativa."
+  },
+  {
+    "question": "¿Cuántas calificaciones posibles tiene una línea tras una inspección según la ITC-05?",
+    "answers": ["2: favorable o desfavorable", "3: favorable, condicionada o negativa", "4: excelente, favorable, condicionada o negativa", "5: muy favorable, favorable, aceptable, condicionada o negativa"],
+    "correct": 1,
+    "explanation": "La ITC-05 establece tres calificaciones posibles: Favorable, Condicionada y Negativa."
+  },
+  {
+    "question": "¿Qué tipo de defecto es el tendido peligroso de la línea?",
+    "answers": ["Defecto leve", "Defecto grave", "Defecto muy grave", "Depende de las circunstancias del entorno"],
+    "correct": 2,
+    "explanation": "El tendido peligroso se clasifica expresamente como defecto muy grave, al constituir un peligro inminente para la seguridad de las personas o bienes."
+  },
+  {
+    "question": "¿Cuál es la diferencia fundamental entre un defecto 'grave' y uno 'muy grave' según la normativa?",
+    "answers": ["El muy grave afecta a conductores activos; el grave solo a elementos de protección", "El muy grave constituye peligro INMINENTE; el grave no constituye peligro inminente pero puede originarlo por un fallo", "El muy grave requiere parada inmediata en todos los casos; el grave solo en líneas nuevas", "El muy grave implica incumplimiento total; el grave incumplimiento parcial"],
+    "correct": 1,
+    "explanation": "La distinción clave es la inmediatez del peligro: el defecto muy grave constituye un peligro inminente, mientras que el grave no es inminente pero puede originar un peligro si se produce un fallo."
+  },
+  {
+    "question": "¿Qué documento se emite como resultado de una inspección periódica o inicial con indicación de la calificación obtenida?",
+    "answers": ["Acta de verificación", "Certificado de inspección", "Informe de mantenimiento", "Acta de puesta en servicio"],
+    "correct": 1,
+    "explanation": "Tanto para la inspección inicial como para la periódica, se concede un certificado de inspección que incluye, entre otros, la clasificación de la línea."
+  },
+  {
+    "question": "¿Qué información incluye el certificado de inspección sobre los defectos detectados?",
+    "answers": ["Solo la relación de defectos sin clasificar", "Relación de defectos y su clasificación (leve, grave, muy grave)", "Solo el número total de defectos por categoría", "Solo los defectos graves y muy graves, omitiendo los leves"],
+    "correct": 1,
+    "explanation": "El certificado de inspección incluye la relación de defectos y su clasificación (leve, grave, muy grave), además de la clasificación final de la línea."
+  },
+  {
+    "question": "Además de la relación y clasificación de defectos, ¿qué otro contenido específico tiene el certificado de inspección?",
+    "answers": ["Presupuesto de corrección de defectos", "Registro de operaciones de mantenimiento realizadas", "Plano actualizado de la instalación", "Lista de materiales no conformes"],
+    "correct": 1,
+    "explanation": "El certificado de inspección incluye también el registro de operaciones de mantenimiento realizadas en la línea."
+  },
+  {
+    "question": "¿Cuál de los siguientes defectos se clasifica como 'Muy grave' por afectar directamente a la seguridad eléctrica activa de la instalación?",
+    "answers": ["Sección de cables inadecuada", "Degradación del aislamiento", "Continuidad del circuito a tierra interrumpida", "Conexiones equipotenciales defectuosas"],
+    "correct": 2,
+    "explanation": "La falta de continuidad del circuito a tierra se clasifica como defecto muy grave al representar un peligro inminente para las personas."
+  },
+  {
+    "question": "¿Cuál de los siguientes defectos NO se incluye expresamente en la categoría de defectos 'Muy graves' según la ITC-05?",
+    "answers": ["Distancias de seguridad incumplidas", "Degradación del aislamiento", "Continuidad del circuito a tierra interrumpida", "Tendido peligroso"],
+    "correct": 1,
+    "explanation": "La degradación del aislamiento se clasifica como defecto grave, no muy grave. Los defectos muy graves son: distancias de seguridad, cruzamientos y paralelismos, continuidad del circuito a tierra, tensiones de contacto superiores, incumplimiento de prescripciones con elementos en mal estado, tendido en zonas de protección y tendido peligroso."
+  },
+  {
+    "question": "¿Cuál de los siguientes defectos NO se incluye expresamente en la categoría de defectos 'Graves' según la ITC-05?",
+    "answers": ["Conexiones equipotenciales defectuosas", "Distancias de cruzamientos y paralelismos incumplidas", "Sección de cables inadecuada", "Características inadecuadas de los conductores"],
+    "correct": 1,
+    "explanation": "El incumplimiento de distancias de cruzamientos y paralelismos es un defecto MUY GRAVE, no grave. Los defectos graves incluyen los otros tres ejemplos citados."
+  },
+  {
+    "question": "¿Puede una línea nueva con calificación 'Negativa' ponerse en marcha bajo supervisión especial de la OCA?",
+    "answers": ["Sí, si la OCA lo autoriza expresamente", "Sí, de forma provisional por un plazo máximo de 30 días", "No, no se pone en marcha hasta la corrección del defecto muy grave", "Sí, si el titular asume por escrito la responsabilidad"],
+    "correct": 2,
+    "explanation": "Una línea nueva con calificación negativa no puede ponerse en marcha bajo ninguna circunstancia hasta que se corrija el defecto muy grave."
+  },
+  {
+    "question": "El defecto consistente en que un punto de la instalación presente 'defectuosa ejecución cuyo mantenimiento pueda originar peligro', ¿cómo se clasifica?",
+    "answers": ["Muy grave, porque el peligro es inminente durante el mantenimiento", "Grave, porque no constituye peligro inminente pero puede originarse durante el mantenimiento", "Leve, si la línea sigue funcionando correctamente", "Depende de si el mantenimiento es inmediato o diferido"],
+    "correct": 1,
+    "explanation": "Los puntos de defectuosa ejecución cuyo mantenimiento pueda originar peligro se clasifican como graves: no hay peligro inminente en operación normal, pero puede originarse durante el mantenimiento."
+  },
+  {
+    "question": "Según la ITC-05, ¿quién puede efectuar inspecciones sistemáticas mediante control por muestreo estadístico en líneas de empresas de transporte?",
+    "answers": ["Solo la OCA designada", "La Administración", "El titular de la línea", "El técnico competente redactor del proyecto"],
+    "correct": 1,
+    "explanation": "La Administración podrá efectuar inspecciones sistemáticas mediante control por muestreo estadístico en líneas de empresas de transporte."
+  },
+  {
+    "question": "¿Qué calificación recibe una línea en la que se detectan únicamente defectos leves, sin ningún defecto grave ni muy grave?",
+    "answers": ["Condicionada", "Negativa", "Favorable", "Aceptable"],
+    "correct": 2,
+    "explanation": "Una línea sin defectos graves ni muy graves obtiene calificación favorable; los defectos leves se anotan para constancia del titular."
+  },
+  {
+    "question": "Si en una inspección se detecta UN defecto grave y TRES defectos leves, ¿cuál es la calificación resultante?",
+    "answers": ["Favorable, porque los leves no cuentan", "Condicionada, por el defecto grave", "Negativa, por la acumulación de defectos", "Condicionada, pero solo si los leves son reincidentes"],
+    "correct": 1,
+    "explanation": "La presencia de al menos un defecto grave determina la calificación condicionada, independientemente del número de defectos leves."
+  },
+  {
+    "question": "Si en una inspección periódica se detecta un defecto leve que ya estaba presente en la inspección anterior sin haberse corregido, ¿cómo se clasifica ahora?",
+    "answers": ["Sigue siendo leve, ya que no ha empeorado", "Pasa a clasificarse como grave por reincidencia", "Se clasifica como muy grave por persistencia", "No cambia de clasificación, pero se notifica a la Administración"],
+    "correct": 1,
+    "explanation": "La reincidencia de un defecto leve (no corregido desde la inspección anterior) eleva su clasificación a defecto grave."
+  },
+  {
+    "question": "¿Cuál de los siguientes escenarios genera directamente calificación 'Condicionada' aunque no haya defectos graves nuevos?",
+    "answers": ["Presencia de 10 defectos leves distintos sin reincidencia", "Un defecto leve de la inspección anterior que no fue corregido", "La falta del registro de operaciones de mantenimiento", "La presencia de un defecto en un elemento no principal de la línea"],
+    "correct": 1,
+    "explanation": "Un defecto leve de la inspección anterior no corregido es causa expresa de calificación condicionada en la siguiente inspección."
+  },
+  {
+    "question": "¿Qué elemento debe contener el certificado de inspección que NO forma parte del acta de verificación del titular?",
+    "answers": ["Datos identificativos de la línea", "Relación de defectos encontrados", "Clasificación de la línea (calificación)", "Planes de corrección"],
+    "correct": 2,
+    "explanation": "El certificado de inspección incluye la clasificación de la línea (calificación favorable, condicionada o negativa), elemento que no aparece en el acta de verificación realizada por el titular."
+  },
+  {
+    "question": "¿Cuál es la consecuencia inmediata de la emisión de un 'certificado de calificación negativa' para una línea existente?",
+    "answers": ["La línea tiene 6 meses para corregir los defectos", "La Administración puede ordenar la interrupción del servicio", "El titular debe corregir los defectos muy graves con carácter urgente", "La OCA debe realizar una nueva inspección en 30 días"],
+    "correct": 2,
+    "explanation": "La emisión del certificado de calificación negativa para una línea existente implica que el titular debe corregir los defectos muy graves que motivaron dicha calificación."
+  },
+  {
+    "question": "¿Pueden coexistir en la misma inspección defectos 'muy graves' y 'graves' sin que ello cambie la calificación final?",
+    "answers": ["Sí, ambos generan calificación condicionada", "No, la presencia de al menos un defecto muy grave determina siempre calificación negativa", "Sí, si el número de defectos graves es superior al de muy graves", "No, cualquier defecto genera calificación negativa"],
+    "correct": 1,
+    "explanation": "La presencia de al menos un defecto muy grave determina siempre calificación negativa, independientemente de los defectos graves o leves presentes."
+  },
+  {
+    "question": "¿Cuál es el plazo establecido para que una línea existente con calificación 'Condicionada' corrija sus defectos antes de recibir calificación negativa?",
+    "answers": ["1 mes", "3 meses", "6 meses", "12 meses"],
+    "correct": 2,
+    "explanation": "El plazo establecido es de 6 meses; si transcurre sin que se corrijan los defectos graves, se emite el certificado de calificación negativa."
   }
 ];
