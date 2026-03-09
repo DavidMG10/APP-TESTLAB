@@ -753,7 +753,7 @@ var questionBank = [
       "Pernos y cemento",
       "Yugo y bastón aislante",
       "Varilla de tierra",
-      "Grapa de suspensión y grapa de amarre"
+      "Grapa de suspensión o grapa de amarre"
     ],
     "correct": 3,
     "explanation": "Los conductores se unen mediante grapa de suspensión o grapa de amarre, que aseguran resistencia mecánica y correcta compresión."
@@ -1408,7 +1408,7 @@ var questionBank = [
     "explanation": "Para líneas nuevas, ampliaciones, modificaciones y existentes son obligatorias las medidas contra electrocución en todas las zonas de protección del Art.3."
   },
   {
-    "question": "¿Qué medida anticolisión es OPCIONAL según la normativa de protección de avifauna para líneas existentes?",
+    "question": "¿Qué medida es OPCIONAL según la normativa de protección de avifauna para líneas existentes?",
     "answers": [
       "Señalización de apoyos",
       "Medidas contra electrocución",
@@ -2931,8 +2931,8 @@ var questionBank = [
       "Muy grave",
       "Leve"
     ],
-    "correct": 2,
-    "explanation": "La sección insuficiente de cables o circuitos de tierra se clasifica como defecto leve según la clasificación reglamentaria."
+    "correct": 0,
+    "explanation": "La sección insuficiente de cables o circuitos de tierra se clasifica como defecto grave según la clasificación reglamentaria."
   },
   {
     "question": "🌟La vida útil de las líneas aéreas, salvo especificación diferente en el proyecto, se considera generalmente de:🌟",
