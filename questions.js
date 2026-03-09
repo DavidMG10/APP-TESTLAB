@@ -260,8 +260,8 @@ var questionBank = [
       "30 kV < Un < 66 kV",
       "66 kV < Un < 220 kV"
     ],
-    "correct": 2,
-    "explanation": "La 3ª categoría abarca líneas con tensión nominal entre 30 kV y 66 kV, según el reglamento."
+    "correct": 1,
+    "explanation": "La 3ª categoría abarca líneas con tensión nominal entre 1 kV y 30 kV, según el reglamento."
   },
   {
     "question": "¿Qué requisito mecánico mínimo deben cumplir los conductores de acero en líneas aéreas?",
@@ -2754,8 +2754,8 @@ var questionBank = [
   {
     "question": "En la clasificación de defectos, 'el incumplimiento de las distancias de seguridad' se considera:",
     "answers": ["Defecto Leve", "Defecto Grave", "Defecto Muy Grave", "Defecto Administrativo"],
-    "correct": 1,
-    "explanation": "Las distancias de seguridad inadecuadas son un defecto Grave [pág. 11]."
+    "correct": 2,
+    "explanation": "Las distancias de seguridad inadecuadas son un defecto muy grave [pág. 11]."
   },
 
   // --- BLOQUE: MATERIALES Y MECÁNICA ---
@@ -2852,5 +2852,126 @@ var questionBank = [
     "answers": ["Solo pagar la factura", "Mantener la línea en perfecto estado de conservación", "Redactar el proyecto", "Subir a las torres"],
     "correct": 1,
     "explanation": "La responsabilidad legal del mantenimiento recae sobre el titular/propietario [pág. 4]."
+  },
+  // EXAMEN SUBIDO//
+  {
+    "question": "🌟Las líneas eléctricas propiedad de empresas de transporte y distribución de energía eléctrica, para poder poner en servicio las mismas, deberán disponer de:🌟",
+    "answers": [
+      "Certificado final de obra por técnico competente",
+      "Proyecto y certificado",
+      "Inspección inicial por O.C.A., proyecto y certificado final de obra por técnico competente"
+    ],
+    "correct": 0,
+    "explanation": "Para líneas propiedad de empresas de transporte y distribución, la puesta en servicio requiere el certificado final de obra emitido por técnico competente junto con las verificaciones previas."
+  },
+  {
+    "question": "🌟La verificación periódica de las líneas propiedad de empresas de transporte y distribución de energía eléctrica se realizará, al menos cada:🌟",
+    "answers": [
+      "Dos años",
+      "Tres años",
+      "Cuatro años"
+    ],
+    "correct": 1,
+    "explanation": "Las verificaciones periódicas en líneas de transporte y distribución deben realizarse al menos cada 3 años según el reglamento."
+  },
+  {
+    "question": "🌟Las líneas que no sean propiedad de empresas de transporte y distribución de energía eléctrica deberán verificarse para comprobar su correcta ejecución por:🌟",
+    "answers": [
+      "Una empresa instaladora cualquiera con supervisión del director de obra",
+      "La empresa instaladora autorizada que la ejecute, con la supervisión del director de obra",
+      "Un organismo de control con el apoyo del director de obra"
+    ],
+    "correct": 1,
+    "explanation": "La verificación previa a la puesta en servicio debe realizarla la empresa instaladora autorizada que ejecuta la instalación con supervisión del director de obra."
+  },
+  {
+    "question": "🌟En líneas que no sean propiedad de empresas de transporte y distribución, si la tensión nominal es superior a 30 kV, la instalación deberá someterse a una inspección inicial por:🌟",
+    "answers": [
+      "Una empresa instaladora autorizada",
+      "Un técnico titulado competente",
+      "Un organismo de control"
+    ],
+    "correct": 2,
+    "explanation": "Las líneas con tensión superior a 30 kV deben someterse a una inspección inicial realizada por un organismo de control (O.C.A.)."
+  },
+  {
+    "question": "🌟En líneas que no sean propiedad de empresas de transporte y distribución, para inscribir la instalación en el registro correspondiente deberán presentarse:🌟",
+    "answers": [
+      "Certificado de la empresa instaladora autorizada, proyecto, certificado de dirección de obra, certificado de inspección inicial si procede y contrato de mantenimiento",
+      "Certificado de empresa instaladora autorizada, certificado de dirección de obra, certificado de inspección inicial si procede y contrato de mantenimiento",
+      "Solo una solicitud de interés presentada por el propietario"
+    ],
+    "correct": 0,
+    "explanation": "Para registrar la instalación se debe presentar el proyecto, certificado de instalación, certificado de dirección de obra, inspección inicial si aplica y contrato o compromiso de mantenimiento."
+  },
+  {
+    "question": "🌟En líneas que no sean propiedad de empresas de transporte y distribución y con tensión nominal no superior a 30 kV, las inspecciones o verificaciones periódicas podrán realizarse por:🌟",
+    "answers": [
+      "Técnicos titulados competentes u organismos de control",
+      "Solamente organismos de control",
+      "Solamente técnicos titulados competentes"
+    ],
+    "correct": 0,
+    "explanation": "Para tensiones ≤ 30 kV las verificaciones periódicas pueden ser realizadas por técnicos titulados competentes o por organismos de control."
+  },
+  {
+    "question": "🌟Si la calificación de una línea tras una inspección o verificación es negativa:🌟",
+    "answers": [
+      "Las nuevas líneas podrán entrar en servicio si la comunidad autónoma lo autoriza",
+      "Las líneas en servicio no recibirán certificado negativo",
+      "Las nuevas líneas no podrán entrar en servicio hasta corregir los defectos"
+    ],
+    "correct": 2,
+    "explanation": "Una línea con calificación negativa no puede entrar en servicio hasta que se corrijan los defectos y obtenga calificación favorable."
+  },
+  {
+    "question": "🌟Una sección insuficiente de los cables y circuitos de tierra se considera un defecto:🌟",
+    "answers": [
+      "Grave",
+      "Muy grave",
+      "Leve"
+    ],
+    "correct": 2,
+    "explanation": "La sección insuficiente de cables o circuitos de tierra se clasifica como defecto leve según la clasificación reglamentaria."
+  },
+  {
+    "question": "🌟La vida útil de las líneas aéreas, salvo especificación diferente en el proyecto, se considera generalmente de:🌟",
+    "answers": [
+      "30 años",
+      "40 años",
+      "50 años"
+    ],
+    "correct": 1,
+    "explanation": "La vida útil típica prevista para líneas aéreas es de aproximadamente 40 años."
+  },
+  {
+    "question": "🌟La sección nominal mínima admisible de los conductores de cobre o sus aleaciones es de:🌟",
+    "answers": [
+      "15 mm²",
+      "10 mm²",
+      "16 mm²"
+    ],
+    "correct": 1,
+    "explanation": "El reglamento establece una sección mínima de 10 mm² para conductores de cobre."
+  },
+  {
+    "question": "🌟La nomenclatura “AL1/STyz” corresponde a:🌟",
+    "answers": [
+      "Conductores compuestos de aluminio reforzados con acero galvanizado",
+      "Conductores compuestos de aleación de aluminio reforzados con acero galvanizado",
+      "Conductores compuestos de aluminio reforzado con acero recubierto de aluminio"
+    ],
+    "correct": 0,
+    "explanation": "AL1/STyz identifica conductores bimetálicos de aluminio reforzados con acero galvanizado."
+  },
+  {
+    "question": "🌟Cuando se emplean cables de tierra para protección de la línea, se recomienda que el ángulo con la vertical no exceda de:🌟",
+    "answers": [
+      "30º",
+      "35º",
+      "45º"
+    ],
+    "correct": 1,
+    "explanation": "El ángulo máximo recomendado entre el cable de tierra y la vertical es de 35º para garantizar la protección adecuada."
   }
 ];
