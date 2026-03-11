@@ -499,5 +499,149 @@ var questionBank = [
     ],
     "correct": 0,
     "explanation": "Cuando se interviene en una obra ya recepcionada, sí es necesario hacer la apertura del centro de trabajo (obligación del contratista), pero NO es necesario un nuevo libro de subcontratación si se trata de una reparación sin proyecto nuevo. Las opciones b) y c) contienen afirmaciones falsas o incorrectas respecto a la situación descrita."
-  }
+  },
+    {
+    "question": "44. Conforme a lo establecido en el Real Decreto 1627/1997, el coordinador de seguridad en fase de proyecto:",
+    "answers": [
+      "Coordina el estudio de seguridad realizado por el proyectista.",
+      "Realiza el plan de seguridad elaborado por el contratista principal.",
+      "Realiza el plan de seguridad siempre que la obra tenga un importe superior a 450.759 euros."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "45. El estudio de seguridad básico se caracteriza por:",
+    "answers": [
+      "Disponer de memoria, pliego, mediciones, presupuesto y planos.",
+      "Precisar las normas de seguridad y salud aplicables a la obra. No tiene ni pliego, ni memoria, ni presupuesto.",
+      "Se realiza cuando la obra tiene un presupuesto igual o superior a 450.759 euros, duración superior a 30 días con más de 20 trabajadores simultáneos, volumen de mano de obra superior a 500 días-trabajo, o se trata de túneles, galerías, conducciones subterráneas y presas."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "46. Cuando es preciso realizar una reparación en una obra sin proyecto ya recepcionada definitivamente:",
+    "answers": [
+      "Se necesita una evaluación de riesgos específica de los trabajos realizados.",
+      "Se requiere recurso preventivo siempre que proceda su designación.",
+      "A y b son correctas."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "47. El libro de incidencias será facilitado:",
+    "answers": [
+      "Por el contratista principal, de tal forma que esté disponible siempre en cada centro de trabajo con la finalidad de dar control y seguimiento del plan de seguridad y salud.",
+      "Al técnico competente por parte del colegio profesional al que pertenezca el técnico que haya aprobado el plan de seguridad y salud, o de la oficina de supervisión de proyectos u órgano equivalente cuando se trate de obras de las administraciones públicas.",
+      "Por la administración correspondiente a la que corresponde la obra, siempre que sea precisa la figura del coordinador de seguridad, pudiendo realizar en este caso las funciones el director facultativo."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "48. En una obra de construcción, el contratista principal es responsable de:",
+    "answers": [
+      "El mantenimiento de la obra en buen estado de orden y limpieza, así como la elección del emplazamiento de los puestos y áreas de trabajo, teniendo en cuenta sus condiciones de acceso, y la determinación de las vías o zonas de desplazamiento o circulación.",
+      "La manipulación de los distintos materiales y la utilización de los medios auxiliares y el mantenimiento, el control previo a la puesta en servicio y el control periódico de las instalaciones y dispositivos necesarios para la ejecución de la obra.",
+      "A y b son correctas."
+    ],
+    "correct": 2
+  },
+{
+    question: "18. La implantación de un sistema de Gestión de Prevención de Riesgos Laborales:",
+    answers: [
+      "Garantiza una certificación ISO 45001, que hace a la empresa más competitiva.",
+      "Es un requisito legal conforme a lo establecido en el Reglamento de los Servicios de Prevención.",
+      "Implica comprometerse a eliminar peligros y reducir riesgos, con objeto de proporcionar condiciones de trabajo seguras y saludables para los trabajadores.",
+    ],
+    correct: 2,
+  },
+  {
+    question: "21. El Real Decreto 16644/2008 por el que se establecen las normas para la comercialización y puesta en servicio de las máquinas no es de aplicación:",
+    answers: [
+      "Las máquinas especialmente diseñadas y fabricadas para fines militares o policiales.",
+      "Las máquinas especialmente diseñadas y fabricadas con vistas a la investigación para uso temporal en laboratorios.",
+      "a) y b) son correctas.",
+    ],
+    correct: 2,
+  },
+  {
+    question: "22. Podríamos definir una máquina como:",
+    answers: [
+      "Conjunto de partes o componentes vinculados entre sí, de los cuales al menos uno es móvil, asociados para una aplicación determinada.",
+      "Conjunto de máquinas dispuestas y accionadas para funcionar como un conjunto de máquinas solidarias.",
+      "Conjunto de partes o componentes vinculados entre sí, de los cuales todas son móviles.",
+    ],
+    correct: 0,
+  },
+  {
+    question: "23. La aplicación de un Sistema de enclavamiento Lockout Tagout (LOTO):",
+    answers: [
+      "Protege a los trabajadores tanto de una puesta en marcha accidental de las energías vivas así como de las energías residuales.",
+      "Sólo es de aplicación si la máquina o equipo de trabajo cumple lo establecido con el R.D. 1644/2006.",
+      "Permite apagar los equipos y reiniciarlos de tal forma que minimicemos el despilfarro energético derivado de una operatividad innecesaria.",
+    ],
+    correct: 0,
+  },
+  {
+    question: "24. Según el Real Decreto 1215/1997 por el que se establecen las disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo se define el concepto «Zona Peligrosa» como:",
+    answers: [
+      "Cualquier máquina, aparato, instrumento o instalación utilizado en el trabajo.",
+      "Cualquier zona situada en el interior o alrededor de un equipo de trabajo en la que la presencia de un trabajador expuesto entrañe un riesgo para su seguridad o para su salud.",
+      "a) y b) son falsas.",
+    ],
+    correct: 1,
+  },
+  {
+    question: "25. El montaje de andamios:",
+    answers: [
+      "Precisa nota de cálculo o en su defecto cálculo de resistencia y estabilidad.",
+      "Precisa un plan de montaje para aquellos andamios constituidos con elementos prefabricados apoyados sobre terreno natural, soleras de hormigón, forjados, voladizos u otros elementos cuya altura, desde el nivel inferior de apoyo hasta la coronación de la andamiada, exceda de seis metros o dispongan de elementos horizontales que salven vuelos y distancias superiores entre apoyos de más de ocho metros.",
+      "a) y b) son correctas.",
+    ],
+    correct: 2,
+  },
+  {
+    question: "26. Las escaleras de mano podrán emplearse:",
+    answers: [
+      "Cuando se superen las 6 m y sobre cuya resistencia no se tenga garantías.",
+      "Cuando se coloquen, en la medida de lo posible, formando un ángulo aproximado de 75 grados con la horizontal.",
+      "Cuando se realicen trabajos entre 3.5m y 6 metros desde el punto de operación.",
+    ],
+    correct: 1,
+  },
+  {
+    question: "27. Los Equipos de Protección de Categoría 3:",
+    answers: [
+      "Son aquellos que no son de Clase I ni de Clase 2.",
+      "Aquellos que protegen de riesgos muy graves, muerte o daños irreversibles para la salud del trabajador.",
+      "Son equipos destinados a proteger contra Riesgos Mínimos cuyos efectos, cuando sean graduales, puedan ser percibidos a tiempo y sin peligro para el usuario.",
+    ],
+    correct: 1,
+  },
+  {
+    question: "28. La señalización deberá utilizarse siempre que se precise, teniendo en consideración que:",
+    answers: [
+      "Se equipará a una protección colectiva.",
+      "Sea una señal acústica, codificada y difundida por un dispositivo adecuado.",
+      "No deberá considerarse nunca una medida sustitutoria de las medidas técnicas y organizativas.",
+    ],
+    correct: 2,
+  },
+  {
+    question: "29. Una señal de color azul con forma redonda y símbolo blanco significa:",
+    answers: [
+      "Obligación.",
+      "Advertencia siempre que el color de contraste sea amarillo.",
+      "Prohibición siempre que el contraste se negro.",
+    ],
+    correct: 0,
+  },
+  {
+    question: "30. La señal siguiente significa: [señal circular roja con aspa]",
+    answers: [
+      "Prohibido el paso a personas no autorizadas.",
+      "STOP.",
+      "Obligación de protección obligatoria del cuerpo.",
+    ],
+    correct: 0,
+  },
 ];
