@@ -10,24 +10,34 @@ body {
 
 .main-title {
     color: white;
-    font-size: 3.8rem;
+    font-size: clamp(2rem, 8vw, 3.8rem); /* Mínimo 2rem, máximo 3.8rem */
     font-weight: 900;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 /* CONTENEDOR PRINCIPAL */
 
+/* En la parte general del CSS */
 .container {
     background: white;
-    padding: 40px;
+    padding: 30px; /* Reducido un poco de 40px */
     max-width: 800px;
-    width: 100%;
+    width: 90%; /* Cambia width: 100% por 90% para que no toque los bordes */
     margin: auto;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box; /* Fundamental para que el padding no rompa el ancho */
+}
+
+/* Dentro de tu @media (max-width: 600px) */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 95%; /* Más ancho en móviles para aprovechar el espacio */
+    }
 }
 
 /* TITULOS INTERNOS */
@@ -273,4 +283,9 @@ height:120px;
 font-size:2.5rem;
 }
 
+.subject-buttons button {
+    padding: 15px; /* Más pequeño en móvil */
+    font-size: 1rem;
+    line-height: 1.2; /* Evita que el texto largo se amontone */
+}
 }
