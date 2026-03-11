@@ -1,22 +1,36 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background: linear-gradient(135deg, #0b3d91 0%, #1a56b8 100%); /* Degradado para que no sea plano */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(135deg, #0b3d91 0%, #1a56b8 100%);
     min-height: 100vh;
-    padding: 20px;
+    padding: 40px 20px;
 }
+
+/* TITULO PRINCIPAL */
+
+.main-title {
+    color: white;
+    font-size: 3.8rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* CONTENEDOR PRINCIPAL */
 
 .container {
     background: white;
     padding: 40px;
     max-width: 800px;
     width: 100%;
+    margin: auto;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3); /* Sombra para dar profundidad */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
+
+/* TITULOS INTERNOS */
 
 h1 {
     color: #0b3d91;
@@ -26,6 +40,36 @@ h1 {
     border-bottom: 2px solid #ffd100;
     padding-bottom: 10px;
 }
+
+/* TEXTO SELECCION */
+
+.select-text {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* BOTONES ASIGNATURAS */
+
+.subject-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.subject-buttons button {
+    width: 100%;
+    padding: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+/* PREGUNTAS */
 
 #question {
     font-size: 1.2rem;
@@ -55,7 +99,7 @@ h1 {
     padding: 15px 20px;
     border-radius: 10px;
     cursor: pointer;
-    transition: all 0.2s ease; /* Animación suave */
+    transition: all 0.2s ease;
     background-color: #f9f9f9;
     font-size: 1rem;
     color: #444;
@@ -64,10 +108,11 @@ h1 {
 .answer:hover {
     border-color: #0b3d91;
     background-color: #eff6ff;
-    transform: translateY(-2px); /* Efecto de levante */
+    transform: translateY(-2px);
 }
 
-/* Colores de validación con iconos o mayor contraste */
+/* VALIDACION RESPUESTAS */
+
 .correct {
     background-color: #2ecc71 !important;
     color: white !important;
@@ -81,23 +126,27 @@ h1 {
     border-color: #c0392b !important;
 }
 
+/* EXPLICACION */
+
 .explanation {
     margin-top: 20px;
     background: #eef2f7;
     padding: 20px;
-    border-left: 5px solid #0b3d91; /* Estilo de nota técnica */
+    border-left: 5px solid #0b3d91;
     border-radius: 8px;
     font-style: italic;
     color: #34495e;
     line-height: 1.4;
 }
 
+/* BOTONES GENERALES */
+
 button {
     background: #ffd100;
     color: #0b3d91;
     border: none;
     padding: 15px 30px;
-    border-radius: 30px; /* Botón redondeado */
+    border-radius: 30px;
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
@@ -105,7 +154,7 @@ button {
     display: block;
     margin: 25px auto 0;
     text-transform: uppercase;
-    box-shadow: 0 4px 0 #d4af00; /* Efecto 3D en botón */
+    box-shadow: 0 4px 0 #d4af00;
 }
 
 button:hover {
@@ -118,6 +167,8 @@ button:active {
     box-shadow: none;
 }
 
+/* RESULTADO */
+
 .result-container {
     display: flex;
     flex-direction: column;
@@ -129,25 +180,19 @@ button:active {
 .score-circle {
     width: 150px;
     height: 150px;
-    border: 8px solid #2ecc71; /* Color dinámico desde JS */
+    border: 8px solid #2ecc71;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #fdfdfd;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-}
-
-.score-circle:hover {
-    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .nota-numero {
     font-size: 3.5rem;
     font-weight: 900;
-    line-height: 1;
 }
 
 .nota-texto {
@@ -170,13 +215,62 @@ button:active {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-/* Modificamos el contenedor original de score para que no interfiera */
 #score {
     font-size: 1rem;
-    color: inherit;
-    font-weight: normal;
+}
+/* ===== RESPONSIVE MOVIL ===== */
+
+@media (max-width: 600px) {
+
+.main-title{
+font-size:2.2rem;
+margin-bottom:20px;
+}
+
+.container{
+padding:25px 20px;
+}
+
+.select-text{
+font-size:1.2rem;
+}
+
+.subject-buttons button{
+padding:18px;
+font-size:1rem;
+}
+
+#question{
+font-size:1.05rem;
+}
+
+.answer{
+padding:14px;
+font-size:0.95rem;
+}
+
+button{
+padding:14px 20px;
+font-size:0.95rem;
+}
+
+.score-circle{
+width:120px;
+height:120px;
+}
+
+.nota-numero{
+font-size:2.5rem;
+}
+
 }
