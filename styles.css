@@ -289,3 +289,72 @@ font-size:2.5rem;
     line-height: 1.2; /* Evita que el texto largo se amontone */
 }
 }
+/* ... (Mantén tus estilos de body, title y container) ... */
+
+/* BARRA DE PROGRESO Y CONTADORES */
+.quiz-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    flex-grow: 1;
+    height: 12px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #ffd100, #ffb300);
+    transition: width 0.3s ease;
+}
+
+.stats-counter {
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+/* REVISIÓN DE FALLOS */
+.review-container {
+    margin-top: 30px;
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.review-container h3 {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.failed-item {
+    background: #fff5f5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 4px solid #e74c3c;
+    font-size: 0.9rem;
+}
+
+.failed-item p { margin: 5px 0; }
+.text-wrong { color: #e74c3c; font-weight: bold; }
+.text-correct { color: #2ecc71; font-weight: bold; }
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .container { width: 95%; padding: 20px; }
+    .main-title { font-size: 2.2rem; }
+    .stats-counter { font-size: 0.8rem; }
+    .score-circle { width: 120px; height: 120px; }
+}
