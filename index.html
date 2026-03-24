@@ -14,28 +14,38 @@
     <div id="startScreen">
         <p class="select-text">Elige asignatura</p>
         <div class="subject-buttons">
-            <button onclick="startTest('lineas')">Líneas Aéreas de Alta Tensión</button>
-            <button onclick="startTest('seguridad')">Seguridad y Salud</button>
+            <button onclick="selectSubject('lineas')">Líneas Aéreas</button>
+            <button onclick="selectSubject('seguridad')">Seguridad y Salud</button>
+            <button onclick="selectSubject('centrales')">Diseño de Centrales</button>
+            <button onclick="selectSubject('potencia')">Electrónica de Potencia</button>
         </div>
     </div>
 
-    <div id="quizScreen" style="display:none">
-        <div class="quiz-header">
-            <div class="progress-container">
-                <div id="progressBar" class="progress-bar"></div>
-            </div>
-            <div class="stats-counter">
-                <span class="stat-hit">✅ <span id="hits">0</span></span>
-                <span class="stat-miss">❌ <span id="misses">0</span></span>
-            </div>
+    <div id="blockScreen" style="display:none">
+        <p class="select-text" id="selectedSubjectText"></p>
+        <div class="subject-buttons">
+            <button onclick="loadBlock(1)">Bloque 1</button>
+            <button onclick="loadBlock(2)">Bloque 2</button>
         </div>
-        
-        <h2 id="subjectTitle"></h2>
-        <div id="question"></div>
-        <div class="answers" id="answers"></div>
-        <div class="explanation" id="explanation" style="display:none"></div>
-        <button id="nextBtn" onclick="nextQuestion()" style="display:none">Siguiente</button>
+        <button class="back-btn" onclick="goMenu()">⬅ volver</button>
     </div>
+
+    <div id="quizScreen" style="display:none">
+    <div class="quiz-header">
+        <div class="progress-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <div class="stats-counter">
+            <span class="stat-hit">✅ <span id="hits">0</span></span>
+            <span class="stat-miss">❌ <span id="misses">0</span></span>
+        </div>
+    </div>
+    <h2 id="subjectTitle"></h2>
+    <div id="question"></div> <div class="answers" id="answers"></div> <div id="explanation" class="explanation" style="display:none"></div>
+    <button id="nextBtn" onclick="nextQuestion()" style="display:none">Siguiente</button>
+</div>
+
+</div>
 
     <div id="resultScreen" style="display:none">
         <h1>Resultado</h1>
@@ -49,7 +59,6 @@
         <button onclick="repeatTest()">Repetir test</button>
         <button onclick="goMenu()">Volver al menú</button>
     </div>
-</div>
 
 <script src="script.js"></script>
 </body>

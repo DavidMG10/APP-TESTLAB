@@ -22,7 +22,7 @@ body {
 
 /* En la parte general del CSS */
 .container {
-    background: white;
+    background: #ffffff;
     padding: 30px; /* Reducido un poco de 40px */
     max-width: 800px;
     width: 90%; /* Cambia width: 100% por 90% para que no toque los bordes */
@@ -215,12 +215,12 @@ button:active {
 
 .details {
     font-size: 1.1rem;
-    color: #444;
+    color: #ffffff;
     text-align: center;
 }
 
 .details strong {
-    color: #0b3d91;
+    color: #f9f9f9;
     font-size: 1.3rem;
 }
 
@@ -357,4 +357,37 @@ font-size:2.5rem;
     .main-title { font-size: 2.2rem; }
     .stats-counter { font-size: 0.8rem; }
     .score-circle { width: 120px; height: 120px; }
+}
+
+/* BOTÓN VOLVER (ESTILO GRIS Y NARANJA) */
+.back-btn {
+    margin-top: 20px;
+    background-color: #ff9800 !important; /* Fondo Naranja */
+    color: #0b3d91 !important;           /* Texto Azul */
+    border: 1.5px solid #ff9800 !important; /* Borde algo más fino */
+    
+    /* Tamaño de letra y botón más pequeño */
+    font-size: 0.80rem !important; 
+    padding: 2px 12px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    width: fit-content;
+    
+    /* Alineación a la derecha de la tarjeta */
+    margin-left: auto;
+    margin-right: 0;
+    
+    /* Sin sombras */
+    box-shadow: none !important;
+}
+
+.back-btn:hover {
+    box-shadow: none !important;
+    background-color: #e68a00 !important;
+    transform: translateY(-1px);
 }
