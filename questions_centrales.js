@@ -885,7 +885,7 @@ var questionBank = [
       "Baterías, volantes de inercia y supercondensadores.",
       "Baterías, aire comprimido y bombeo."
     ],
-    "correct": 2,
+    "correct": 1,
     "block": 1
   },
   {
@@ -2183,4 +2183,378 @@ var questionBank = [
     "correct": 1,
     "block": 1
   },
+  {
+    "question": "❗Ante un incremento transitorio de la demanda, el reparto de potencia entre generadores síncronos en paralelo es:",
+    "answers": [
+      "Proporcional exclusivamente a la energía cinética almacenada en sus masas rotativas.",
+      "Mayor en aquellos grupos que poseen una constante de estatismo (R) baja.",
+      "Independiente del estatismo si el sistema cuenta con un regulador de carga isócrono en todas las unidades.",
+      "Inversamente proporcional a la constante de amortiguamiento (D) de la carga conectada."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "❗El número de pares de polos (p) de un generador eléctrico y su velocidad específica se relacionan de tal forma que:",
+    "answers": [
+      "Cuanto mayor es el número de pares de polos, menor es el valor de la velocidad específica de la turbina asociada.",
+      "El incremento de pares de polos obliga a un aumento de la velocidad específica para mantener la frecuencia síncrona.",
+      "Son parámetros independientes, ya que la velocidad específica depende solo del salto neto y el caudal.",
+      "Una mayor cantidad de polos permite una velocidad específica más alta en turbinas de flujo axial tipo Kaplan."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "❗En la ecuación que gobierna el movimiento del rotor de un generador síncrono (J⋅dω/dt = Tm − Te):",
+    "answers": [
+      "El sistema se estabiliza cuando el par mecánico iguala al par de cortocircuito.",
+      "Si el par mecánico suministrado es superior al par electromagnético, se produce una aceleración y aumenta la frecuencia.",
+      "Un aumento de la potencia eléctrica demandada provoca una aceleración inmediata debido a la constante de inercia (H).",
+      "El ángulo del rotor (δ) disminuye progresivamente si el par mecánico supera al par resistente."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "❗Un sistema de autoexcitación estática o directa de un generador síncrono de gran potencia:",
+    "answers": [
+      "Carece de anillos rozantes al utilizar diodos giratorios solidarios al eje.",
+      "Es un sistema de respuesta lenta debido a la constante de tiempo del transformador de excitación.",
+      "Es un sistema de respuesta rápida que alimenta el inductor mediante un puente rectificador controlado.",
+      "No se ve afectado por cortocircuitos cercanos en la red al ser un sistema totalmente autónomo."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗En la estructura de un sistema de control primario de tensión y potencia reactiva (U/Q) se emplea:",
+    "answers": [
+      "Únicamente el regulador automático de tensión (AVR) actuando sobre la excitatriz piloto.",
+      "Variación de la velocidad síncrona para modificar el flujo magnético en el entrehierro.",
+      "Condensadores estáticos (SVC) situados exclusivamente en los nudos piloto de la red de transporte.",
+      "Compensadores síncronos y el cambio de las tomas de regulación en carga del transformador principal."
+    ],
+    "correct": 3,
+    "block": 2
+  },
+  {
+    "question": "❗El uso de carbón pulverizado en las centrales térmicas convencionales se ha generalizado debido a:",
+    "answers": [
+      "La facilidad de almacenamiento del combustible en silos de gran capacidad sin riesgo de combustión espontánea.",
+      "La obtención de una mayor potencia calorífica por unidad de volumen de hogar al aumentar la superficie de contacto.",
+      "La reducción drástica de la molienda necesaria para carbones de bajo contenido en materias volátiles.",
+      "La posibilidad de operar la caldera en régimen de circulación natural a presiones superiores a la crítica."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "❗La calidad técnica y comercial de un carbón térmico está relacionada principalmente con:",
+    "answers": [
+      "Un alto contenido en azufre que facilite la reactividad química durante la combustión.",
+      "Un elevado porcentaje de materias volátiles que permita prescindir del precalentamiento del aire.",
+      "Un bajo porcentaje de cenizas, un grado de humedad reducido y un alto contenido de carbono fijo.",
+      "La presencia de metales pesados que actúen como catalizadores naturales en el hogar de la caldera."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗La combustión de carbón pulverizado en el hogar de una caldera produce:",
+    "answers": [
+      "Únicamente escorias líquidas que deben ser retiradas por la parte superior del hogar.",
+      "Cenizas volantes y escorias no pastosas si la temperatura se mantiene por debajo del punto de fusión de las cenizas.",
+      "Una llama larga e inestable en el caso de utilizar carbones con una materia volátil superior al 30 %.",
+      "Un residuo sólido compuesto exclusivamente por óxidos de nitrógeno y partículas de hollín."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "❗Los quemadores de carbón pulverizado deben estar diseñados específicamente para realizar:",
+    "answers": [
+      "Combustiones incompletas que permitan la recuperación de inquemados en el economizador.",
+      "Llamas de baja temperatura para evitar cualquier transferencia de calor por radiación.",
+      "Combustiones completas mediante un alto grado de mezcla (turbulencia) y llamas estables.",
+      "El secado final del carbón dentro de la propia boquilla de salida hacia el hogar."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗El equipo que permite una mayor eficiencia en la extracción de cenizas volantes de tamaño pequeño es:",
+    "answers": [
+      "El economizador mediante el cambio brusco de dirección de los gases.",
+      "El precalentador de aire de tipo regenerativo Ljungström.",
+      "Los filtros ciclónicos mecánicos situados en la base de la chimenea.",
+      "El precipitador electrostático, capaz de remover hasta el 99 % de las partículas finas."
+    ],
+    "correct": 3,
+    "block": 2
+  },
+  {
+    "question": "❗Algunas de las mejoras termodinámicas introducidas en el ciclo básico de Rankine para plantas térmicas son:",
+    "answers": [
+      "Aumentar la presión en el condensador por encima de la presión atmosférica.",
+      "Disminuir la temperatura del agua de alimentación a la salida del economizador.",
+      "Incrementar el grado de humedad del vapor a la entrada de la turbina de alta presión.",
+      "Disminuir la presión de condensación y aumentar la presión y temperatura del vapor vivo."
+    ],
+    "correct": 3,
+    "block": 2
+  },
+  {
+    "question": "❗El rendimiento global del ciclo de Rankine en una central térmica aumenta notablemente:",
+    "answers": [
+      "Reduciendo el número de extracciones de vapor para simplificar el circuito agua-vapor.",
+      "Manteniendo el vapor en estado saturado durante todo el proceso de expansión en la turbina.",
+      "Aumentando la temperatura y presión del agua de alimentación mediante el uso de calentadores y extracciones.",
+      "Limitando el salto entálpico en los cuerpos de baja presión para evitar el uso del condensador."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗Las extracciones de vapor (sangrados) en los diferentes cuerpos de la turbina sirven para:",
+    "answers": [
+      "Aumentar el caudal de vapor que llega al condensador para mejorar el vacío.",
+      "Incrementar la potencia mecánica final desarrollada en el eje de la turbina de baja presión.",
+      "Precalentar el agua de alimentación y evitar que la humedad final del vapor supere el límite del 10-15 %.",
+      "Enfriar los álabes de la turbina de alta presión mediante vapor a menor temperatura."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗En las turbinas de vapor con escalonamiento de velocidad tipo Curtis:",
+    "answers": [
+      "La capacidad de transformación de energía por etapa es mayor que en el tipo Rateau, requiriendo menos etapas.",
+      "El salto de presión se reparte de forma uniforme entre los álabes fijos y los álabes móviles.",
+      "Se requiere una construcción mucho más costosa y un mayor número de etapas de presión.",
+      "La velocidad del vapor se mantiene constante a lo largo de todos los escalonamientos de la turbina."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "❗En la clasificación técnica de las turbinas de vapor según su escalonamiento:",
+    "answers": [
+      "Las turbinas Curtis realizan un escalonamiento de presión en cada fila de álabes móviles.",
+      "Las de tipo Rateau utilizan la energía cinética para realizar un escalonamiento de velocidad múltiple.",
+      "Las de tipo Rateau tienen escalonamiento de presión y las de tipo Curtis de velocidad.",
+      "Ambos tipos son exclusivos de las centrales de ciclo combinado y no se usan en centrales de carbón."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗La presión en el interior del hogar de las calderas que queman combustibles sólidos (carbón):",
+    "answers": [
+      "Se mantiene en depresión para evitar fugas de gases, siendo necesario un ventilador de tiro inducido.",
+      "Está siempre presurizada para favorecer la circulación natural del agua en los tubos vaporizadores.",
+      "Es igual a la presión atmosférica para minimizar el consumo de los servicios auxiliares.",
+      "Se eleva por encima de los 200 bar para alcanzar las condiciones de vapor supercrítico."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "❗La transferencia de calor hacia los diferentes paquetes del sobrecalentador se realiza:",
+    "answers": [
+      "Exclusivamente por conducción a través de las paredes de los tubos del economizador.",
+      "Siempre por convección natural en el precalentador y por radiación en el desgasificador.",
+      "Principalmente por radiación en el sobrecalentador primario y por convección en el secundario.",
+      "Por contacto directo entre los gases de combustión y el agua de alimentación de la caldera."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗La temperatura final del vapor sobrecalentado que entra en la turbina de alta presión depende de:",
+    "answers": [
+      "Únicamente del poder calorífico superior (PCS) del carbón utilizado en los molinos.",
+      "De la temperatura del agua de alimentación de la caldera y del control del exceso de aire.",
+      "De la velocidad de giro del alternador síncrono y del número de pares de polos.",
+      "Exclusivamente de la presión de vacío alcanzada en el condensador de la planta."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "❗Los precalentadores de aire de combustión de tipo regenerativo instalados en grandes centrales son:",
+    "answers": [
+      "Intercambiadores de superficie donde los gases y el aire circulan por tubos concéntricos.",
+      "Calentadores de mezcla donde el vapor de extracción calienta directamente el flujo de aire.",
+      "Equipos de tipo Ljungström (rotativos) o de tipo Rothermüle.",
+      "Calderas auxiliares de gasóleo dedicadas exclusivamente al calentamiento del aire primario."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗La extracción y recogida de las cenizas volantes se distribuye en el circuito aire-gases aproximadamente en:",
+    "answers": [
+      "Un 50 % en el hogar de la caldera y un 50 % en la base de la chimenea.",
+      "Economizador (5 %), precalentador (7 %), precipitadores (85 %) y base de chimenea (3 %).",
+      "Un 99 % en los quemadores de carbón pulverizado y un 1 % en el desgasificador.",
+      "Proporciones iguales en todos los equipos de recuperación de calor del ciclo Rankine."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "❗En el compresor rotativo de una turbina de gas (Ciclo Brayton):",
+    "answers": [
+      "El trabajo de compresión disminuye drásticamente al aumentar la temperatura del aire ambiente.",
+      "La relación de compresión es independiente de la densidad del aire a la entrada.",
+      "El trabajo específico de compresión requerido es mayor cuando disminuye la densidad del aire (aire más caliente).",
+      "Se inyecta combustible antes de la última etapa para aumentar la presión de salida hacia la turbina."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗El trabajo específico obtenido en el proceso de expansión de una turbina de gas:",
+    "answers": [
+      "Depende únicamente del caudal másico de aire sin verse afectado por la temperatura de entrada.",
+      "Es constante para una relación de compresión dada, independientemente del combustible usado.",
+      "Está condicionado por el valor de la relación de compresión y la temperatura de los gases a la entrada (TIT).",
+      "Aumenta si se reduce el exceso de aire por debajo del límite estequiométrico en la cámara de combustión."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗Para reducir las emisiones de NOx en una turbina de gas mediante medidas primarias, se recurre a:",
+    "answers": [
+      "Incrementar el tiempo de residencia de los gases de combustión en las zonas de máxima temperatura del hogar.",
+      "Inyectar agua o vapor en la cámara de combustión para disminuir la temperatura de llama.",
+      "Operar con una relación combustible/aire estequiométrica de 1:15 para maximizar la eficiencia térmica.",
+      "Utilizar exclusivamente inyección de aire secundario precalentado en el cuerpo del desgasificador."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "❗El rendimiento global y la eficiencia operativa del ciclo de Brayton se ven afectados de tal forma que:",
+    "answers": [
+      "Una disminución en la temperatura de entrada a la turbina (TIT) conlleva un aumento proporcional del trabajo neto.",
+      "El rendimiento es máximo cuando la expansión en la turbina se realiza a presión constante.",
+      "Cuanto mayor sea el incremento de presión en cada etapa del compresor, mayor será su rendimiento.",
+      "La potencia útil generada es independiente de las pérdidas de rozamiento en los cierres del rotor."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗El rendimiento térmico de un ciclo Brayton configurado con un sistema regenerativo:",
+    "answers": [
+      "Es máximo cuando se alcanzan las relaciones de compresión más elevadas permitidas por los materiales.",
+      "Aumenta significativamente al operar con relaciones de compresión más bajas.",
+      "Depende únicamente del coeficiente de exceso de aire introducido en los quemadores.",
+      "Se optimiza al elevar la presión de salida del compresor por encima del punto crítico del aire."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "❗Las turbinas hidráulicas de reacción se caracterizan por ser las más adecuadas para trabajar con:",
+    "answers": [
+      "Saltos netos superiores a los 800 metros y velocidades específicas extremadamente bajas.",
+      "Un sistema de flujo tangencial donde el rodete no se encuentra inundado durante la operación.",
+      "Saltos pequeños, caudales de agua elevados y altas velocidades específicas (ns).",
+      "Una transformación exclusiva de energía de presión en cinética dentro del distribuidor fijo."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗En el principio de funcionamiento de una turbina hidráulica de acción (tipo Pelton):",
+    "answers": [
+      "La caída de entalpía y presión se reparte equitativamente entre el inyector y el rodete.",
+      "Es imprescindible el uso de un tubo de aspiración sumergido para generar un efecto de succión.",
+      "La energía que se transmite efectivamente al eje de la turbina es exclusivamente energía cinética.",
+      "El grado de reacción (σ) debe mantenerse en valores cercanos a la unidad para evitar la cavitación."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗En el condensador de una central térmica convencional o de ciclo combinado:",
+    "answers": [
+      "El proceso de condensación del vapor se realiza a una presión superior a la atmosférica para facilitar el bombeo.",
+      "El intercambio de calor latente se realiza mediante contacto directo con el aire primario de combustión.",
+      "La temperatura a la que el vapor se condensa depende directamente de la temperatura del foco frío disponible.",
+      "El salto entálpico disponible en la turbina es independiente del nivel de vacío alcanzado en el equipo."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗La misión técnica fundamental del calderín en una caldera acuotubular de alta presión es:",
+    "answers": [
+      "Aumentar la temperatura del vapor saturado hasta alcanzar condiciones supercríticas.",
+      "Mezclar el combustible pulverizado con el agua de alimentación antes de entrar en los tubos.",
+      "Reducir la velocidad axial del vapor para evitar el embalamiento de la turbina.",
+      "Separar de forma eficiente la fase líquida de la fase gaseosa del fluido de trabajo."
+    ],
+    "correct": 3,
+    "block": 2
+  },
+  {
+    "question": "❗Con la instalación de un economizador en el circuito de agua-vapor de una caldera acuotubular se consigue:",
+    "answers": [
+      "Disminuir la presión del vapor recalentado frío procedente del cuerpo de media presión.",
+      "Reducir el tamaño de partícula del carbón pulverizado por debajo de las 100 micras.",
+      "Elevar el rendimiento global del ciclo al precalentar el agua con el calor residual de los humos.",
+      "Filtrar las cenizas volantes de diámetro superior a 10 μm antes del precipitador electrostático."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗El rendimiento de una caldera de central térmica se expresa analíticamente como la relación entre:",
+    "answers": [
+      "El trabajo mecánico en el eje y el calor cedido al medio refrigerante en el condensador.",
+      "El volumen de aire estequiométrico y el volumen real de humos emitidos por la chimenea.",
+      "El calor suministrado al vapor generado y el calor aportado por el combustible referido a su PCS.",
+      "El salto entálpico isoentrópico en la turbina y la energía cinética del vapor de extracción."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗En la determinación del valor del rendimiento global de una central de ciclo combinado:",
+    "answers": [
+      "Las pérdidas por radiación en la caldera de recuperación superan la energía producida por la turbina de gas.",
+      "Tiene un mayor peso específico el rendimiento obtenido en el ciclo superior o de gas (Brayton).",
+      "El rendimiento del ciclo de Rankine asociado debe ser siempre superior al 50 % para ser rentable.",
+      "La temperatura de los gases por la chimenea es el único parámetro que define la eficiencia neta."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "❗En una caldera de recuperación de calor (HRSG) de un ciclo combinado, el concepto de pinch point implica:",
+    "answers": [
+      "La diferencia de temperatura entre el agua a la salida del economizador y la de saturación.",
+      "El punto exacto de la turbina donde el grado de humedad del vapor alcanza el 10 %.",
+      "Que cuanto más pequeño sea su valor, mayor será el rendimiento obtenido en el intercambio de calor.",
+      "Un límite de diseño que obliga a recircular los gases húmedos para evitar temperaturas de 2550 ºC."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "❗En la configuración estándar de una central de ciclo combinado de alta potencia se suele emplear:",
+    "answers": [
+      "Compresores de flujo centrífugo en cascada para gestionar caudales de aire superiores a 500 kg/s.",
+      "Un compresor de flujo axial y una turbina de gas también de flujo axial.",
+      "Turbinas de flujo radial con escalonamientos de velocidad tipo Curtis en todas sus etapas.",
+      "Compresores volumétricos de pistón para alcanzar relaciones de compresión de 30:1 en condiciones ISO."
+    ],
+    "correct": 1,
+    "block": 2
+  }
 ];
