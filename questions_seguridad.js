@@ -644,4 +644,733 @@ var questionBank = [
     ],
     correct: 0,
   },
+  {
+    "question": "1. ¿Qué deberíamos hacer previo a la realización del trabajo con una máquina hidráulica prestada?",
+    "answers": [
+      "Realizar una inspección que garantice que es la máquina adecuada y está en perfectas condiciones de uso.",
+      "Conocer el procedimiento de trabajo, revisar que la máquina es la adecuada y tiene toda la documentación en regla y asegurarnos de que el personal tiene la formación e información adecuada.",
+      "a) y b) son correctas."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Antes de usar cualquier equipo de trabajo, es fundamental garantizar tanto su estado técnico (inspección) como el cumplimiento legal y la capacitación del personal. Según la normativa, el personal debe recibir información sobre las condiciones y forma correcta de utilización, teniendo en cuenta las instrucciones del fabricante."
+  },
+  {
+    "question": "2. La fibrilación ventricular:",
+    "answers": [
+      "Es la pérdida de control de los músculos, impidiendo que el accidentado se separe del contacto.",
+      "Movimiento anárquico del corazón, que deja de enviar sangre a los órganos.",
+      "Produce paro respiratorio si la corriente eléctrica afecta los centros nerviosos que controlan la respiración."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Se define técnicamente como el movimiento anárquico del corazón, lo que impide que este bombee sangre de manera efectiva a los órganos vitales. No debe confundirse con la tetanización (pérdida de control muscular) ni con el paro respiratorio."
+  },
+  {
+    "question": "3. Efectos indirectos más habituales en un accidente eléctrico:",
+    "answers": [
+      "Tetanización, asfixia y fibrilación ventricular.",
+      "Caídas, golpes, cortes.",
+      "Tetanización, asfixia, fibrilación ventricular, caídas, golpes, cortes."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Los efectos indirectos son aquellos que no son provocados por la propia corriente, sino que son consecuencia del accidente (como caídas desde altura, golpes contra objetos o cortes al soltar una herramienta). La tetanización y la asfixia son efectos directos del paso de la corriente por el cuerpo."
+  },
+  {
+    "question": "4. Resistencia del cuerpo eléctrico en contacto eléctrico:",
+    "answers": [
+      "Es mayor cuanto mayor es la tensión.",
+      "Es menor cuanto menor es la tensión.",
+      "Es menor cuanto mayor es la tensión."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "La resistencia de la piel humana no es constante; a medida que aumenta la tensión de contacto, la barrera aislante de la piel se rompe, haciendo que la resistencia corporal total disminuya drásticamente."
+  },
+  {
+    "question": "5. El contacto eléctrico indirecto se produce cuando:",
+    "answers": [
+      "Se toca un elemento accidentalmente en tensión por un fallo de aislamiento.",
+      "Se entra en contacto con partes activas de la instalación.",
+      "Se toca partes activas en una instalación con tierra flotante."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Ocurre cuando una persona toca una masa (parte metálica de un equipo) que accidentalmente ha quedado bajo tensión debido a un fallo en su aislamiento. El contacto con partes activas (cables pelados, bornes) se denomina contacto directo."
+  },
+  {
+    "question": "6. La primera cifra del nivel de protección \"IP\" indica:",
+    "answers": [
+      "Protección contra partes peligrosas.",
+      "Protección ante líquidos.",
+      "Protección ante sólidos."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "En el código IP, el primer dígito se refiere a la protección contra la entrada de objetos sólidos y, por extensión, al acceso de personas a partes peligrosas (dedos, herramientas)."
+  },
+  {
+    "question": "7. La segunda cifra del nivel de protección \"IP\" indica:",
+    "answers": [
+      "Protección contra partes peligrosas.",
+      "Protección ante líquidos.",
+      "Protección ante sólidos."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "El segundo dígito del código IP especifica exclusivamente el grado de protección del equipo contra la penetración dañina de líquidos (agua)."
+  },
+  {
+    "question": "8. Sistema de protección contra contactos directos:",
+    "answers": [
+      "Neutro aislado tierra.",
+      "Doble aislamiento.",
+      "Puesta fuera de alcance por alejamiento."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "La puesta fuera de alcance por alejamiento es una medida preventiva básica para evitar que las personas toquen accidentalmente partes activas en tensión. El doble aislamiento y el neutro aislado suelen ser medidas enfocadas a la protección contra contactos indirectos."
+  },
+  {
+    "question": "9. Orden correcto de las cinco reglas de oro en trabajos eléctricos:",
+    "answers": [
+      "Poner a tierra y en cortocircuito, Desconectar, Prevenir realimentación, Verificar ausencia de tensión, Proteger frente a elementos próximos y señalizar.",
+      "Desconectar, Prevenir realimentación, Verificar ausencia de tensión, Poner a tierra y cortocircuito, Proteger y señalizar.",
+      "Desconectar, Proteger y señalizar, Poner a tierra y cortocircuito, Prevenir realimentación, Verificar ausencia de tensión."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "El procedimiento estándar es: 1. Desconectar (corte efectivo), 2. Prevenir cualquier posible realimentación (bloqueo), 3. Verificar la ausencia de tensión, 4. Poner a tierra y en cortocircuito, y 5. Proteger frente a elementos próximos y señalizar la zona."
+  },
+  {
+    "question": "10. Trabajadores cualificados deben:",
+    "answers": [
+      "Ser autorizados sin necesidad de constancia escrita.",
+      "Tener formación acreditada o experiencia y ser autorizados por escrito.",
+      "a) y b) son erróneas."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "La normativa exige que posean formación acreditada o experiencia técnica y que, además, cuenten con una autorización expresa y por escrito de la empresa para realizar trabajos específicos."
+  },
+  {
+    "question": "11. ¿Qué es una zona peligrosa?",
+    "answers": [
+      "Área donde pueda producirse un accidente, con o sin trabajadores.",
+      "Área donde un trabajador puede estar en riesgo.",
+      "Zona limitada solo a máquinas en movimiento."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Se define como cualquier espacio, ya sea dentro o alrededor de una máquina o instalación, donde la presencia de un trabajador supone un riesgo para su seguridad o salud."
+  },
+  {
+    "question": "12. El procedimiento Lockout-Tagout (LOTO) incluye:",
+    "answers": [
+      "Solo bloqueo de energía eléctrica.",
+      "Etiquetado de máquinas fuera de uso.",
+      "Desconexión y consignación de energía para evitar arranques accidentales."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Consiste en la desconexión física de las fuentes de energía y su posterior consignación (bloqueo con candado y etiquetado) para impedir arranques accidentales durante el mantenimiento."
+  },
+  {
+    "question": "13. El marcado CE pierde validez cuando:",
+    "answers": [
+      "Se cambia la función sin evaluar riesgos.",
+      "Se sustituye una pieza por otra de otro proveedor.",
+      "No se ha revisado en 10 años."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Si se realiza una modificación sustancial que cambie la función original de la máquina sin realizar una nueva evaluación de riesgos, el fabricante (o quien modifica) debe asumir la responsabilidad de un nuevo marcado."
+  },
+  {
+    "question": "14. Componente de seguridad según RD 1644/2008:",
+    "answers": [
+      "Elemento indispensable a reemplazar regularmente.",
+      "Accesorio opcional.",
+      "Componente que cumple función de seguridad, se comercializa por separado, y su fallo pone en peligro la seguridad."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Es aquel que tiene como misión principal cumplir una función de seguridad, se comercializa por separado y cuyo fallo o mal funcionamiento pone en peligro la seguridad de las personas."
+  },
+  {
+    "question": "15. Requisito indispensable para comercializar una máquina según RD 1644/2008:",
+    "answers": [
+      "Certificado ISO 9001.",
+      "Cumplir requisitos de seguridad y salud, y tener marcado CE.",
+      "Estar en base de datos europea."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Para su puesta en el mercado, es obligatorio que la máquina cumpla los requisitos esenciales de seguridad y salud, además de ostentar el marcado CE."
+  },
+  {
+    "question": "16. Efecto del ruido en el sistema cardiovascular:",
+    "answers": [
+      "Dilatación pupilas.",
+      "Estrechez campo visual.",
+      "Alteración ritmo cardíaco."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "La exposición a altos niveles de ruido genera estrés, lo que puede provocar alteraciones en el ritmo cardíaco (taquicardia) y aumento de la presión arterial."
+  },
+  {
+    "question": "17. Cuándo usar EPI:",
+    "answers": [
+      "Siempre.",
+      "Cuando no pueden evitarse los riesgos por medios técnicos.",
+      "Prioritariamente frente a protección colectiva."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Los Equipos de Protección Individual son el último recurso. Solo deben emplearse cuando los riesgos no han podido evitarse o limitarse suficientemente mediante medios técnicos de protección colectiva o medidas organizativas."
+  },
+  {
+    "question": "18. Embarazo o lactancia:",
+    "answers": [
+      "Evaluación general del puesto.",
+      "Realizar evaluación específica del puesto.",
+      "Reducir jornada."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "En estos casos, la empresa debe realizar una evaluación de riesgos específica del puesto de trabajo para determinar si las condiciones pueden afectar a la salud de la trabajadora o del feto/lactante."
+  },
+  {
+    "question": "19. Equipos sin marcado CE o sin adecuación al RD 1215/1997:",
+    "answers": [
+      "Está prohibido salvo recurso preventivo.",
+      "No se puede usar, ya expiró el periodo transitorio.",
+      "Depende del técnico competente."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Cualquier equipo de trabajo debe estar adecuado a las disposiciones mínimas de seguridad. Tras finalizar los periodos transitorios de la ley, no está permitido el uso de equipos que no cumplan con estas exigencias de seguridad."
+  },
+  {
+    "question": "20. Si un trabajador autorizado se encuentra dentro de la zona peligrosa accidentalmente:",
+    "answers": [
+      "Salir e ir a otra área.",
+      "Salir e informar al jefe de equipo.",
+      "No hacer nada."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "La prioridad es la seguridad inmediata (salir) y la comunicación del incidente al responsable (jefe de equipo) para analizar el fallo en el procedimiento de seguridad."
+  },
+  {
+    "question": "21. ¿Quién establece las distancias de seguridad?:",
+    "answers": [
+      "Trabajador autorizado y encargado de mantenimiento.",
+      "Técnico de prevención.",
+      "Trabajador cualificado designado."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Estas distancias son establecidas por personal cualificado designado, basándose en la normativa técnica y los reglamentos electrotécnicos vigentes."
+  },
+  {
+    "question": "22. Característica obligatoria en escalera portátil según RD 1215/1997:",
+    "answers": [
+      "Solo fibra o metal.",
+      "Estabilidad y sistema antideslizante.",
+      "Puede usarse sobre superficies inestables."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Deben ofrecer estabilidad suficiente y disponer de sistemas antideslizantes (zapatas) para evitar desplazamientos accidentales durante su uso."
+  },
+  {
+    "question": "23. El plan de montaje, utilización y desmontaje de andamio debe incluir:",
+    "answers": [
+      "Descripción de materiales y anclajes.",
+      "Descripción técnica, cálculos, medidas e instrucciones.",
+      "Aprobación verbal del jefe de obra."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Debe contener la descripción técnica, los cálculos de resistencia y estabilidad, así como las instrucciones detalladas de seguridad para cada fase."
+  },
+  {
+    "question": "24. Requisitos de seguridad en andamios a 6 m y 30 m:",
+    "answers": [
+      "Siempre se precisa plan de montaje.",
+      "No se precisa plan.",
+      "Solo se verifica el CE."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Para torres móviles de más de 6 metros o andamios que superen ciertas alturas (como 24 metros), es preceptivo contar con un plan de montaje específico realizado por técnico competente."
+  },
+  {
+    "question": "25. Esta señal significa:",
+    "answers": [
+      "Prohibido el paso a no autorizados.",
+      "STOP.",
+      "Obligación de protección del cuerpo."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Las señales de prohibición son circulares con borde rojo. En este contexto, indica \"Prohibido el paso a personas no autorizadas\"."
+  },
+  {
+    "question": "26. Ventilación por dilución se usa cuando:",
+    "answers": [
+      "Contaminante muy tóxico.",
+      "Gran cantidad de contaminante.",
+      "Muchos focos dispersos y bajas concentraciones."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Se aplica cuando existen numerosos focos contaminantes dispersos por el local y las concentraciones son bajas, permitiendo mezclar el aire contaminado con aire limpio hasta niveles seguros."
+  },
+  {
+    "question": "27. La resistencia de tierra:",
+    "answers": [
+      "Limita la tensión de contacto.",
+      "No es precisa si neutro está equilibrado.",
+      "Regula intensidad del diferencial."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Su función principal es limitar la tensión de contacto que puede aparecer en las masas metálicas, derivando la corriente de defecto a tierra para que actúen las protecciones (diferencial)."
+  },
+  {
+    "question": "28. Reconocimientos médicos por exposición a cancerígenos:",
+    "answers": [
+      "Empresa debe ofrecerlo; el trabajador decide.",
+      "Si es amianto, el trabajador debe hacerlo.",
+      "Obligatorio si empresa lo considera necesario."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Aunque la vigilancia suele ser ofrecida por la empresa, en el caso de agentes específicos muy peligrosos como el amianto, la realización del reconocimiento médico es obligatoria por ley para el trabajador."
+  },
+  {
+    "question": "29. En trabajos con productos cancerígenos o biológicos:",
+    "answers": [
+      "Prohibir comer, beber, fumar en zona de riesgo.",
+      "Proveer prendas de protección adecuadas.",
+      "a) y b) son correctas."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Se deben aplicar medidas higiénicas estrictas como prohibir comer o fumar en la zona de riesgo y proveer de ropa de protección adecuada que se guarde separada de la ropa de calle."
+  },
+  {
+    "question": "30. Según RD 1215/1997, inspección de andamios:",
+    "answers": [
+      "Antes de cada jornada y tras modificaciones, no por clima.",
+      "Antes de cada jornada, tras clima adverso o modificaciones.",
+      "No necesaria si lo monta personal autorizado."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Los andamios deben ser inspeccionados antes de su puesta en servicio, periódicamente, y tras cualquier modificación, periodo de no utilización o exposición a condiciones climatológicas adversas."
+  },
+  {
+    "question": "31. Material friable de amianto:",
+    "answers": [
+      "Chapa ondulada de fibrocemento.",
+      "Requiere herramientas mecánicas para reducirlo.",
+      "Puede desmoronarse solo con la mano."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Un material es friable cuando puede desmoronarse o reducirse a polvo mediante la simple presión de la mano, lo que facilita enormemente la liberación de fibras peligrosas al aire."
+  },
+  {
+    "question": "32. Exposición diaria (ED):",
+    "answers": [
+      "Media ponderada durante jornada laboral estándar.",
+      "Media para cualquier periodo de 15 min.",
+      "a) y b) son incorrectas."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Es el promedio de la concentración de un agente químico para una jornada estándar de 8 horas diarias."
+  },
+  {
+    "question": "33. Valor Límite Biológico (VLB) no debe usarse para:",
+    "answers": [
+      "Diagnosticar una patología profesional.",
+      "Comprobar eficacia del EPI.",
+      "Determinar absorción dérmica y digestiva."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Los VLB son indicadores de exposición, pero no son herramientas clínicas para diagnosticar enfermedades o patologías profesionales por sí mismos."
+  },
+  {
+    "question": "34. EPI de categoría 3:",
+    "answers": [
+      "No son de Clase I ni II.",
+      "Protegen de riesgos muy graves o mortales.",
+      "Protegen contra riesgos mínimos."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Son equipos diseñados para proteger al trabajador de riesgos que puedan tener consecuencias muy graves, daños irreversibles o la muerte (ej. caídas de altura, riesgo eléctrico de alta tensión)."
+  },
+  {
+    "question": "35. RD 1644/2008 no aplica a:",
+    "answers": [
+      "Máquinas posteriores a 2009.",
+      "Ascensores para pozos de minas.",
+      "Equipos certificados por RD 1215/1997."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Los aparatos de elevación diseñados específicamente para pozos de minas están excluidos del ámbito de aplicación de este Real Decreto."
+  },
+  {
+    "question": "36. La señalización:",
+    "answers": [
+      "Equivale a protección colectiva.",
+      "Es acústica, codificada y difundida adecuadamente.",
+      "No sustituye medidas técnicas ni organizativas."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "La señalización es una medida complementaria e informativa; nunca debe sustituir a las protecciones técnicas (colectivas) o a las medidas organizativas obligatorias."
+  },
+  {
+    "question": "37. Señal azul, redonda, símbolo blanco:",
+    "answers": [
+      "Obligación.",
+      "Advertencia (si color contraste es amarillo).",
+      "Prohibición (si contraste es negro)."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Este formato (forma circular y color azul) corresponde a las señales de obligación (uso de protección auditiva, casco, etc.)."
+  },
+  {
+    "question": "38. Vehículos diésel para uso laboral:",
+    "answers": [
+      "Solo si es híbrido.",
+      "Legal, pero hay que analizar emisiones y aplicar medidas.",
+      "Solo legal en uso personal."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Son legales, pero dado que las emisiones de motores diésel están clasificadas como cancerígenas, es obligatorio analizar la exposición y aplicar medidas de control."
+  },
+  {
+    "question": "39. En una instalación eléctrica:",
+    "answers": [
+      "El diferencial funciona si hay tierra.",
+      "La tierra es obligatoria.",
+      "El diferencial funciona aunque no haya tierra."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "La existencia de una puesta a tierra es obligatoria y fundamental para garantizar que, ante un fallo de aislamiento, la corriente se derive y los sistemas de seguridad actúen."
+  },
+  {
+    "question": "40. Se consideran trabajos con riesgo biológico:",
+    "answers": [
+      "Asistencia sanitaria.",
+      "Todo lo relacionado con el COVID.",
+      "Dar clase (incorrecta)."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "La asistencia sanitaria es el ejemplo clásico donde existe una exposición deliberada o accidental a agentes biológicos (virus, bacterias)"
+  },
+  {
+    "question": "1. Con el economizador:",
+    "answers": [
+      "Se aumenta el rendimiento del ciclo, al calentar el agua a la entrada de la caldera.",
+      "Se aumenta el rendimiento del ciclo, al calentar el aire a la entrada de la caldera.",
+      "Se disminuye el rendimiento del ciclo, al disminuir el salto entálpico en la turbina."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "El economizador tiene como función calentar el agua a la entrada de la caldera aprovechando el calor de los gases de escape. Al precalentar el agua de alimentación mediante extracciones o calor residual, se logra elevar el rendimiento global del ciclo térmico al reducir la cantidad de calor que debe aportar el combustible en el hogar."
+  },
+  {
+    "question": "2. En el condensador:",
+    "answers": [
+      "La temperatura de condensación depende de la del agua de refrigeración.",
+      "La presión de condensación depende de la temperatura del vapor a la entrada.",
+      "La temperatura del agua de refrigeración depende de la temperatura de condensación."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "En un ciclo de potencia, la temperatura a la que el vapor se condensa está ligada a la presión de vacío, la cual depende directamente de la temperatura del foco frío (agua de refrigeración o aire ambiente) disponible. Cuanto más fría esté el agua de refrigeración, menor puede ser la presión en el condensador y mayor el salto entálpico aprovechable."
+  },
+  {
+    "question": "3. En el compresor rotativo de una turbina de gas:",
+    "answers": [
+      "El trabajo de compresión por kg de aire es menor en verano que en invierno.",
+      "El trabajo de compresión por kg de aire es independiente de la temperatura ambiente.",
+      "La potencia consumida es independiente de la densidad del aire.",
+      "Ninguna de las respuestas anteriores es correcta."
+    ],
+    "correct": 3,
+    "block": 2,
+    "explanation": "Según las anotaciones del documento, ninguna de las tres primeras respuestas es correcta. La realidad técnica es que el trabajo específico de compresión es mayor al disminuir la densidad del aire (por ejemplo, en días calurosos), lo que reduce la eficiencia y la potencia útil de la turbina."
+  },
+  {
+    "question": "4. El rendimiento del ciclo de Brayton regenerativo:",
+    "answers": [
+      "Aumenta al aumentar la relación de compresión.",
+      "Aumenta al disminuir la relación de compresión.",
+      "Es independiente de la relación de compresión."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "La regeneración consiste en precalentar el aire a la salida del compresor con los gases calientes de escape de la turbina. Este proceso es más efectivo con relaciones de compresión bajas, ya que en ese punto la diferencia de temperatura entre el aire comprimido y los gases de escape es mayor, permitiendo un mayor ahorro de combustible."
+  },
+  {
+    "question": "5. Para reducir las emisiones de NOx en una turbina de gas sin reducir en exceso la potencia de salida es mejor:",
+    "answers": [
+      "Aumentar la temperatura de combustión.",
+      "Aumentar la presión de salida del compresor.",
+      "Reducir la temperatura del aire a la entrada de la cámara de combustión."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "La formación de óxidos de nitrógeno (NOx) depende principalmente de las altas temperaturas de combustión. Una técnica eficaz para limitar su formación es bajar la temperatura del aire a la entrada de la cámara de combustión o inyectar agua/vapor para reducir la temperatura de llama, controlando así la reacción química del nitrógeno."
+  },
+  {
+    "question": "6. En el compresor de una turbina de gas:",
+    "answers": [
+      "El tamaño de los álabes aumenta conforme aumenta la densidad del aire.",
+      "El incremento de energía por etapa es constante en todo el compresor.",
+      "El flujo de aire es siempre supersónico en todas las etapas.",
+      "Ninguna de las respuestas anteriores es correcta."
+    ],
+    "correct": 3,
+    "block": 2,
+    "explanation": "De acuerdo con la corrección del test proporcionada en la fuente, las afirmaciones sobre el tamaño de los álabes respecto a la densidad o el incremento de energía constante por etapa no son precisas en los términos planteados, por lo que ninguna respuesta es correcta"
+  },
+  {
+    "question": "7. En un ciclo combinado, en una caldera de recuperación de calor el pinch point:",
+    "answers": [
+      "Es la diferencia de temperatura a la entrada de la caldera.",
+      "Es la diferencia máxima de temperatura en el evaporador.",
+      "Representa la diferencia mínima de temperatura entre los gases de escape y el fluido del ciclo de vapor."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "El pinch point representa la diferencia mínima de temperatura entre los gases de escape de la turbina de gas y el fluido del ciclo de vapor dentro del intercambiador. Cuanto más pequeño sea este valor, mejor será el rendimiento del intercambio de calor, aunque esto exige una superficie de intercambio mayor en la caldera, situándose los valores óptimos habitualmente entre los 5 y 20 °C."
+  },
+  {
+    "question": "8. En el valor del rendimiento de un ciclo combinado:",
+    "answers": [
+      "El ciclo inferior tiene mayor peso en el resultado global.",
+      "El rendimiento del ciclo superior (turbina de gas) tiene un mayor peso en el resultado global.",
+      "Ambos ciclos contribuyen exactamente al 50% del rendimiento."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "En estas centrales, el rendimiento del ciclo superior (turbina de gas) tiene un mayor peso en el resultado global. Esto se debe a que la turbina de gas genera la mayor parte de la potencia eléctrica y sus gases de escape proporcionan la energía térmica necesaria para alimentar el ciclo Rankine inferior."
+  },
+  {
+    "question": "9. En una central de ciclo combinado se suele emplear:",
+    "answers": [
+      "Compresor centrífugo y turbina axial.",
+      "Compresor axial y turbina de flujo radial.",
+      "Un compresor de flujo axial y una turbina de flujo axial."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "La configuración técnica estándar para estas instalaciones consiste en el uso de un compresor de flujo axial y una turbina de flujo axial. Esta maquinaria es la más eficiente para manejar los grandes caudales de aire y gases de combustión requeridos en la generación de energía a gran escala."
+  },
+  {
+    "question": "10. Ante un incremento transitorio de la demanda, el reparto de potencia entre generadores:",
+    "answers": [
+      "Es mayor en generadores con estatismo alto.",
+      "Contribuyen más aquellos generadores que tienen una constante de estatismo baja.",
+      "Se reparte de forma equitativa independientemente del estatismo."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Cuando la demanda en la red aumenta repentinamente, contribuyen más aquellos generadores que tienen una constante de estatismo baja. El estatismo define la relación entre la variación de frecuencia y la potencia, por lo que un valor bajo implica una respuesta más sensible y una mayor aportación de potencia ante caídas de frecuencia."
+  },
+  {
+    "question": "11. En la ecuación que gobierna el movimiento del rotor de un generador síncrono:",
+    "answers": [
+      "La frecuencia disminuye si el par mecánico es superior al eléctrico.",
+      "La frecuencia se mantiene constante si hay desequilibrio de pares.",
+      "Si el par mecánico aportado por la turbina es superior al par eléctrico exigido por la carga, se produce un aumento de la frecuencia."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "La estabilidad de la frecuencia depende del equilibrio de pares en el eje; por ello, si el par mecánico aportado por la turbina es superior al par eléctrico exigido por la carga, se produce un aumento de la frecuencia. Este desequilibrio acelera el rotor, elevando la velocidad de giro y, por consiguiente, la frecuencia de la corriente generada."
+  },
+  {
+    "question": "12. En un sistema de control de tensión de un generador síncrono, la respuesta temporal será más amortiguada si:",
+    "answers": [
+      "La constante de tiempo del amplificador es pequeña y la del generador es alta.",
+      "La constante de tiempo del amplificador es alta y la del generador es pequeña.",
+      "Ambas constantes de tiempo son iguales y elevadas."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Para lograr una respuesta estable y evitar oscilaciones excesivas en la tensión ante cambios en la referencia, es preferible que la constante de tiempo del amplificador sea pequeña y la constante de tiempo del generador sea alta. Esto permite que el regulador actúe rápidamente mientras la máquina síncrona reacciona de forma más gradual, facilitando el control."
+  },
+  {
+    "question": "13. La variación de la tensión de salida del generador ante una variación tipo escalón es estable:",
+    "answers": [
+      "Si los polos de la función de transferencia son positivos.",
+      "Si el sistema no tiene polos dominantes.",
+      "Si el polo dominante de la función de transferencia tiene un valor negativo."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "De acuerdo con la teoría de estabilidad de sistemas de control, un sistema es estable si el polo dominante de la función de transferencia tiene un valor negativo. Esto indica que los polos se encuentran en el semiplano izquierdo del plano complejo, lo que garantiza que la respuesta transitoria decaiga con el tiempo en lugar de crecer indefinidamente"
+  },
+  {
+    "question": "14. En un sistema de control primario de U/Q se utiliza:",
+    "answers": [
+      "Únicamente el regulador de velocidad de la turbina.",
+      "Sistemas de compensación de potencia activa.",
+      "Sistemas de excitación de generadores y tomas de regulación en el lado de AT del transformador."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "El control primario de tensión y potencia reactiva (U/Q) opera de forma muy rápida (milisegundos) y se lleva a cabo a nivel de central mediante los sistemas de excitación de los generadores (AVRs), el uso de compensadores síncronos y actuando sobre las tomas de regulación en el lado de alta tensión (AT) del transformador principal."
+  },
+  {
+    "question": "15. Un sistema de autoexcitación estática o directa de un generador síncrono:",
+    "answers": [
+      "Es más lento que los sistemas rotativos.",
+      "Es un sistema de respuesta muy rápida ante variaciones de la red.",
+      "No requiere fuente externa en ninguna fase, ni siquiera en el arranque."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "Este sistema toma la energía directamente de los bornes del alternador a través de un transformador de excitación y un puente de tiristores. Se caracteriza técnicamente por ser un sistema de respuesta muy rápida ante variaciones de la red, aunque requiere una fuente externa (como baterías) únicamente durante el proceso de arranque inicial."
+  },
+  {
+    "question": "16. El trabajo específico de expansión en una turbina de gas:",
+    "answers": [
+      "Depende exclusivamente de la relación de compresión.",
+      "Depende exclusivamente de la temperatura de entrada a la turbina.",
+      "Depende de la relación de compresión y de la temperatura de entrada a la turbina (TIT)."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "La capacidad de realizar trabajo durante el proceso de expansión en el ciclo Brayton no es aislada; depende conjuntamente del valor de la relación de compresión (presión alcanzada) y de la temperatura de entrada a la turbina (TIT), factores que determinan el salto entálpico disponible."
+  },
+  {
+    "question": "17. Las extracciones de vapor de los cuerpos de la turbina de vapor sirven para:",
+    "answers": [
+      "Aumentar la presión final de escape.",
+      "Reducir el tamaño total de la caldera.",
+      "Evitar que el grado de humedad del vapor sea mayor del 10% en las últimas etapas de la turbina."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Una de las misiones críticas de las extracciones y el posterior sobrecalentamiento es controlar la calidad del vapor durante la expansión. Esto sirve para evitar que el grado de humedad del vapor sea mayor del 10% en las últimas etapas de la turbina, protegiendo así los álabes de la erosión provocada por las gotas de agua."
+  },
+  {
+    "question": "18. Con el uso de carbón pulverizado se produce:",
+    "answers": [
+      "Cenizas pastosas de difícil eliminación.",
+      "Una combustión más eficiente que garantiza que las cenizas y escorias no sean pastosas.",
+      "Menor potencia calorífica por unidad de volumen."
+    ],
+    "correct": 1,
+    "block": 2,
+    "explanation": "La combustión de carbón finamente pulverizado permite que esta sea más eficiente y completa, garantizando que las cenizas y escorias no sean pastosas, lo que facilita enormemente su limpieza y manejo. Además, esta técnica permite obtener una mayor potencia calorífica por unidad de volumen en el hogar de la caldera."
+  },
+  {
+    "question": "19. El rendimiento del ciclo de Rankine aumenta con:",
+    "answers": [
+      "La disminución de la presión de entrada a la turbina.",
+      "La reducción del número de precalentadores de agua.",
+      "El aumento de la temperatura y presión del agua de alimentación y el uso de extracciones de vapor."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "La eficiencia termodinámica del ciclo mejora al aumentar la temperatura y presión del agua de alimentación a la caldera (acercándola a las condiciones de saturación) y al emplear un mayor número de extracciones de vapor para el precalentamiento regenerativo."
+  },
+  {
+    "question": "20. La presión en el interior del hogar que queman combustibles sólidos:",
+    "answers": [
+      "Se encuentra en depresión (presión ligeramente inferior a la atmosférica).",
+      "Se mantiene siempre por encima de la presión atmosférica.",
+      "Es igual a la presión de salida de la chimenea."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "Por motivos de seguridad y para evitar fugas de gases nocivos al local, el hogar normalmente se encuentra en depresión (presión ligeramente inferior a la atmosférica). Para lograr esto, es necesario utilizar un segundo ventilador (de tiro inducido) que aspire los gases de la combustión hacia la chimenea"
+  },
+  {
+    "question": "21. La transferencia de calor al sobrecalentador primario es:",
+    "answers": [
+      "Predominantemente por radiación.",
+      "Predominantemente por convección.",
+      "Exclusivamente por conducción a través de los tubos."
+    ],
+    "correct": 0,
+    "block": 2,
+    "explanation": "En el diseño de calderas de grandes centrales, el sobrecalentador primario recibe el calor predominantemente por radiación debido a su ubicación, mientras que en el sobrecalentador secundario la transferencia principal es por convección."
+  },
+  {
+    "question": "22. Los precalentadores de aire de tipo regenerativo son del tipo:",
+    "answers": [
+      "Placas o tubulares fijos.",
+      "De flujo cruzado simple.",
+      "Tipo Ljungström y Rothemülle."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Los precalentadores regenerativos basan su funcionamiento en el almacenamiento de calor en una masa metálica rotativa; los dos modelos técnicos estándar mencionados en las fuentes son los de tipo Ljungström y Rothemülle."
+  },
+  {
+    "question": "23. Los quemadores de carbón pulverizado deben estar diseñados para permitir:",
+    "answers": [
+      "Una combustión rápida aunque sea incompleta.",
+      "Llamas oscilantes para distribuir el calor.",
+      "Una combustión completa y el mantenimiento de llamas estables."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "El diseño debe garantizar una combustión completa para no desperdiciar energía en forma de inquemados y mantener llamas estables que eviten vibraciones o paradas imprevistas del hogar."
+  },
+  {
+    "question": "24. La cantidad mayor de extracción de cenizas volantes se realiza en:",
+    "answers": [
+      "El cenicero del hogar.",
+      "Los economizadores.",
+      "Los precalentadores de aire.",
+      "El precipitador electrostático."
+    ],
+    "correct": 3,
+    "block": 2,
+    "explanation": "El precipitador electrostático es el equipo de filtrado más eficiente, llegando a capturar entre el 85% y el 99% de las partículas finas (cenizas volantes) que arrastran los gases de combustión."
+  },
+  {
+    "question": "25. En las turbinas de vapor:",
+    "answers": [
+      "Las turbinas Curtis son de presión y las Rateau de velocidad.",
+      "Ambas son exclusivamente de reacción.",
+      "Las turbinas de tipo Rateau se basan en presión y las de tipo Curtis en velocidad."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "Técnicamente, las turbinas de tipo Rateau se basan en escalonamientos de presión, mientras que las turbinas de tipo Curtis se basan en escalonamientos de velocidad para aprovechar saltos entálpicos mayores en menos etapas."
+  },
+  {
+    "question": "26. La misión del calderín es:",
+    "answers": [
+      "Aumentar la presión del vapor antes de la turbina.",
+      "Almacenar combustible para casos de emergencia.",
+      "Separar la fase líquida de la fase gaseosa para asegurar que llegue vapor seco a los sobrecalentadores."
+    ],
+    "correct": 2,
+    "block": 2,
+    "explanation": "El calderín o domo de vapor actúa como un recipiente de separación donde coexisten las fases líquida y gaseosa; su función principal es separar la fase líquida de la fase gaseosa para asegurar que solo llegue vapor seco a los sobrecalentadores"
+  },
 ];
