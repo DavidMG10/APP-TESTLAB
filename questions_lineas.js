@@ -2973,5 +2973,784 @@ var questionBank = [
     ],
     "correct": 1,
     "explanation": "El ángulo máximo recomendado entre el cable de tierra y la vertical es de 35º para garantizar la protección adecuada."
+  },
+  {
+    "question": "1. Para el cálculo de la distancia entre conductores y partes puestas a tierra (apoyos), se considerará la cadena de suspensión desviada bajo la acción de una presión de viento mitad a la considerada en el apartado 3.1.2.2., estando el conductor sometido a una tracción mecánica:",
+    "answers": [
+      "a -15ºC en zona A.",
+      "a -15ºC en zona B.",
+      "a -15ºC en zona C."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "2. En los cruzamientos de la línea aérea con una carretera, los apoyos, crucetas y cimentaciones, tendrán un coeficiente de seguridad, en el caso de hipótesis normales:",
+    "answers": [
+      "un 15% superior a lo establecido para la línea.",
+      "un 25% superior a lo establecido para la línea.",
+      "un 20% superior a lo establecido para la línea."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "3. En los cruzamientos de la línea aérea con otra línea eléctrica, la distancia entre los conductores de la línea inferior y las partes más próximas de los apoyos de la superior no será menor de:",
+    "answers": [
+      "1,5 + Del, en metros, con un mínimo de 2 metros para líneas de tensión de hasta 45 kV.",
+      "2,5 + Del, en metros, con un mínimo de 3 metros para líneas de tensión hasta 66 kV.",
+      "3,5 + Del, en metros, con un mínimo de 5 metros para líneas de tensión hasta 220 kV."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "4. En los cruzamientos de la línea aérea con otra línea eléctrica, la mínima distancia vertical entre los conductores de fase de ambas líneas, en las condiciones más desfavorables, no deberá ser inferior a:",
+    "answers": [
+      "Dadd + DPP metros.",
+      "Dadd + Del metros.",
+      "Dadd + K'Del metros."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "5. En los cruzamientos de la línea aérea con carreteras, la altura mínima de los conductores sobre la rasante de la carretera será de:",
+    "answers": [
+      "Dadd + Del, con un mínimo de 6 m.",
+      "Dadd + Del, con un mínimo de 7 m.",
+      "Dadd + Dpp, con un mínimo de 7 m."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "6. En los cruzamientos de la línea aérea con ferrocarriles electrificados, la altura mínima de los conductores de la línea eléctrica sobre los conductores de la línea de contacto será de:",
+    "answers": [
+      "≥ 3,5 + Del con un mínimo de 5 m.",
+      "≥ 3,5 + Del, con un mínimo de 3 m.",
+      "≥ 3,5 + Del, con un mínimo de 4 m."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "7. En los cruzamientos de la línea aérea con ríos y canales navegables, la altura mínima de los conductores sobre la superficie del agua, para el máximo nivel que pueda alcanzar ésta, será de:",
+    "answers": [
+      "G + 1,5 + Del metros.",
+      "G + 2,5 + Del metros.",
+      "G + 3,5 + Del metros."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "8. En el paso de la línea aérea por bosques, arbolado y masas de arbolado, la separación mínima entre la línea y la masa de arbolado será de:",
+    "answers": [
+      "1,5 metros.",
+      "2 metros.",
+      "2,5 metros."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "9. En el paso de la línea aérea sobre edificios, construcciones y terrenos, las distancias que deben existir entre los conductores y los edificios en caso de mutuo acuerdo sobre puntos accesibles será:",
+    "answers": [
+      "5,5 + Del metros, con un mínimo de 6 m.",
+      "4,5 + Del metros, con un mínimo de 5 m.",
+      "3,5 + Del metros, con un mínimo de 5 m."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "10. En el paralelismo de la línea aérea con la autopista, la línea límite de edificación (donde se instalan preferentemente los apoyos) se sitúa a una distancia de:",
+    "answers": [
+      "30 metros de la arista exterior de la calzada.",
+      "50 metros de la arista exterior de la calzada.",
+      "25 metros de la arista exterior de la calzada."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "11. En la proximidad a parques eólicos, queda prohibida la instalación de aerogeneradores en la zona de servidumbre de vuelo incrementada en la altura total del aerogenerador más:",
+    "answers": [
+      "20 m.",
+      "15 m.",
+      "10 m."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "12. Un apoyo con cadenas de aislamiento de amarre, colocado en un ángulo del trazado de una línea, destinado a proporcionar un punto firme, se denomina:",
+    "answers": [
+      "Apoyo de anclaje en ángulo.",
+      "Apoyo de ángulo.",
+      "Apoyo de amarre en ángulo."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "13. El desequilibrio de tracciones considerado en apoyos de alineación y de ángulo con cadenas de suspensión, en líneas de tensión nominal ≤ 66 kV es de:",
+    "answers": [
+      "15% de las tracciones unilaterales.",
+      "8% de las tracciones unilaterales.",
+      "25% de las tracciones unilaterales."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "14. El desequilibrio de tracciones considerado en apoyos de alineación y de ángulo con cadenas de amarre, en líneas de tensión nominal > 66 kV es de:",
+    "answers": [
+      "25% de las tracciones unilaterales.",
+      "15% de las tracciones unilaterales.",
+      "50% de las tracciones unilaterales."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "15. El desequilibrio de tracciones considerado para apoyos de anclaje es del:",
+    "answers": [
+      "50% de las tracciones unilaterales.",
+      "8% de las tracciones unilaterales.",
+      "100% de las tracciones unilaterales."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "16. El esfuerzo por desequilibrio en apoyos de alineación y ángulo con cadenas de amarre (> 66 kV) se considera aplicado:",
+    "answers": [
+      "En el eje del apoyo a la altura de los puntos de fijación.",
+      "En el punto de fijación de los conductores y cables de tierra en el apoyo.",
+      "En cualquier punto del apoyo."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "17. Para el cálculo del esfuerzo en un apoyo de anclaje por rotura de conductores, se considera la rotura de:",
+    "answers": [
+      "Un solo conductor de tierra o de un conductor en líneas con un solo conductor por fase.",
+      "Todos los conductores del haz.",
+      "Todos los conductores del haz de fase al 25% de la carga de rotura."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "18. En líneas hasta 66 kV, se puede prescindir de la rotura de conductores si se usan conductores con carga de rotura inferior a:",
+    "answers": [
+      "5.500 daN.",
+      "6.600 daN.",
+      "7.700 daN."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "19. Para líneas de 2ª categoría, la hipótesis de tracción máxima con sobrecarga de hielo se calcula a:",
+    "answers": [
+      "-5ºC en Zona A.",
+      "-10ºC en Zona B.",
+      "-15ºC en Zona B."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "24. Para líneas de 3ª categoría, la flecha mínima sin sobrecarga se calcula a la temperatura de:",
+    "answers": [
+      "-5ºC en Zona B.",
+      "-10ºC en Zona B.",
+      "-15ºC en Zona B."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "25. La presión del viento (q) para conductores de diámetro d ≥ 16 mm se considera igual a:",
+    "answers": [
+      "60 x (Vv/120)² daN/m²",
+      "50 x (Vv/120)² daN/m²",
+      "40 x (Vv/120)² daN/m²"
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "26. En sobrecargas combinadas de hielo y viento, se aconseja considerar un peso volumétrico específico del hielo de:",
+    "answers": [
+      "650 daN/m³.",
+      "750 daN/m³.",
+      "250 daN/m³."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "27. La presión del viento sobre los apoyos de celosía se considera:",
+    "answers": [
+      "170 x (Vv/120)² daN/m²",
+      "100 x (Vv/120)² daN/m²",
+      "140 x (Vv/120)² daN/m²"
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": " ¿Cuál es la ecuación exacta que define la curva de un hilo tendido entre dos puntos?",
+    "answers": [
+      "La parábola.",
+      "La catenaria: y=h⋅cosh(x/h).",
+      "La elipse.",
+      "La ecuación de cambio de condiciones."
+    ],    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿A qué se denomina \"parámetro de la catenaria\" (h)?",
+    "answers": [
+      "Al peso propio del conductor.",
+      "A la relación entre la tracción horizontal y el peso por unidad de longitud (T0/p).",
+      "A la flecha máxima del vano.",
+      "Al coeficiente de dilatación lineal."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿En qué condiciones es válida la aproximación parabólica para el cálculo de la flecha?",
+    "answers": [
+      "En cualquier tipo de vano.",
+      "Solo en vanos desnivelados de más de 1000 m.",
+      "En vanos de longitud inferior a 500 m y con un desnivel inferior al 10%.",
+      "Cuando el coeficiente de sobrecarga m es igual a 1."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "¿Qué representa el coeficiente de sobrecarga m en la ecuación de cambio de condiciones?",
+    "answers": [
+      "La tracción máxima admisible.",
+      "La relación entre el peso total aparente del conductor y su peso propio (p/pp).",
+      "El factor de seguridad del apoyo.",
+      "El incremento de longitud por temperatura."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "Según el RLAT, ¿cuál es la presión de viento estándar para conductores con un diámetro menor a 16 mm a 120 km/h?",
+    "answers": [
+      "60 daN/m².",
+      "50 daN/m².",
+      "120 daN/m².",
+      "15 daN/m²."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "¿Cómo se calcula la sobrecarga de hielo (ph) en la Zona B?",
+    "answers": [
+      "0,36⋅√d",
+      "0,18⋅√d",
+      "0,18⋅d",
+      "Depende únicamente de la altitud sin importar el diámetro."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Qué densidad se considera reglamentariamente para el hielo?",
+    "answers": [
+      "900 kg/m³.",
+      "750 daN/m³.",
+      "1000 kg/m³.",
+      "500 daN/m³."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": " En la hipótesis de tracción máxima para la Zona C, ¿qué temperatura se debe considerar?",
+    "answers": [
+      "-10 ºC.",
+      "-15 ºC.",
+      "-20 ºC.",
+      "0 ºC."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "¿Qué es el EDS (Every Day Stress)?",
+    "answers": [
+      "La tracción máxima que soporta el cable en tormentas.",
+      "La tracción a 15 ºC sin sobrecarga, utilizada para el control de vibraciones.",
+      "La tracción mínima a bajas temperaturas.",
+      "El esfuerzo de rotura del conductor."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Cuál es el límite recomendado de EDS para un conductor de Aluminio-Acero sin protección antivibratoria?",
+    "answers": [
+      "22% de la carga de rotura.",
+      "18% de la carga de rotura (CIGRÉ).",
+      "15% de la carga de rotura.",
+      "9% de la carga de rotura."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿A qué temperatura se calcula la flecha máxima por hielo según el reglamento?",
+    "answers": [
+      "0 ºC.",
+      "-15 ºC.",
+      "-5 ºC.",
+      "+15 ºC."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": " La hipótesis de flecha mínima vertical se utiliza para comprobar:",
+    "answers": [
+      "La tracción máxima en el apoyo.",
+      "La inexistencia de tiro ascendente y distancias en cruzamientos.",
+      "La oscilación por viento lateral.",
+      "El coeficiente de seguridad a rotura."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "En un \"cantón de línea\", ¿cuál es la premisa mecánica fundamental respecto a la tracción?",
+    "answers": [
+      "Cada vano tiene una tracción horizontal diferente.",
+      "La tracción horizontal (T0) es la misma en todos los vanos del cantón.",
+      "La flecha es igual en todos los vanos.",
+      "Los apoyos de suspensión no equilibran tensiones."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "El \"vano de regulación\" (ar) es:",
+    "answers": [
+      "El vano más largo de la línea.",
+      "Un vano ideal o ficticio que representa mecánicamente a todo el cantón.",
+      "La suma de todas las longitudes de los vanos.",
+      "El vano donde se sitúa el apoyo de anclaje."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Dónde se encuentra el punto más bajo de la catenaria en un vano desnivelado?",
+    "answers": [
+      "Exactamente en el centro del vano (a/2).",
+      "Desplazado hacia el apoyo de menor cota.",
+      "En el apoyo de mayor cota.",
+      "Depende solo de la temperatura y no del desnivel."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Qué ocurre con la tracción TB (punto más alto) respecto a T0 (tracción horizontal)?",
+    "answers": [
+      "TB es siempre mayor que T0 debido al peso del cable (TB=T0+p⋅f).",
+      "Son iguales en todos los puntos.",
+      "T0 es mayor para compensar el viento.",
+      "TB solo depende del módulo de elasticidad."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "Para calcular la tabla de tendido, ¿qué coeficiente de sobrecarga se emplea?",
+    "answers": [
+      "El correspondiente a viento de 120 km/h.",
+      "El de hielo de la zona.",
+      "m=1 (solo peso propio).",
+      "m=0,5 (viento mitad)."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "En la ecuación de cambio de condiciones, el parámetro A depende de:",
+    "answers": [
+      "Únicamente la sobrecarga.",
+      "El coeficiente de dilatación, el módulo de elasticidad y la diferencia de temperaturas.",
+      "La carga de rotura del material.",
+      "La longitud del vano elevada al cubo."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Cuál es el coeficiente de seguridad reglamentario mínimo para el cálculo mecánico de conductores cableados?",
+    "answers": [
+      "3.",
+      "2,5.",
+      "1,5.",
+      "5."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "Los torbellinos de Von Karman producen vibraciones eólicas con vientos de:",
+    "answers": [
+      "Más de 120 km/h.",
+      "Entre 4 y 10 km/h.",
+      "Solo en condiciones de hielo.",
+      "Velocidad excepcional de 140 km/h."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "La fórmula general para la separación entre conductores es D=K⋅√(F+L)+K'⋅Dpp. ¿Qué representa L?",
+    "answers": [
+      "La longitud del vano.",
+      "La longitud de la cadena de aisladores de suspensión.",
+      "La longitud total del conductor.",
+      "El coeficiente de dilatación."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "Para apoyos con cadenas de amarre o aisladores rígidos, el valor de L en la fórmula de distancia es:",
+    "answers": [
+      "0.",
+      "0,6 m.",
+      "Igual a la flecha.",
+      "1 m."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "¿Cuál es el valor del coeficiente K' para líneas de categoría especial?",
+    "answers": [
+      "0,75.",
+      "0,85.",
+      "0,55.",
+      "1,0."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "El ángulo de oscilación lateral para el cálculo del coeficiente K se obtiene mediante:",
+    "answers": [
+      "sin(pv/pp)",
+      "cos(pp/pv)",
+      "atan(pv/pp).",
+      "atan(pp/pv)"
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "Si una línea tiene una tensión nominal superior a 30 kV y un ángulo de oscilación entre 40º y 65º, el valor de K es:",
+    "answers": [
+      "0,6.",
+      "0,65.",
+      "0,7.",
+      "0,55."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "Para calcular la distancia mínima vertical entre conductores, el ángulo de desviación por viento se considera:",
+    "answers": [
+      "0º.",
+      "El máximo de la zona.",
+      "45º.",
+      "90º."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "¿Qué flecha F se debe usar para calcular la distancia vertical máxima entre conductores?",
+    "answers": [
+      "La de viento a 15 ºC.",
+      "La mayor entre la hipótesis de temperatura (+50/85 ºC) y la de hielo (0 ºC).",
+      "Siempre la de 50 ºC.",
+      "La flecha mínima a temperatura mínima."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Qué es la Dpp?",
+    "answers": [
+      "La distancia al punto más próximo a tierra.",
+      "La distancia básica entre fases (en metros) para evitar descargas disruptivas.",
+      "El diámetro del peso propio.",
+      "El desnivel entre apoyos."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "Según las tablas reglamentarias, para una red de 66 kV (Us=72,5 kV), la Dpp es:",
+    "answers": [
+      "0,33 m.",
+      "0,40 m.",
+      "0,80 m.",
+      "1,15 m."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "Al proyectar el paso de una línea sobre un río navegable, la distancia D se mide respecto a:",
+    "answers": [
+      "El fondo del río.",
+      "El nivel máximo de las aguas.",
+      "La profundidad media.",
+      "No se requiere distancia especial si hay barcos."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": " La distancia mínima horizontal entre conductores se calcula considerando que los conductores:",
+    "answers": [
+      "Están en reposo vertical.",
+      "Están sometidos a la máxima oscilación por viento.",
+      "Están a temperatura mínima.",
+      "Tienen sobrecarga de hielo máxima."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Qué hipótesis de flecha se utiliza normalmente para comprobar la distancia a un objeto (como un camión) en el centro del vano?",
+    "answers": [
+      "Flecha mínima a -5 ºC.",
+      "Flecha máxima con temperatura (+50 ºC o +85 ºC).",
+      "Flecha con viento excepcional.",
+      "EDS a 15 ºC."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": " En un cruzamiento de líneas, si la línea superior es de 220 kV, ¿cuál es el valor de Dadd?",
+    "answers": [
+      "1,8 m.",
+      "2,5 m.",
+      "3,5 m.",
+      "4,0 m."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "En la designación de un apoyo de celosía \"C-2000-16\", el número 2000 indica:",
+    "answers": [
+      "La altura en milímetros.",
+      "El esfuerzo nominal (L o T) en daN.",
+      "El año de fabricación.",
+      "La tensión de la línea en voltios."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Qué significan las siglas HVH en un apoyo?",
+    "answers": [
+      "Hierro de Vigas Horizontales.",
+      "Hormigón Vibrado Hueco.",
+      "Hipótesis de Viento Horizontal.",
+      "Hormigón de Varias Hiladas."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "Los apoyos de poliéster reforzado con fibra de vidrio se designan con las siglas:",
+    "answers": [
+      "CEL.",
+      "HV.",
+      "PRFV.",
+      "GRAP."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "¿Cuál es la 1ª Hipótesis reglamentaria para el cálculo de esfuerzos en apoyos?",
+    "answers": [
+      "Viento.",
+      "Hielo.",
+      "Desequilibrio de tracciones.",
+      "Rotura de conductores."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "Para una línea de tensión ≤66 kV, ¿qué porcentaje de desequilibrio de tracciones se considera en apoyos de alineación en amarre?",
+    "answers": [
+      "8%.",
+      "15%.",
+      "25%.",
+      "50%."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "En apoyos de fin de línea, el desequilibrio de tracciones a considerar es del:",
+    "answers": [
+      "15%.",
+      "50%.",
+      "100%.",
+      "0%, ya que es el final."
+    ],
+    "correct": 2,
+    "block": 2
+  },
+  {
+    "question": "¿Sobre qué punto se aplica la carga vertical (V) en los ensayos de apoyos de celosía?",
+    "answers": [
+      "En el eje del apoyo, en el extremo superior de la cabeza.",
+      "A 250 mm por debajo de la cogolla.",
+      "En las crucetas inferiores.",
+      "En el centro de gravedad del fuste."
+    ],
+    "correct": 0,
+    "block": 2
+  },
+  {
+    "question": "¿Cuál es el coeficiente de seguridad para apoyos de celosía frente a la carga de trabajo más viento?",
+    "answers": [
+      "1,2.",
+      "1,5.",
+      "2,5.",
+      "2,0."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "El \"Eolovano\" se define como:",
+    "answers": [
+      "La longitud del vano más largo.",
+      "La semisuma de los vanos contiguos al apoyo ((ai + ai+1)/2).",
+      "El vano de regulación del cantón.",
+      "El peso del aire sobre el conductor."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": " El \"Gravivano\" se utiliza para calcular:",
+    "answers": [
+      "El esfuerzo del viento sobre el poste.",
+      "Las cargas verticales sobre el apoyo debidas al peso de los conductores.",
+      "La tracción horizontal máxima.",
+      "El ángulo de desviación de la cadena."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "En apoyos de hormigón, ¿a qué distancia por debajo de la cogolla se aplican normalmente los esfuerzos horizontales L o T?",
+    "answers": [
+      "En la misma punta.",
+      "A 250 mm.",
+      "A 1,5 metros.",
+      "En la línea de tierra."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Qué elemento auxiliar se utiliza para proteger el conductor contra vibraciones en el punto de suspensión?",
+    "answers": [
+      "Cadenas de amarre.",
+      "Varillas preformadas de protección.",
+      "Aisladores rígidos.",
+      "Desniveladores de Truxá."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "La 4ª Hipótesis de cálculo de apoyos (Rotura de conductores) es obligatoria para:",
+    "answers": [
+      "Todas las líneas de baja tensión.",
+      "Líneas de categoría especial y apoyos de anclaje/fin de línea según zona.",
+      "Solo apoyos de madera.",
+      "Nunca es obligatoria, es opcional para el proyectista."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "Un apoyo de anclaje tiene como función principal:",
+    "answers": [
+      "Soportar solo el peso vertical.",
+      "Proporcionar puntos rígidos que limiten la propagación de averías mecánicas (desequilibrios).",
+      "Permitir que las cadenas oscilen libremente.",
+      "Reducir el campo magnético."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "El \"viento mitad\" se utiliza reglamentariamente para calcular:",
+    "answers": [
+      "La flecha máxima por viento.",
+      "La distancia a partes puestas a tierra (desviación de cadena).",
+      "El coeficiente EDS.",
+      "La carga de rotura del conductor."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "Los amortiguadores tipo \"Stockbridge\" sirven para:",
+    "answers": [
+      "Aumentar la tensión del cable.",
+      "Disipar la energía de las vibraciones eólicas.",
+      "Evitar el manguito de hielo.",
+      "Centrar el conductor en la cruceta."
+    ],
+    "correct": 1,
+    "block": 2
+  },
+  {
+    "question": "¿Cuál es el factor que más influye en la forma de la catenaria según el bloque 18?",
+    "answers": [
+      "El parámetro h (relación T0/p).",
+      "El material de los aisladores.",
+      "La altura del apoyo fin de línea.",
+      "El número de conductores por fase."
+    ],
+    "correct": 0,
+    "block": 2
   }
 ];
