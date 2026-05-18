@@ -3031,7 +3031,7 @@ var questionBank = [
       "≥ 3,5 + Del, con un mínimo de 3 m.",
       "≥ 3,5 + Del, con un mínimo de 4 m."
     ],
-    "correct": 1,
+    "correct": 2,
     "block": 2
   },
   {
@@ -3041,7 +3041,7 @@ var questionBank = [
       "G + 2,5 + Del metros.",
       "G + 3,5 + Del metros."
     ],
-    "correct": 1,
+    "correct": 2,
     "block": 2
   },
   {
@@ -3091,7 +3091,7 @@ var questionBank = [
       "Apoyo de ángulo.",
       "Apoyo de amarre en ángulo."
     ],
-    "correct": 2,
+    "correct": 0,
     "block": 2
   },
   {
@@ -3121,7 +3121,7 @@ var questionBank = [
       "8% de las tracciones unilaterales.",
       "100% de las tracciones unilaterales."
     ],
-    "correct": 2,
+    "correct": 0,
     "block": 2
   },
   {
@@ -3161,7 +3161,7 @@ var questionBank = [
       "-10ºC en Zona B.",
       "-15ºC en Zona B."
     ],
-    "correct": 1,
+    "correct": 2,
     "block": 2
   },
   {
@@ -3171,7 +3171,7 @@ var questionBank = [
       "-10ºC en Zona B.",
       "-15ºC en Zona B."
     ],
-    "correct": 1,
+    "correct": 2,
     "block": 2
   },
   {
@@ -3201,7 +3201,7 @@ var questionBank = [
       "100 x (Vv/120)² daN/m²",
       "140 x (Vv/120)² daN/m²"
     ],
-    "correct": 2,
+    "correct": 0,
     "block": 2
   },
   {
