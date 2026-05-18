@@ -3061,7 +3061,7 @@ var questionBank = [
       "4,5 + Del metros, con un mínimo de 5 m.",
       "3,5 + Del metros, con un mínimo de 5 m."
     ],
-    "correct": 2,
+    "correct": 0,
     "block": 2
   },
   {
